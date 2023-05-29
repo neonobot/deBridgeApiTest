@@ -2,7 +2,7 @@ name: Run Tests
 
 on:
   schedule:
-    - cron: '21 9 * * *'
+    - cron: '30 9 * * *'
 
 jobs:
   run-tests:
