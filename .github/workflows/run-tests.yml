@@ -24,9 +24,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Debug
+        run: pwd
+
+      - name: Debug
+        run: ls
+
       - name: Run tests
-        run: |
-          python -v
-          pwd
-          ls
-          python tests/api_tests/tests_de_bridge.py
+        run: python tests/api_tests/tests_de_bridge.py
