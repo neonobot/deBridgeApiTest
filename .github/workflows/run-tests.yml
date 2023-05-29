@@ -16,6 +16,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Create temporary keys_de_bridge.json
+        run: |
+            echo "${{ secrets.KEYS_DE_BRIDGE }}" > keys_de_bridge.json
+
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
@@ -32,3 +36,5 @@ jobs:
 
       - name: Run tests
         run: python -m pytest -n=1 ./tests/api_tests/tests_de_bridge.py
+        env:
+          KEYS_DE_BRIDGE: ${{ secrets.KEYS_DE_BRIDGE }}
