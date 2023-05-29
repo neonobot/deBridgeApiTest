@@ -24,11 +24,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Debug
+      - name: Debug1
         run: pwd
 
-      - name: Debug
+      - name: Debug2
         run: ls
 
       - name: Run tests
-        run: python tests/api_tests/tests_de_bridge.py
+        run: python -m pytest -n=1 ./tests/api_tests/tests_de_bridge.py
