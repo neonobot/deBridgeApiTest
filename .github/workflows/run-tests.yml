@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Create temporary keys_de_bridge.json
-        run: echo "${{ secrets.KEYS_DE_BRIDGE }}" > keys_de_bridge.json
+        run: printf '%s' "${{ secrets.KEYS_DE_BRIDGE }}" > keys_de_bridge.json
 
       - name: Set up Python
         uses: actions/setup-python@v2
