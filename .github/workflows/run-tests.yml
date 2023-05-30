@@ -37,7 +37,7 @@ jobs:
         run: ls
 
       - name: Run tests
-        run: python -m pytest -n=1 ./tests/api_tests/tests_de_bridge.py
+        run: python -m pytest -n=3 ./tests/api_tests/tests_de_bridge.py
         env:
           KEYS_DE_BRIDGE: ${{ secrets.KEYS_DE_BRIDGE }}
           BASE_URL: ${{ secrets.BASE_URL }}
