@@ -16,6 +16,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Set BASE_URL environment variable
+        run: echo "BASE_URL=${{ secrets.BASE_URL }}" >> $GITHUB_ENV
+
       - name: Create temporary keys_de_bridge.json
         run: echo '${{ secrets.KEYS_DE_BRIDGE }}' > keys_de_bridge.json
 
@@ -37,3 +40,4 @@ jobs:
         run: python -m pytest -n=1 ./tests/api_tests/tests_de_bridge.py
         env:
           KEYS_DE_BRIDGE: ${{ secrets.KEYS_DE_BRIDGE }}
+          BASE_URL: ${{ secrets.BASE_URL }}
