@@ -16,6 +16,9 @@ jobs:
       - name: Set BASE_URL environment variable
         run: echo "BASE_URL=${{ secrets.BASE_URL }}" >> $GITHUB_ENV
 
+      - name: Set TELEGRAM_BOT_TOKEN environment variable
+        run: echo "TELEGRAM_BOT_TOKEN=${{ secrets.TELEGRAM_BOT_TOKEN }}" >> $GITHUB_ENV
+
       - name: Create temporary keys_de_bridge.json
         run: echo '${{ secrets.KEYS_DE_BRIDGE }}' > keys_de_bridge.json
 
