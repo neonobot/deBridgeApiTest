@@ -8,7 +8,7 @@ url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
 
 
 def send_message():
-    #telegram_bot_token = os.environ.get('TELEGRAM_BOT_TOKEN')
+    telegram_bot_token = os.environ.get('TELEGRAM_BOT_TOKEN')
 
     chat_id = 808945403
 
