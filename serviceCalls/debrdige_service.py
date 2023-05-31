@@ -5,7 +5,8 @@ import os
 import requests
 from jsonschema import validate
 
-from de_bridge_schemas import get_supported_chains_schema
+from de_bridge_schemas import get_supported_chains_schema, get_tokens_by_chain_schema, get_allowance_schema, \
+    estimate_bridge_schema, get_bridge_tx_schema
 
 logger = logging.getLogger("api")
 
@@ -25,6 +26,7 @@ class DeBridge:
             assert response.status_code == 200, f"Ожидался status = {200}, " \
                                                 f"пришел status = {response.status_code}. " \
                                                 f"Тело ответа: \n{response.text}."
+            validate(json.loads(response.text), estimate_bridge_schema)
 
             return response
 
@@ -37,6 +39,7 @@ class DeBridge:
             assert response.status_code == 200, f"Ожидался status = {200}, " \
                                                 f"пришел status = {response.status_code}. " \
                                                 f"Тело ответа: \n{response.text}."
+            validate(json.loads(response.text), estimate_bridge_schema)
 
             return response
 
@@ -49,6 +52,7 @@ class DeBridge:
             assert response.status_code == 200, f"Ожидался status = {200}, " \
                                                 f"пришел status = {response.status_code}. " \
                                                 f"Тело ответа: \n{response.text}."
+            validate(json.loads(response.text), estimate_bridge_schema)
 
             return response
 
@@ -61,6 +65,7 @@ class DeBridge:
             assert response.status_code == 200, f"Ожидался status = {200}, " \
                                                 f"пришел status = {response.status_code}. " \
                                                 f"Тело ответа: \n{response.text}."
+            validate(json.loads(response.text), estimate_bridge_schema)
 
             return response
 
@@ -74,6 +79,8 @@ class DeBridge:
         assert response.status_code == 200, f"Ожидался status = {200}, " \
                                             f"пришел status = {response.status_code}. " \
                                             f"Тело ответа: \n{response.text}."
+        validate(json.loads(response.text),
+                        get_allowance_schema), f"Ответ от сервера не соответствует ожидаемой схеме. Поля: {get_tokens_by_chain_schema}"
 
         return response
 
@@ -104,7 +111,7 @@ class DeBridge:
         assert response.status_code == 200, f"Ожидался status = {200}, " \
                                             f"пришел status = {response.status_code}. " \
                                             f"Тело ответа: \n{response.text}."
-        assert validate(json.loads(response.text), get_supported_chains_schema)
+        validate(json.loads(response.text), get_supported_chains_schema)
         return response
 
     def get_tokens_by_chain(self, chain_id):
@@ -114,7 +121,7 @@ class DeBridge:
         assert response.status_code == 200, f"Ожидался status = {200}, " \
                                             f"пришел status = {response.status_code}. " \
                                             f"Тело ответа: \n{response.text}."
-
+        validate(json.loads(response.text), get_tokens_by_chain_schema)
         return response
 
     def get_bridge_tx(self, src_net, dst_net, src_token_address, dst_token_address, src_token_amount,
@@ -129,5 +136,6 @@ class DeBridge:
         assert response.status_code == 200, f"Ожидался status = {200}, " \
                                             f"пришел status = {response.status_code}. " \
                                             f"Тело ответа: \n{response.text}."
+        validate(json.loads(response.text), get_bridge_tx_schema)
 
         return response

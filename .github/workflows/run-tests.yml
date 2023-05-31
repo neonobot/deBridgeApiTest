@@ -1,9 +1,6 @@
 name: Run Tests
 
 on:
-  push:
-    branches:
-      - master
   schedule:
     - cron: '0 10 * * *'
   workflow_dispatch:
@@ -30,14 +27,20 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Debug1
-        run: pwd
-
-      - name: Debug2
-        run: ls
-
       - name: Run tests
-        run: python -m pytest -n=3 ./tests/api_tests/tests_de_bridge.py
+        id: test-results
+        run: |
+          python -m pytest -n=3 ./tests/api_tests/tests_de_bridge.py | tee test_results.txt
+          echo "TOTAL_TESTS=$(cat test_results.txt | grep -oP '(\d+) total')" >> $GITHUB_ENV
+          echo "PASSED_TESTS=$(cat test_results.txt | grep -oP '(\d+) passed')" >> $GITHUB_ENV
+          echo "FAILED_TESTS=$(cat test_results.txt | grep -oP '(\d+) failed')" >> $GITHUB_ENV
+          echo "SKIPPED_TESTS=$(cat test_results.txt | grep -oP '(\d+) skipped')" >> $GITHUB_ENV
+
+      - name: Send Test Results via Telegram
         env:
-          KEYS_DE_BRIDGE: ${{ secrets.KEYS_DE_BRIDGE }}
-          BASE_URL: ${{ secrets.BASE_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TOTAL_TESTS: ${{ env.TOTAL_TESTS }}
+          PASSED_TESTS: ${{ env.PASSED_TESTS }}
+          FAILED_TESTS: ${{ env.FAILED_TESTS }}
+          SKIPPED_TESTS: ${{ env.SKIPPED_TESTS }}
+        run: python telegram_bot.py
