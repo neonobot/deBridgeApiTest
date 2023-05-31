@@ -30,7 +30,7 @@ jobs:
       - name: Run tests
         id: test-results
         run: |
-          python -m pytest -n=3 ./tests/api_tests/tests_de_bridge.py | tee test_results.txt
+          python -m pytest -n=2 ./tests/api_tests/tests_de_bridge.py | tee test_results.txt
           echo "TOTAL_TESTS=$(cat test_results.txt | grep -oP '(\d+) total')" >> $GITHUB_ENV
           echo "PASSED_TESTS=$(cat test_results.txt | grep -oP '(\d+) passed')" >> $GITHUB_ENV
           echo "FAILED_TESTS=$(cat test_results.txt | grep -oP '(\d+) failed')" >> $GITHUB_ENV
