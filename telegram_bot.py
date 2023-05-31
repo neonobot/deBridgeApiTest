@@ -11,7 +11,7 @@ def send_message():
     telegram_bot_token = os.environ.get('TELEGRAM_BOT_TOKEN')
 
     # Замените <chat_id> на ваш идентификатор чата или группы, куда нужно отправить сообщение
-    chat_id = '808945403'
+    chat_id = 808945403
 
     # Получите информацию о результатах выполнения тестов из контекста выполнения GitHub Actions
     total_tests = os.environ.get('TOTAL_TESTS', 'N/A')
