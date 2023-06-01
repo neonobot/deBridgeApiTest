@@ -33,8 +33,12 @@ jobs:
       - name: Set up Allure CLI
         run: |
           sudo apt-get update
-          sudo apt-get install -y allure
+          sudo apt-get install -y curl
+          curl -o allure-2.15.0.tgz -Ls https://github.com/allure-framework/allure2/releases/download/2.15.0/allure-2.15.0.tgz
+          sudo tar -zxvf allure-2.15.0.tgz -C /opt/
+          sudo ln -s /opt/allure-2.15.0/bin/allure /usr/bin/allure
           allure --version
+      
 
       - name: Run tests and generate Allure report
         id: test-results
