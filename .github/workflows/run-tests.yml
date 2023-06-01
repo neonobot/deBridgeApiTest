@@ -40,7 +40,7 @@ jobs:
           echo "SKIPPED_TESTS=$(cat test_results.txt | grep -oP '(\d+) skipped')" >> $GITHUB_ENV
 
       - name: Set up Docker
-        uses: docker/setup-docker@v1
+        uses: docker/setup-buildx-action@v1
 
       - name: Generate Allure report
         run: |
