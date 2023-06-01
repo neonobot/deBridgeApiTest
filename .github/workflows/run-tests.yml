@@ -30,16 +30,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Set up Allure CLI
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y curl
-          curl -o allure-2.15.0.tgz -Ls https://github.com/allure-framework/allure2/releases/download/2.15.0/allure-2.15.0.tgz
-          sudo tar -zxvf allure-2.15.0.tgz -C /opt/
-          sudo ln -s /opt/allure-2.15.0/bin/allure /usr/bin/allure
-          allure --version
-      
-
       - name: Run tests and generate Allure report
         id: test-results
         run: |
@@ -48,9 +38,13 @@ jobs:
           echo "PASSED_TESTS=$(cat test_results.txt | grep -oP '(\d+) passed')" >> $GITHUB_ENV
           echo "FAILED_TESTS=$(cat test_results.txt | grep -oP '(\d+) failed')" >> $GITHUB_ENV
           echo "SKIPPED_TESTS=$(cat test_results.txt | grep -oP '(\d+) skipped')" >> $GITHUB_ENV
-          allure generate ./docs/allure-results -o ./docs/allure-report --clean
-      
-      
+
+      - name: Set up Docker
+        uses: docker/setup-docker@v1
+
+      - name: Generate Allure report
+        run: |
+          docker run --rm -v ${{ github.workspace }}/docs/allure-results:/allure-results -v ${{ github.workspace }}/docs/allure-report:/allure-report -w /allure-report -e "ALLURE_RESULTS=/allure-results" alluretool/allure:2.15.0 generate --clean
 
       - name: Publish Allure report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

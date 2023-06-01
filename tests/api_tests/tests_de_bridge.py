@@ -10,7 +10,7 @@ def test_get_supported_chains():
     DeBridge().get_supported_chains()
 
 
-def test_estimate_bridge():  # "error":"Network undefined is not available in DeBridge"
+def test_estimate_bridge():
     DeBridge().EstimateBridge().estimate_bridge_not_query()
 
 

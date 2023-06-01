@@ -23,10 +23,10 @@ class DeBridge:
             response = requests.get(self.url)  # без query параметров
             logger.info(f"Отправлен запрос на роут - {response.url}")
             logger.info(response.text)
-            assert response.status_code == 200, f"Ожидался status = {200}, " \
-                                                f"пришел status = {response.status_code}. " \
-                                                f"Тело ответа: \n{response.text}."
-            validate(json.loads(response.text), estimate_bridge_schema)
+            assert response.status_code == 400 and response.text == '{"ok":false,"data":null,"error":"\\"srcNet\\" is ' \
+                                                                    'required"}', f"Ожидался status = {400}, " \
+                                                                                  f"пришел status = {response.status_code}. " \
+                                                                                  f"Тело ответа: \n{response.text}."
 
             return response
 
@@ -80,7 +80,7 @@ class DeBridge:
                                             f"пришел status = {response.status_code}. " \
                                             f"Тело ответа: \n{response.text}."
         validate(json.loads(response.text),
-                        get_allowance_schema), f"Ответ от сервера не соответствует ожидаемой схеме. Поля: {get_tokens_by_chain_schema}"
+                 get_allowance_schema), f"Ответ от сервера не соответствует ожидаемой схеме. Поля: {get_tokens_by_chain_schema}"
 
         return response
 
