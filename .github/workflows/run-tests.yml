@@ -31,8 +31,10 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Set up Allure CLI
-        run: docker run --rm -v $(pwd):/app -w /app avin/alpine-allure-cli:2.15.0 allure --version
-
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y allure
+          allure --version
 
       - name: Run tests and generate Allure report
         id: test-results
