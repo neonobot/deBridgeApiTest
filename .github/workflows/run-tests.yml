@@ -30,14 +30,17 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run tests
+      - name: Run tests and generate Allure report
         id: test-results
         run: |
-          python -m pytest -n=2 ./tests/api_tests/tests_de_bridge.py | tee test_results.txt
-          echo "TOTAL_TESTS=$(cat test_results.txt | grep -oP '(\d+) total')" >> $GITHUB_ENV
-          echo "PASSED_TESTS=$(cat test_results.txt | grep -oP '(\d+) passed')" >> $GITHUB_ENV
-          echo "FAILED_TESTS=$(cat test_results.txt | grep -oP '(\d+) failed')" >> $GITHUB_ENV
-          echo "SKIPPED_TESTS=$(cat test_results.txt | grep -oP '(\d+) skipped')" >> $GITHUB_ENV
+          python -m pytest -n=2 ./tests/api_tests/tests_de_bridge.py --alluredir=./allure-results
+          allure generate ./allure-results -o ./allure-report --clean
+
+      - name: Publish Allure report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./allure-report
 
       - name: Send Test Results via Telegram
         env:
