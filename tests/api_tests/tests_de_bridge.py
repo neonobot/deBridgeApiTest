@@ -138,7 +138,7 @@ def test_get_bridge_tx_not_native_to_native(src_network, dst_network):
         DeBridge().get_bridge_tx(src_net=src_net, dst_net=dst_net, src_token_address=src_token_address,
                                  dst_token_address=dst_token_address, src_token_amount=src_token_amount,
                                  dst_chain_recipient_address=dst_chain_recipient_address,
-                                 dst_chain_fallback_address=dst_chain_fallback_address,owner=owner)
+                                 dst_chain_fallback_address=dst_chain_fallback_address, owner=owner)
     else:
         pytest.skip("Сеть отправления = сети назначения")
 
