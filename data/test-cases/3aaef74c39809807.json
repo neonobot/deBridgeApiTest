@@ -1,0 +1,83 @@
+{
+  "uid" : "3aaef74c39809807",
+  "name" : "test_get_bridge_tx_not_native_to_stablecoin[Avalanche (AVAX)-Arbitrum One (ETH)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_bridge_tx_not_native_to_stablecoin",
+  "historyId" : "970b593e2c9c9b4738bb8ed5388ca8bd",
+  "time" : {
+    "start" : 1685717454048,
+    "stop" : 1685717455805,
+    "duration" : 1757
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
+  "statusTrace" : "src_network = 'Arbitrum One (ETH)', dst_network = 'Avalanche (AVAX)'\n\n    @pytest.mark.parametrize(\"src_network\", networks)\n    @pytest.mark.parametrize(\"dst_network\", networks)\n    def test_get_bridge_tx_not_native_to_stablecoin(src_network, dst_network):\n        src_net = de_bridge_keys_data()[src_network].get('net')\n        dst_net = de_bridge_keys_data()[dst_network].get('net')\n        src_token_address = de_bridge_keys_data()[src_network].get('notNativeToken')\n        dst_token_address = de_bridge_keys_data()[dst_network].get('stableCoin')\n        src_token_amount = 1\n        dst_chain_recipient_address = de_bridge_keys_data()[dst_network].get('owner')\n        dst_chain_fallback_address = de_bridge_keys_data()[dst_network].get('owner')\n        owner = de_bridge_keys_data()[dst_network].get('owner')\n        if src_net != dst_net:\n>           DeBridge().get_bridge_tx(src_net=src_net, dst_net=dst_net, src_token_address=src_token_address,\n                                     dst_token_address=dst_token_address, src_token_amount=src_token_amount,\n                                     dst_chain_recipient_address=dst_chain_recipient_address,\n                                     dst_chain_fallback_address=dst_chain_fallback_address,owner=owner)\n\ntests/api_tests/tests_de_bridge.py:158: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <serviceCalls.debrdige_service.DeBridge object at 0x10cbe5160>\nsrc_net = 'arbitrum', dst_net = 'avalanche'\nsrc_token_address = '0xd4d42f0b6def4ce0383636770ef773390d85c61a'\ndst_token_address = '0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e'\nsrc_token_amount = 1\ndst_chain_recipient_address = '0xd5ed26d93129a8b51ac54b40477327f6511824b6'\ndst_chain_fallback_address = '0xd5ed26d93129a8b51ac54b40477327f6511824b6'\nowner = '0xd5ed26d93129a8b51ac54b40477327f6511824b6'\n\n    def get_bridge_tx(self, src_net, dst_net, src_token_address, dst_token_address, src_token_amount,\n                      dst_chain_recipient_address, dst_chain_fallback_address, owner):\n        response = requests.get(\n            f\"{self.url}getBridgeTx?srcNet={src_net}&srcTokenAddress={src_token_address}&\"\n            f\"srcTokenAmount={src_token_amount}&dstNet={dst_net}&dstTokenAddress={dst_token_address}&\"\n            f\"dstChainRecipientAddress={dst_chain_recipient_address}&\"\n            f\"dstChainFallbackAddress={dst_chain_fallback_address}&owner={owner}\")\n        logger.info(f\"Отправлен запрос на роут - {response.url}\")\n        logger.info(response.text)\n>       assert response.status_code == 200, f\"Ожидался status = {200}, \" \\\n                                            f\"пришел status = {response.status_code}. \" \\\n                                            f\"Тело ответа: \\n{response.text}.\"\nE       AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \nE       {\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.\n\nserviceCalls/debrdige_service.py:137: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
+    "statusTrace" : "src_network = 'Arbitrum One (ETH)', dst_network = 'Avalanche (AVAX)'\n\n    @pytest.mark.parametrize(\"src_network\", networks)\n    @pytest.mark.parametrize(\"dst_network\", networks)\n    def test_get_bridge_tx_not_native_to_stablecoin(src_network, dst_network):\n        src_net = de_bridge_keys_data()[src_network].get('net')\n        dst_net = de_bridge_keys_data()[dst_network].get('net')\n        src_token_address = de_bridge_keys_data()[src_network].get('notNativeToken')\n        dst_token_address = de_bridge_keys_data()[dst_network].get('stableCoin')\n        src_token_amount = 1\n        dst_chain_recipient_address = de_bridge_keys_data()[dst_network].get('owner')\n        dst_chain_fallback_address = de_bridge_keys_data()[dst_network].get('owner')\n        owner = de_bridge_keys_data()[dst_network].get('owner')\n        if src_net != dst_net:\n>           DeBridge().get_bridge_tx(src_net=src_net, dst_net=dst_net, src_token_address=src_token_address,\n                                     dst_token_address=dst_token_address, src_token_amount=src_token_amount,\n                                     dst_chain_recipient_address=dst_chain_recipient_address,\n                                     dst_chain_fallback_address=dst_chain_fallback_address,owner=owner)\n\ntests/api_tests/tests_de_bridge.py:158: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <serviceCalls.debrdige_service.DeBridge object at 0x10cbe5160>\nsrc_net = 'arbitrum', dst_net = 'avalanche'\nsrc_token_address = '0xd4d42f0b6def4ce0383636770ef773390d85c61a'\ndst_token_address = '0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e'\nsrc_token_amount = 1\ndst_chain_recipient_address = '0xd5ed26d93129a8b51ac54b40477327f6511824b6'\ndst_chain_fallback_address = '0xd5ed26d93129a8b51ac54b40477327f6511824b6'\nowner = '0xd5ed26d93129a8b51ac54b40477327f6511824b6'\n\n    def get_bridge_tx(self, src_net, dst_net, src_token_address, dst_token_address, src_token_amount,\n                      dst_chain_recipient_address, dst_chain_fallback_address, owner):\n        response = requests.get(\n            f\"{self.url}getBridgeTx?srcNet={src_net}&srcTokenAddress={src_token_address}&\"\n            f\"srcTokenAmount={src_token_amount}&dstNet={dst_net}&dstTokenAddress={dst_token_address}&\"\n            f\"dstChainRecipientAddress={dst_chain_recipient_address}&\"\n            f\"dstChainFallbackAddress={dst_chain_fallback_address}&owner={owner}\")\n        logger.info(f\"Отправлен запрос на роут - {response.url}\")\n        logger.info(response.text)\n>       assert response.status_code == 200, f\"Ожидался status = {200}, \" \\\n                                            f\"пришел status = {response.status_code}. \" \\\n                                            f\"Тело ответа: \\n{response.text}.\"\nE       AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \nE       {\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.\n\nserviceCalls/debrdige_service.py:137: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f5633aceb7fb6590",
+      "name" : "log",
+      "source" : "f5633aceb7fb6590.txt",
+      "type" : "text/plain",
+      "size" : 651
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Anna.local"
+  }, {
+    "name" : "thread",
+    "value" : "25696-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dst_network",
+    "value" : "'Avalanche (AVAX)'"
+  }, {
+    "name" : "src_network",
+    "value" : "'Arbitrum One (ETH)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3aaef74c39809807.json",
+  "parameterValues" : [ "'Avalanche (AVAX)'", "'Arbitrum One (ETH)'" ]
+}
