@@ -1,0 +1,79 @@
+{
+  "uid" : "87a2af0f185d89c2",
+  "name" : "test_get_bridge_tx_stablecoin_to_not_native[Polygon (MATIC)-Polygon (MATIC)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_bridge_tx_stablecoin_to_not_native",
+  "historyId" : "0cfb2014b69f1149803590c7911b204e",
+  "time" : {
+    "start" : 1685619247266,
+    "stop" : 1685619247267,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: Сеть отправления = сети назначения",
+  "statusTrace" : "('/Users/annaskvortsova/PycharmProjects/deBridge/tests/api_tests/tests_de_bridge.py', 216, 'Skipped: Сеть отправления = сети назначения')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Anna.local"
+  }, {
+    "name" : "thread",
+    "value" : "18939-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dst_network",
+    "value" : "'Polygon (MATIC)'"
+  }, {
+    "name" : "src_network",
+    "value" : "'Polygon (MATIC)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9ad43b49ad71e35c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685615535579,
+        "stop" : 1685615535579,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "97746fb354bcda51",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685610450190,
+        "stop" : 1685610450191,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "87a2af0f185d89c2.json",
+  "parameterValues" : [ "'Polygon (MATIC)'", "'Polygon (MATIC)'" ]
+}
