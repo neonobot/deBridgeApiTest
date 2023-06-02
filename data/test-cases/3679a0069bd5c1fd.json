@@ -1,0 +1,79 @@
+{
+  "uid" : "3679a0069bd5c1fd",
+  "name" : "test_get_bridge_tx_not_native_to_stablecoin[Ethereum (ETH)-Ethereum (ETH)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_bridge_tx_not_native_to_stablecoin",
+  "historyId" : "825bf9c5cf74b7c128a12ba44bfa02ac",
+  "time" : {
+    "start" : 1685619228338,
+    "stop" : 1685619228339,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: Сеть отправления = сети назначения",
+  "statusTrace" : "('/Users/annaskvortsova/PycharmProjects/deBridge/tests/api_tests/tests_de_bridge.py', 159, 'Skipped: Сеть отправления = сети назначения')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Anna.local"
+  }, {
+    "name" : "thread",
+    "value" : "18939-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dst_network",
+    "value" : "'Ethereum (ETH)'"
+  }, {
+    "name" : "src_network",
+    "value" : "'Ethereum (ETH)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "df158bbb296b415e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685615517865,
+        "stop" : 1685615517866,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "cc51d6cc54630f1b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685610434529,
+        "stop" : 1685610434529,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3679a0069bd5c1fd.json",
+  "parameterValues" : [ "'Ethereum (ETH)'", "'Ethereum (ETH)'" ]
+}
