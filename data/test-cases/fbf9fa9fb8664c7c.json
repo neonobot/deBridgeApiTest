@@ -1,0 +1,101 @@
+{
+  "uid" : "fbf9fa9fb8664c7c",
+  "name" : "test_get_bridge_tx_stablecoin_to_not_native[Binance Smart Chain (BNB)-Ethereum (ETH)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_bridge_tx_stablecoin_to_not_native",
+  "historyId" : "5be18aa46a48fbce585e3fd09eae7527",
+  "time" : {
+    "start" : 1685619246050,
+    "stop" : 1685619246504,
+    "duration" : 454
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
+  "statusTrace" : "src_network = 'Ethereum (ETH)', dst_network = 'Binance Smart Chain (BNB)'\n\n    @pytest.mark.parametrize(\"src_network\", networks)\n    @pytest.mark.parametrize(\"dst_network\", networks)\n    def test_get_bridge_tx_stablecoin_to_not_native(src_network, dst_network):\n        src_net = de_bridge_keys_data()[src_network].get('net')\n        dst_net = de_bridge_keys_data()[dst_network].get('net')\n        src_token_address = de_bridge_keys_data()[src_network].get('stableCoin')\n        dst_token_address = de_bridge_keys_data()[dst_network].get('notNativeToken')\n        src_token_amount = 1\n        dst_chain_recipient_address = de_bridge_keys_data()[dst_network].get('owner')\n        dst_chain_fallback_address = de_bridge_keys_data()[dst_network].get('owner')\n        if src_net != dst_net:\n>           DeBridge().get_bridge_tx(src_net=src_net, dst_net=dst_net, src_token_address=src_token_address,\n                                     dst_token_address=dst_token_address, src_token_amount=src_token_amount,\n                                     dst_chain_recipient_address=dst_chain_recipient_address,\n                                     dst_chain_fallback_address=dst_chain_fallback_address)\n\ntests/api_tests/tests_de_bridge.py:211: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <serviceCalls.debrdige_service.DeBridge object at 0x10a931d00>\nsrc_net = 'eth', dst_net = 'bsc'\nsrc_token_address = '0xdac17f958d2ee523a2206206994597c13d831ec7'\ndst_token_address = '0xf275e1ac303a4c9d987a2c48b8e555a77fec3f1c'\nsrc_token_amount = 1\ndst_chain_recipient_address = '0xd5ed26d93129a8b51ac54b40477327f6511824b6'\ndst_chain_fallback_address = '0xd5ed26d93129a8b51ac54b40477327f6511824b6'\n\n    def get_bridge_tx(self, src_net, dst_net, src_token_address, dst_token_address, src_token_amount,\n                      dst_chain_recipient_address, dst_chain_fallback_address):\n        response = requests.get(\n            f\"{self.url}getBridgeTx?srcNet={src_net}&srcTokenAddress={src_token_address}&\"\n            f\"srcTokenAmount={src_token_amount}&dstNet={dst_net}&dstTokenAddress={dst_token_address}&\"\n            f\"dstChainRecipientAddress={dst_chain_recipient_address}&\"\n            f\"dstChainFallbackAddress={dst_chain_fallback_address}\")\n        logger.info(f\"Отправлен запрос на роут - {response.url}\")\n        logger.info(response.text)\n>       assert response.status_code == 200, f\"Ожидался status = {200}, \" \\\n                                            f\"пришел status = {response.status_code}. \" \\\n                                            f\"Тело ответа: \\n{response.text}.\"\nE       AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \nE       {\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.\n\nserviceCalls/debrdige_service.py:136: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
+    "statusTrace" : "src_network = 'Ethereum (ETH)', dst_network = 'Binance Smart Chain (BNB)'\n\n    @pytest.mark.parametrize(\"src_network\", networks)\n    @pytest.mark.parametrize(\"dst_network\", networks)\n    def test_get_bridge_tx_stablecoin_to_not_native(src_network, dst_network):\n        src_net = de_bridge_keys_data()[src_network].get('net')\n        dst_net = de_bridge_keys_data()[dst_network].get('net')\n        src_token_address = de_bridge_keys_data()[src_network].get('stableCoin')\n        dst_token_address = de_bridge_keys_data()[dst_network].get('notNativeToken')\n        src_token_amount = 1\n        dst_chain_recipient_address = de_bridge_keys_data()[dst_network].get('owner')\n        dst_chain_fallback_address = de_bridge_keys_data()[dst_network].get('owner')\n        if src_net != dst_net:\n>           DeBridge().get_bridge_tx(src_net=src_net, dst_net=dst_net, src_token_address=src_token_address,\n                                     dst_token_address=dst_token_address, src_token_amount=src_token_amount,\n                                     dst_chain_recipient_address=dst_chain_recipient_address,\n                                     dst_chain_fallback_address=dst_chain_fallback_address)\n\ntests/api_tests/tests_de_bridge.py:211: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <serviceCalls.debrdige_service.DeBridge object at 0x10a931d00>\nsrc_net = 'eth', dst_net = 'bsc'\nsrc_token_address = '0xdac17f958d2ee523a2206206994597c13d831ec7'\ndst_token_address = '0xf275e1ac303a4c9d987a2c48b8e555a77fec3f1c'\nsrc_token_amount = 1\ndst_chain_recipient_address = '0xd5ed26d93129a8b51ac54b40477327f6511824b6'\ndst_chain_fallback_address = '0xd5ed26d93129a8b51ac54b40477327f6511824b6'\n\n    def get_bridge_tx(self, src_net, dst_net, src_token_address, dst_token_address, src_token_amount,\n                      dst_chain_recipient_address, dst_chain_fallback_address):\n        response = requests.get(\n            f\"{self.url}getBridgeTx?srcNet={src_net}&srcTokenAddress={src_token_address}&\"\n            f\"srcTokenAmount={src_token_amount}&dstNet={dst_net}&dstTokenAddress={dst_token_address}&\"\n            f\"dstChainRecipientAddress={dst_chain_recipient_address}&\"\n            f\"dstChainFallbackAddress={dst_chain_fallback_address}\")\n        logger.info(f\"Отправлен запрос на роут - {response.url}\")\n        logger.info(response.text)\n>       assert response.status_code == 200, f\"Ожидался status = {200}, \" \\\n                                            f\"пришел status = {response.status_code}. \" \\\n                                            f\"Тело ответа: \\n{response.text}.\"\nE       AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \nE       {\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.\n\nserviceCalls/debrdige_service.py:136: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8f2a6c98555836d1",
+      "name" : "log",
+      "source" : "8f2a6c98555836d1.txt",
+      "type" : "text/plain",
+      "size" : 501
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Anna.local"
+  }, {
+    "name" : "thread",
+    "value" : "18938-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dst_network",
+    "value" : "'Binance Smart Chain (BNB)'"
+  }, {
+    "name" : "src_network",
+    "value" : "'Ethereum (ETH)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5d389af68d744d4d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"executionFeeAmount\\\" is required\"}.",
+      "time" : {
+        "start" : 1685615534306,
+        "stop" : 1685615534688,
+        "duration" : 382
+      }
+    }, {
+      "uid" : "902217b54f01dc7c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Request failed with status code 429\"}.",
+      "time" : {
+        "start" : 1685610448817,
+        "stop" : 1685610449286,
+        "duration" : 469
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fbf9fa9fb8664c7c.json",
+  "parameterValues" : [ "'Binance Smart Chain (BNB)'", "'Ethereum (ETH)'" ]
+}
