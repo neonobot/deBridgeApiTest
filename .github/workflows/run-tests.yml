@@ -41,7 +41,7 @@ jobs:
 
       - name: Run tests and generate Allure report
         run: |
-          pytest --alluredir=allure-results
+          -m pytest -n=2 ./tests/api_tests/tests_de_bridge.py --alluredir=allure-results
           allure generate allure-results --clean -o allure-report
 
       - name: Deploy Allure report to gh-pages branch
