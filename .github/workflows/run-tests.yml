@@ -39,6 +39,9 @@ jobs:
           sudo ln -s /opt/allure-2.15.0/bin/allure /usr/bin/allure
           allure --version
 
+      - name: Debug
+        run: ls ./allure-results
+
       - name: Run tests and generate Allure report
         run: |
           python -m pytest -n=2 ./tests/api_tests/tests_de_bridge.py 
