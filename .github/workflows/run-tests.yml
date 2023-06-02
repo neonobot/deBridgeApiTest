@@ -38,11 +38,9 @@ jobs:
           sudo tar -zxvf allure-2.15.0.tgz -C /opt/
           sudo ln -s /opt/allure-2.15.0/bin/allure /usr/bin/allure
           allure --version
-      - name: Clean previous Allure results
-        run: rm -rf allure-results
 
-      - name: Create allure-results directory
-        run: mkdir neonobot/deBridgeApiTest/allure-results
+      - name: Clean previous Allure results
+        run: rm -rf ./allure-results/*
 
       - name: Run tests and generate Allure report
         id: test-results
