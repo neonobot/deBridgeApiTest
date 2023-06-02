@@ -39,18 +39,22 @@ jobs:
           sudo ln -s /opt/allure-2.15.0/bin/allure /usr/bin/allure
           allure --version
 
-      - name: Clean previous Allure results
-        run: rm -rf allure-results
+
+      - name: Remove existing allure-results directory
+        run: rm -rf ./allure-results
+
+      - name: Create Allure results directory
+        run: mkdir allure-results
 
       - name: Run tests and generate Allure report
         id: test-results
         run: |
-          python -m pytest -n=2 ./tests/api_tests/tests_de_bridge.py | tee test_results.txt
+          python -m pytest -n=2 ./tests/api_tests/tests_de_bridge.py --alluredir=./allure-results
           echo "TOTAL_TESTS=$(cat test_results.txt | grep -oP '(\d+) total')" >> $GITHUB_ENV
           echo "PASSED_TESTS=$(cat test_results.txt | grep -oP '(\d+) passed')" >> $GITHUB_ENV
           echo "FAILED_TESTS=$(cat test_results.txt | grep -oP '(\d+) failed')" >> $GITHUB_ENV
           echo "SKIPPED_TESTS=$(cat test_results.txt | grep -oP '(\d+) skipped')" >> $GITHUB_ENV
-          allure generate ./allure-results -o ./allure-report-$GITHUB_RUN_NUMBER
+          allure generate ./allure-results -o ./allure-report --clean
       
 
       - name: Deploy Allure report to gh-pages branch
