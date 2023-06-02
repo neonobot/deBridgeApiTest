@@ -1,0 +1,74 @@
+{
+  "uid" : "c5410f7cb818a0f2",
+  "name" : "test_estimate_bridge_stablecoin_to_not_native[Ethereum (ETH)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_estimate_bridge_stablecoin_to_not_native",
+  "historyId" : "1f637220d20557ca57064476d68139c7",
+  "time" : {
+    "start" : 1685615496720,
+    "stop" : 1685615498709,
+    "duration" : 1989
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
+  "statusTrace" : "network = 'Ethereum (ETH)'\n\n    @pytest.mark.parametrize(\"network\", networks)\n    def test_estimate_bridge_stablecoin_to_not_native(network):\n        net = de_bridge_keys_data()[network].get('net')\n        stable_coin = de_bridge_keys_data()[network].get('stableCoin')\n        not_native_token = de_bridge_keys_data()[network].get('notNativeToken')\n>       DeBridge().EstimateBridge().estimate_bridge_stablecoin_to_not_native(net=net, stable_coin=stable_coin,\n                                                                             not_native_token=not_native_token)\n\ntests/api_tests/tests_de_bridge.py:31: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <serviceCalls.debrdige_service.DeBridge.EstimateBridge object at 0x10f377ac0>\nnet = 'eth', stable_coin = '0xdac17f958d2ee523a2206206994597c13d831ec7'\nnot_native_token = '0x2a3bff78b79a009976eea096a51a948a3dc00e34'\n\n    def estimate_bridge_stablecoin_to_not_native(self, net, stable_coin, not_native_token):\n        response = requests.get(\n            f\"{self.url}?srcNet={net}&srcTokenAddress={stable_coin}\"\n            f\"&srcTokenAmount=1&dstNet={net}&dstTokenAddress={not_native_token}\")\n        logger.info(f\"Отправлен запрос на роут - {response.url}\")\n        logger.info(response.text)\n>       assert response.status_code == 200, f\"Ожидался status = {200}, \" \\\n                                            f\"пришел status = {response.status_code}. \" \\\n                                            f\"Тело ответа: \\n{response.text}.\"\nE       AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \nE       {\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.\n\nserviceCalls/debrdige_service.py:52: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
+    "statusTrace" : "network = 'Ethereum (ETH)'\n\n    @pytest.mark.parametrize(\"network\", networks)\n    def test_estimate_bridge_stablecoin_to_not_native(network):\n        net = de_bridge_keys_data()[network].get('net')\n        stable_coin = de_bridge_keys_data()[network].get('stableCoin')\n        not_native_token = de_bridge_keys_data()[network].get('notNativeToken')\n>       DeBridge().EstimateBridge().estimate_bridge_stablecoin_to_not_native(net=net, stable_coin=stable_coin,\n                                                                             not_native_token=not_native_token)\n\ntests/api_tests/tests_de_bridge.py:31: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <serviceCalls.debrdige_service.DeBridge.EstimateBridge object at 0x10f377ac0>\nnet = 'eth', stable_coin = '0xdac17f958d2ee523a2206206994597c13d831ec7'\nnot_native_token = '0x2a3bff78b79a009976eea096a51a948a3dc00e34'\n\n    def estimate_bridge_stablecoin_to_not_native(self, net, stable_coin, not_native_token):\n        response = requests.get(\n            f\"{self.url}?srcNet={net}&srcTokenAddress={stable_coin}\"\n            f\"&srcTokenAmount=1&dstNet={net}&dstTokenAddress={not_native_token}\")\n        logger.info(f\"Отправлен запрос на роут - {response.url}\")\n        logger.info(response.text)\n>       assert response.status_code == 200, f\"Ожидался status = {200}, \" \\\n                                            f\"пришел status = {response.status_code}. \" \\\n                                            f\"Тело ответа: \\n{response.text}.\"\nE       AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \nE       {\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.\n\nserviceCalls/debrdige_service.py:52: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6c81644ddcb9e404",
+      "name" : "log",
+      "source" : "6c81644ddcb9e404.txt",
+      "type" : "text/plain",
+      "size" : 459
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Anna.local"
+  }, {
+    "name" : "thread",
+    "value" : "18188-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "network",
+    "value" : "'Ethereum (ETH)'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5410f7cb818a0f2.json",
+  "parameterValues" : [ "'Ethereum (ETH)'" ]
+}
