@@ -1,4 +1,5 @@
 import os
+
 import requests
 
 # Получите токен вашего телеграм-бота
@@ -12,12 +13,14 @@ def send_message():
     passed_tests = os.environ.get('PASSED_TESTS', 'N/A')
     failed_tests = os.environ.get('FAILED_TESTS', 'N/A')
     skipped_tests = os.environ.get('SKIPPED_TESTS', 'N/A')
+    allure_report = os.environ.get('Allure Report', 'N/A')
 
     message = f"Результаты выполнения тестов:\n" \
               f"Всего тестов: {total_tests}\n" \
               f"Пройдено: {passed_tests}\n" \
               f"Провалено: {failed_tests}\n" \
-              f"Пропущено: {skipped_tests}"
+              f"Пропущено: {skipped_tests}\n" \
+              f"Отчет: {allure_report}"
 
     payload = {
         "chat_id": chat_id,
