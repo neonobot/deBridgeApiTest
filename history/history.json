@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d3a3cf65d59a27cf",
+      "uid" : "b8b1041a6bfbcc43",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -29,7 +29,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f1bbbea8793329d4",
+      "uid" : "eb5ee29fa588d06f",
       "status" : "passed",
       "time" : {
         "start" : 1685717376734,
@@ -48,7 +48,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7347bd8cd2a8a968",
+      "uid" : "5be9a55759932eff",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -68,7 +68,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7c3bf5289baac600",
+      "uid" : "30364d0a82b77542",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -88,33 +88,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7bf9c02b45389c5b",
+      "uid" : "a9e99121d4e4384d",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
       "time" : {
         "start" : 1685717415634,
         "stop" : 1685717418239,
         "duration" : 2605
-      }
-    } ]
-  },
-  "359f23e4a50f2b54f0f6fb53bfab9918" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e1192ef8a2433666",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
-      "time" : {
-        "start" : 1685717447552,
-        "stop" : 1685717448837,
-        "duration" : 1285
       }
     } ]
   },
@@ -128,13 +108,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "75ba0faedf1adab4",
+      "uid" : "ea572af46f46ffa8",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
       "time" : {
         "start" : 1685717478073,
         "stop" : 1685717479493,
         "duration" : 1420
+      }
+    } ]
+  },
+  "359f23e4a50f2b54f0f6fb53bfab9918" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da9b685c8eced302",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
+      "time" : {
+        "start" : 1685717447552,
+        "stop" : 1685717448837,
+        "duration" : 1285
       }
     } ]
   },
@@ -148,7 +148,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "848d5b71a3458f74",
+      "uid" : "754baf850d7d6e81",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -168,7 +168,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a76ac33c9b457b30",
+      "uid" : "540f2c84b828ca8",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -188,7 +188,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b18c3ef7a7639fe1",
+      "uid" : "71438ccc3b5f1dd0",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
       "time" : {
@@ -208,7 +208,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fe1a52acbb54d42a",
+      "uid" : "6bd0715750c98cd8",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -228,7 +228,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1856010d6b95ffa4",
+      "uid" : "22bea0aa997471b9",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
       "time" : {
@@ -248,7 +248,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8ecc88ef37a31207",
+      "uid" : "b3d13c682954783d",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -268,7 +268,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b8e87074d53a1078",
+      "uid" : "8ceeda625f513b2b",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -288,7 +288,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6fd5fa181a776cdf",
+      "uid" : "7f027a90c2d75e68",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -308,7 +308,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f12610f0476e44c7",
+      "uid" : "68d54c48aca669e1",
       "status" : "broken",
       "statusDetails" : "TypeError: estimate_bridge_not_native_to_native() missing 1 required positional argument: 'owner'",
       "time" : {
@@ -328,33 +328,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a2623e80aa9310f7",
+      "uid" : "73cabb757156fda7",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
         "start" : 1685717482000,
         "stop" : 1685717482000,
         "duration" : 0
-      }
-    } ]
-  },
-  "b2f3dac650ee4d128f3bb3c43e25c4bc" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "55c4db01a06ca024",
-      "status" : "broken",
-      "statusDetails" : "jsonschema.exceptions.ValidationError: 'symbol' is a required property\n\nFailed validating 'required' in schema['properties']['data']['items']:\n    {'properties': {'address': {'type': 'string'},\n                    'decimals': {'type': 'integer'},\n                    'logoURI': {'type': 'string'},\n                    'name': {'type': 'string'},\n                    'symbol': {'type': 'string'}},\n     'required': ['symbol', 'name', 'decimals', 'address', 'logoURI'],\n     'type': 'object'}\n\nOn instance['data'][0]:\n    {'address': '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',\n     'code': 'WBNB',\n     'decimals': 18,\n     'logoURI': 'https://tokens.1inch.io/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c_1.png',\n     'name': 'WBNB'}",
-      "time" : {
-        "start" : 1685717384991,
-        "stop" : 1685717386088,
-        "duration" : 1097
       }
     } ]
   },
@@ -368,12 +348,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8666e2c6b21368ea",
+      "uid" : "7a9dcd70a89c7427",
       "status" : "passed",
       "time" : {
         "start" : 1685717470696,
         "stop" : 1685717472288,
         "duration" : 1592
+      }
+    } ]
+  },
+  "b2f3dac650ee4d128f3bb3c43e25c4bc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2f42ecc5b4dc894",
+      "status" : "broken",
+      "statusDetails" : "jsonschema.exceptions.ValidationError: 'symbol' is a required property\n\nFailed validating 'required' in schema['properties']['data']['items']:\n    {'properties': {'address': {'type': 'string'},\n                    'decimals': {'type': 'integer'},\n                    'logoURI': {'type': 'string'},\n                    'name': {'type': 'string'},\n                    'symbol': {'type': 'string'}},\n     'required': ['symbol', 'name', 'decimals', 'address', 'logoURI'],\n     'type': 'object'}\n\nOn instance['data'][0]:\n    {'address': '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',\n     'code': 'WBNB',\n     'decimals': 18,\n     'logoURI': 'https://tokens.1inch.io/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c_1.png',\n     'name': 'WBNB'}",
+      "time" : {
+        "start" : 1685717384991,
+        "stop" : 1685717386088,
+        "duration" : 1097
       }
     } ]
   },
@@ -387,7 +387,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4a4d6c7639e6ba1c",
+      "uid" : "1767378a60ec7ff0",
       "status" : "broken",
       "statusDetails" : "TypeError: estimate_bridge_stablecoin_to_not_native() missing 1 required positional argument: 'owner'",
       "time" : {
@@ -407,7 +407,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ece955271952f969",
+      "uid" : "bf878304a0d25668",
       "status" : "passed",
       "time" : {
         "start" : 1685717479511,
@@ -426,7 +426,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c5a5d2e5e9fce65a",
+      "uid" : "afa23cb857f3ee2c",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -446,7 +446,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "97859bbad41719ae",
+      "uid" : "61fad8a4d3654137",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -466,7 +466,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e579ab1010be6f71",
+      "uid" : "532f32c68af44d5c",
       "status" : "passed",
       "time" : {
         "start" : 1685717465664,
@@ -485,7 +485,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f5a478d7abf55b27",
+      "uid" : "a25b86653b85a5c2",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -505,7 +505,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3c2a28cc77f0809a",
+      "uid" : "3c90c289e5067de2",
       "status" : "passed",
       "time" : {
         "start" : 1685717429532,
@@ -524,7 +524,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e599a823fd8841b5",
+      "uid" : "e18073b10f3e0b57",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -544,7 +544,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "45a3502569db6e2d",
+      "uid" : "af19fb59316a623",
       "status" : "passed",
       "time" : {
         "start" : 1685717380081,
@@ -563,7 +563,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e2e6c71cb303954d",
+      "uid" : "8d263ebc789d5345",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -583,7 +583,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "49b162819d8ffffd",
+      "uid" : "24fb0eaa450ab7e",
       "status" : "broken",
       "statusDetails" : "jsonschema.exceptions.ValidationError: 'symbol' is a required property\n\nFailed validating 'required' in schema['properties']['data']['items']:\n    {'properties': {'address': {'type': 'string'},\n                    'decimals': {'type': 'integer'},\n                    'logoURI': {'type': 'string'},\n                    'name': {'type': 'string'},\n                    'symbol': {'type': 'string'}},\n     'required': ['symbol', 'name', 'decimals', 'address', 'logoURI'],\n     'type': 'object'}\n\nOn instance['data'][0]:\n    {'address': '0xbfa641051ba0a0ad1b0acf549a89536a0d76472e',\n     'code': 'BADGER',\n     'decimals': 18,\n     'logoURI': 'https://tokens.1inch.io/0x3472a5a71965499acd81997a54bba8d852c6e53d.png',\n     'name': 'BADGER'}",
       "time" : {
@@ -603,7 +603,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e80525e9fa4e26d5",
+      "uid" : "42601199f1a1f9bf",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -623,32 +623,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "faddd284fc66860e",
+      "uid" : "7b0424a1c02421a",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
       "time" : {
         "start" : 1685717411560,
         "stop" : 1685717413338,
         "duration" : 1778
-      }
-    } ]
-  },
-  "ae0c1040e6ce269dd956fd864712933d" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ee5ad7686862baee",
-      "status" : "passed",
-      "time" : {
-        "start" : 1685717455835,
-        "stop" : 1685717457856,
-        "duration" : 2021
       }
     } ]
   },
@@ -662,13 +643,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "50431366bef3bef3",
+      "uid" : "cfb76f8703653c6e",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
         "start" : 1685717516455,
         "stop" : 1685717516456,
         "duration" : 1
+      }
+    } ]
+  },
+  "ae0c1040e6ce269dd956fd864712933d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1dd440debdacebf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685717455835,
+        "stop" : 1685717457856,
+        "duration" : 2021
       }
     } ]
   },
@@ -682,7 +682,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "155cc518757ac930",
+      "uid" : "3f61e5b4e3e93e1f",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -702,7 +702,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "74a9c2dfc443a049",
+      "uid" : "a16768ff116c0030",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
       "time" : {
@@ -722,7 +722,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f6beee616fe62fde",
+      "uid" : "1b80205b021428bb",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -742,32 +742,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7bac062745a970d4",
+      "uid" : "646ead395754d4ce",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
       "time" : {
         "start" : 1685717508133,
         "stop" : 1685717509288,
         "duration" : 1155
-      }
-    } ]
-  },
-  "ea08ca7b3e326565271a3670d6e480a5" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "272503cb18ec88c3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1685717482342,
-        "stop" : 1685717484035,
-        "duration" : 1693
       }
     } ]
   },
@@ -781,7 +762,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2e4c2db4188d33a1",
+      "uid" : "fc77aec2969d015",
       "status" : "passed",
       "time" : {
         "start" : 1685717408201,
@@ -790,23 +771,22 @@
       }
     } ]
   },
-  "04ed53fde1128842411243cb3d2e5e40" : {
+  "ea08ca7b3e326565271a3670d6e480a5" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bccb5d1ac0a69ced",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
+      "uid" : "4187eaaf47588511",
+      "status" : "passed",
       "time" : {
-        "start" : 1685717402965,
-        "stop" : 1685717404465,
-        "duration" : 1500
+        "start" : 1685717482342,
+        "stop" : 1685717484035,
+        "duration" : 1693
       }
     } ]
   },
@@ -820,13 +800,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c20cdc47ea82c40b",
+      "uid" : "b2351a095eecc6ed",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
         "start" : 1685717388650,
         "stop" : 1685717388650,
         "duration" : 0
+      }
+    } ]
+  },
+  "04ed53fde1128842411243cb3d2e5e40" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "614a08d4a4cf200d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
+      "time" : {
+        "start" : 1685717402965,
+        "stop" : 1685717404465,
+        "duration" : 1500
       }
     } ]
   },
@@ -840,7 +840,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "235e1077687b852f",
+      "uid" : "c748a1ca76067ca4",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -860,7 +860,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9c51851764b68302",
+      "uid" : "4695b9074a4c30e",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -880,33 +880,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "272595441e14245",
+      "uid" : "b0b5e58627d9ec8d",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
         "start" : 1685717399184,
         "stop" : 1685717401199,
         "duration" : 2015
-      }
-    } ]
-  },
-  "990f9e61db71c1fd6bd31bf8f83ccc5d" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "8182e6a2222da634",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
-      "time" : {
-        "start" : 1685717513823,
-        "stop" : 1685717515936,
-        "duration" : 2113
       }
     } ]
   },
@@ -920,13 +900,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a2cebee0960af969",
+      "uid" : "931131e3d0c46191",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
         "start" : 1685717451019,
         "stop" : 1685717451019,
         "duration" : 0
+      }
+    } ]
+  },
+  "990f9e61db71c1fd6bd31bf8f83ccc5d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "10effce3a0d2f981",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
+      "time" : {
+        "start" : 1685717513823,
+        "stop" : 1685717515936,
+        "duration" : 2113
       }
     } ]
   },
@@ -940,7 +940,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6fee33deec600df0",
+      "uid" : "764c1527e152c21",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -960,7 +960,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8cd4b43000580fcd",
+      "uid" : "343f50760ba96b60",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -980,32 +980,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c57100cb523ac1fe",
+      "uid" : "29e90a1a7a449014",
       "status" : "passed",
       "time" : {
         "start" : 1685717381053,
         "stop" : 1685717381703,
         "duration" : 650
-      }
-    } ]
-  },
-  "ca2706fb12e7a64d3dc32a805c8feb6e" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f35acf6b26da6621",
-      "status" : "broken",
-      "statusDetails" : "TypeError: estimate_bridge_native_to_not_native() missing 1 required positional argument: 'owner'",
-      "time" : {
-        "start" : 1685717377681,
-        "stop" : 1685717377681,
-        "duration" : 0
       }
     } ]
   },
@@ -1019,13 +999,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "eecafdbf6fa99bd",
+      "uid" : "2efc8eb91fa3d578",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
         "start" : 1685717480465,
         "stop" : 1685717481978,
         "duration" : 1513
+      }
+    } ]
+  },
+  "ca2706fb12e7a64d3dc32a805c8feb6e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b6b0c21f94e34eed",
+      "status" : "broken",
+      "statusDetails" : "TypeError: estimate_bridge_native_to_not_native() missing 1 required positional argument: 'owner'",
+      "time" : {
+        "start" : 1685717377681,
+        "stop" : 1685717377681,
+        "duration" : 0
       }
     } ]
   },
@@ -1039,7 +1039,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8f80061e11163e91",
+      "uid" : "8271c5114ae26fa3",
       "status" : "passed",
       "time" : {
         "start" : 1685717418254,
@@ -1058,7 +1058,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ee8dab664221afe6",
+      "uid" : "968806d98353a6ff",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -1078,7 +1078,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ca858e3aad975312",
+      "uid" : "80641bbd47dd2d83",
       "status" : "passed",
       "time" : {
         "start" : 1685717423122,
@@ -1097,7 +1097,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "92ef5d3273ca9307",
+      "uid" : "8a21a64bd8f7301d",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -1117,7 +1117,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9008dc4dd1d21db",
+      "uid" : "4d69ba0e4d04d289",
       "status" : "passed",
       "time" : {
         "start" : 1685717472309,
@@ -1136,7 +1136,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "94ef98fe17743240",
+      "uid" : "430687742aa89da5",
       "status" : "passed",
       "time" : {
         "start" : 1685717497160,
@@ -1155,7 +1155,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6687d45df255f55d",
+      "uid" : "95294397b806b5e6",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -1175,7 +1175,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "45e9574abaacc0dd",
+      "uid" : "bb1afbcc449718b5",
       "status" : "broken",
       "statusDetails" : "jsonschema.exceptions.ValidationError: '0' is not of type 'array'\n\nFailed validating 'type' in schema['properties']['data']:\n    {'items': {'properties': {'address': {'type': 'string'},\n                              'decimals': {'type': 'integer'},\n                              'logoURI': {'type': 'string'},\n                              'name': {'type': 'string'},\n                              'symbol': {'type': 'string'}},\n               'required': ['symbol',\n                            'name',\n                            'decimals',\n                            'address',\n                            'logoURI'],\n               'type': 'object'},\n     'type': 'array'}\n\nOn instance['data']:\n    '0'",
       "time" : {
@@ -1195,7 +1195,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5be6dfc6dc63b036",
+      "uid" : "40831ce2e926b6bf",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -1215,33 +1215,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1638297bb8d83ac0",
+      "uid" : "ffbd65d98503e116",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
         "start" : 1685717498319,
         "stop" : 1685717500390,
         "duration" : 2071
-      }
-    } ]
-  },
-  "0ed472186c32b2bb2494701bde480ea6" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "d67f1dc886c59bcd",
-      "status" : "broken",
-      "statusDetails" : "jsonschema.exceptions.ValidationError: '0' is not of type 'array'\n\nFailed validating 'type' in schema['properties']['data']:\n    {'items': {'properties': {'address': {'type': 'string'},\n                              'decimals': {'type': 'integer'},\n                              'logoURI': {'type': 'string'},\n                              'name': {'type': 'string'},\n                              'symbol': {'type': 'string'}},\n               'required': ['symbol',\n                            'name',\n                            'decimals',\n                            'address',\n                            'logoURI'],\n               'type': 'object'},\n     'type': 'array'}\n\nOn instance['data']:\n    '0'",
-      "time" : {
-        "start" : 1685717381453,
-        "stop" : 1685717382313,
-        "duration" : 860
       }
     } ]
   },
@@ -1255,13 +1235,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9bded945cbff827",
+      "uid" : "8a5f3fb3e9bab001",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
         "start" : 1685717395895,
         "stop" : 1685717397446,
         "duration" : 1551
+      }
+    } ]
+  },
+  "0ed472186c32b2bb2494701bde480ea6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d6fb4a7d31a0271",
+      "status" : "broken",
+      "statusDetails" : "jsonschema.exceptions.ValidationError: '0' is not of type 'array'\n\nFailed validating 'type' in schema['properties']['data']:\n    {'items': {'properties': {'address': {'type': 'string'},\n                              'decimals': {'type': 'integer'},\n                              'logoURI': {'type': 'string'},\n                              'name': {'type': 'string'},\n                              'symbol': {'type': 'string'}},\n               'required': ['symbol',\n                            'name',\n                            'decimals',\n                            'address',\n                            'logoURI'],\n               'type': 'object'},\n     'type': 'array'}\n\nOn instance['data']:\n    '0'",
+      "time" : {
+        "start" : 1685717381453,
+        "stop" : 1685717382313,
+        "duration" : 860
       }
     } ]
   },
@@ -1275,7 +1275,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6b5bca6a4ebf1bcb",
+      "uid" : "a619848ae4a0c157",
       "status" : "broken",
       "statusDetails" : "jsonschema.exceptions.ValidationError: '0' is not of type 'array'\n\nFailed validating 'type' in schema['properties']['data']:\n    {'items': {'properties': {'address': {'type': 'string'},\n                              'decimals': {'type': 'integer'},\n                              'logoURI': {'type': 'string'},\n                              'name': {'type': 'string'},\n                              'symbol': {'type': 'string'}},\n               'required': ['symbol',\n                            'name',\n                            'decimals',\n                            'address',\n                            'logoURI'],\n               'type': 'object'},\n     'type': 'array'}\n\nOn instance['data']:\n    '0'",
       "time" : {
@@ -1295,7 +1295,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b75959801dd7e8e4",
+      "uid" : "246e8bfe3d0b0b0b",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
       "time" : {
@@ -1315,7 +1315,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "612afd57ee093252",
+      "uid" : "f9c127b2f25972b0",
       "status" : "broken",
       "statusDetails" : "TypeError: estimate_bridge_not_native_to_native() missing 1 required positional argument: 'owner'",
       "time" : {
@@ -1335,7 +1335,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "60a1663748c363e1",
+      "uid" : "3559284c4f1f8acd",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -1355,7 +1355,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e96071bdc48da004",
+      "uid" : "4b6fb0db2a375ab0",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -1375,7 +1375,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "711e4ea00b93060a",
+      "uid" : "f46039c50b5055f",
       "status" : "passed",
       "time" : {
         "start" : 1685717377209,
@@ -1394,7 +1394,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "19b952a0e0c8a039",
+      "uid" : "988e41acee7dda62",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -1414,7 +1414,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8cec86843b2517ae",
+      "uid" : "914a49a74cdbcd97",
       "status" : "broken",
       "statusDetails" : "TypeError: estimate_bridge_stablecoin_to_not_native() missing 1 required positional argument: 'owner'",
       "time" : {
@@ -1434,7 +1434,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7da55c1f9c9b4cd3",
+      "uid" : "3ff8f10ff7de2a38",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -1454,7 +1454,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a1f471ba698abc88",
+      "uid" : "9e5605e5d340824c",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -1474,7 +1474,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3a94f5c0a77bd63b",
+      "uid" : "3510930f9623099a",
       "status" : "broken",
       "statusDetails" : "TypeError: estimate_bridge_native_to_not_native() missing 1 required positional argument: 'owner'",
       "time" : {
@@ -1494,7 +1494,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2a9df6b3aef02eae",
+      "uid" : "74b1313c3e115372",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -1514,7 +1514,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "65153d6298ca42a",
+      "uid" : "d5c5a92a2da5e040",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -1534,7 +1534,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2cfbcdc029bf9f3e",
+      "uid" : "33a5388952497d51",
       "status" : "broken",
       "statusDetails" : "TypeError: estimate_bridge_native_to_not_native() missing 1 required positional argument: 'owner'",
       "time" : {
@@ -1554,7 +1554,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "709a6a6c39919869",
+      "uid" : "a7a35fdf658bab29",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -1574,53 +1574,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "415b7492f120bd64",
+      "uid" : "e4781c260d806a28",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
         "start" : 1685717441106,
         "stop" : 1685717442300,
         "duration" : 1194
-      }
-    } ]
-  },
-  "00853a9fd8084c8060da821f2f60b9a0" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "2fc8fc18be565cd1",
-      "status" : "broken",
-      "statusDetails" : "TypeError: estimate_bridge_not_native_to_native() missing 1 required positional argument: 'owner'",
-      "time" : {
-        "start" : 1685717377747,
-        "stop" : 1685717377747,
-        "duration" : 0
-      }
-    } ]
-  },
-  "eff78d6dc8c15189e7bc049028959d5c" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e0c185858b416af8",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
-      "time" : {
-        "start" : 1685717450555,
-        "stop" : 1685717451705,
-        "duration" : 1150
       }
     } ]
   },
@@ -1634,13 +1594,53 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "afc4832bb313222d",
+      "uid" : "c708ceaa8f52c084",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
         "start" : 1685717397472,
         "stop" : 1685717397475,
         "duration" : 3
+      }
+    } ]
+  },
+  "eff78d6dc8c15189e7bc049028959d5c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7fac399cd065c86d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
+      "time" : {
+        "start" : 1685717450555,
+        "stop" : 1685717451705,
+        "duration" : 1150
+      }
+    } ]
+  },
+  "00853a9fd8084c8060da821f2f60b9a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bba9d22558782b3c",
+      "status" : "broken",
+      "statusDetails" : "TypeError: estimate_bridge_not_native_to_native() missing 1 required positional argument: 'owner'",
+      "time" : {
+        "start" : 1685717377747,
+        "stop" : 1685717377747,
+        "duration" : 0
       }
     } ]
   },
@@ -1654,7 +1654,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9ada943847c3c00f",
+      "uid" : "301117e72822dfb4",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -1674,7 +1674,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "670bc77ee4a73005",
+      "uid" : "2217421f396ff80d",
       "status" : "passed",
       "time" : {
         "start" : 1685717379569,
@@ -1693,7 +1693,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b0f9537aaf4a8c5d",
+      "uid" : "d4f16a6cb155e764",
       "status" : "passed",
       "time" : {
         "start" : 1685717482003,
@@ -1712,7 +1712,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b27f683767c48e9d",
+      "uid" : "bac98f7d5ed3173",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -1732,7 +1732,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e05687c82859c6dd",
+      "uid" : "d88088b499aa85ab",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -1752,7 +1752,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f477895b9e1246ae",
+      "uid" : "d8ee9085201754df",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -1772,7 +1772,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "18cffafa020cd1da",
+      "uid" : "5ab65c932b665b46",
       "status" : "passed",
       "time" : {
         "start" : 1685717426884,
@@ -1791,32 +1791,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6b70fd1934b495e",
+      "uid" : "409a470ea3ad0fd7",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
         "start" : 1685717408198,
         "stop" : 1685717408198,
-        "duration" : 0
-      }
-    } ]
-  },
-  "dda50dd3891e895503b1d311ad0a5e74" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "4b7f0ee088b940dd",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
-      "time" : {
-        "start" : 1685717425648,
-        "stop" : 1685717425648,
         "duration" : 0
       }
     } ]
@@ -1831,13 +1811,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "57a4b016d6c0df92",
+      "uid" : "8ab6abb6196c433e",
       "status" : "broken",
       "statusDetails" : "TypeError: estimate_bridge_native_to_not_native() missing 1 required positional argument: 'owner'",
       "time" : {
         "start" : 1685717377697,
         "stop" : 1685717377698,
         "duration" : 1
+      }
+    } ]
+  },
+  "dda50dd3891e895503b1d311ad0a5e74" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c3df93c6c752257f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685717425648,
+        "stop" : 1685717425648,
+        "duration" : 0
       }
     } ]
   },
@@ -1851,7 +1851,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e3c9e3af8eb3fdc3",
+      "uid" : "bcf0177ebcee6c0b",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -1871,7 +1871,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5ee3d6bff52aaa99",
+      "uid" : "d11390abb4e25e55",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -1891,7 +1891,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d05394275a80237",
+      "uid" : "903de42cd46d6b7",
       "status" : "passed",
       "time" : {
         "start" : 1685717377214,
@@ -1910,7 +1910,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6911a39fd17e8ce7",
+      "uid" : "83de74e478a7978d",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -1930,7 +1930,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3aaef74c39809807",
+      "uid" : "84bd62dcc7b674a",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -1950,7 +1950,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e99c4f4f4435d94a",
+      "uid" : "f347117ba47f144f",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -1970,7 +1970,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ef7c41aff7a18a20",
+      "uid" : "fc002b87c8e02dc7",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -1990,7 +1990,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c7d0061b4e90aca7",
+      "uid" : "c2f598e6194d053b",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -2010,7 +2010,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "203c7e7934bb8ff3",
+      "uid" : "6e052d287709155",
       "status" : "passed",
       "time" : {
         "start" : 1685717473829,
@@ -2029,7 +2029,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6a050279b069ad71",
+      "uid" : "3d94b87cfa3e4258",
       "status" : "passed",
       "time" : {
         "start" : 1685717476898,
@@ -2048,32 +2048,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "da8a41c82703b57e",
+      "uid" : "4f95239a60de9da",
       "status" : "passed",
       "time" : {
         "start" : 1685717378619,
         "stop" : 1685717379090,
         "duration" : 471
-      }
-    } ]
-  },
-  "0ce672ad5ad153acad0e089593268d62" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "4fdc2524562aa20e",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
-      "time" : {
-        "start" : 1685717451022,
-        "stop" : 1685717452730,
-        "duration" : 1708
       }
     } ]
   },
@@ -2087,13 +2067,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3e80ec4c2c865e88",
+      "uid" : "1ef8b4b73db0bbe",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
         "start" : 1685717439483,
         "stop" : 1685717439484,
         "duration" : 1
+      }
+    } ]
+  },
+  "0ce672ad5ad153acad0e089593268d62" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b818626ca686fdc",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
+      "time" : {
+        "start" : 1685717451022,
+        "stop" : 1685717452730,
+        "duration" : 1708
       }
     } ]
   },
@@ -2107,7 +2107,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "57fa41c501bf0c7e",
+      "uid" : "5a7026f0a40c300c",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -2127,7 +2127,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "39212c36e3f9a8fb",
+      "uid" : "4463f07728a18a76",
       "status" : "passed",
       "time" : {
         "start" : 1685717382350,
@@ -2146,7 +2146,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cf347ef2620d81be",
+      "uid" : "29115562576adb75",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -2166,7 +2166,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "23cbe21c5c79c3e5",
+      "uid" : "c30d7daae0f189b3",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -2186,7 +2186,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cc2867f6402512ea",
+      "uid" : "386552832b6b52a7",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -2206,7 +2206,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "af74e17484390c69",
+      "uid" : "214d7f872df864da",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
       "time" : {
@@ -2226,7 +2226,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "474864b7d507efba",
+      "uid" : "b7f40cb4e2fbb9f6",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -2246,7 +2246,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ed64cc5e6196dce3",
+      "uid" : "54a1d2148468379f",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -2266,7 +2266,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3e0048efadda0b88",
+      "uid" : "6891f301139d559d",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -2286,7 +2286,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6c192a4fbc7fb8eb",
+      "uid" : "fe4ce34bc8f7f1db",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -2306,7 +2306,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e85c0a1cc55b1677",
+      "uid" : "f77c140a019963d3",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -2326,7 +2326,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2afdd91793d64023",
+      "uid" : "614d340a969a97cb",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -2346,7 +2346,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a421b6a4be41a031",
+      "uid" : "854f1ea82fa7ab8d",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -2366,33 +2366,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "af3eaa11dadc0bca",
+      "uid" : "bd512f840cd53b99",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
         "start" : 1685717491518,
         "stop" : 1685717494403,
         "duration" : 2885
-      }
-    } ]
-  },
-  "dd6dabd01eaff8578e379fc3bdbedd75" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "6cb9896ac2924cc9",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
-      "time" : {
-        "start" : 1685717420372,
-        "stop" : 1685717422540,
-        "duration" : 2168
       }
     } ]
   },
@@ -2406,13 +2386,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5541eb77cc27975c",
+      "uid" : "d2a5bae3ed53e7b2",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
         "start" : 1685717439487,
         "stop" : 1685717441079,
         "duration" : 1592
+      }
+    } ]
+  },
+  "dd6dabd01eaff8578e379fc3bdbedd75" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ddbc0341793f272e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
+      "time" : {
+        "start" : 1685717420372,
+        "stop" : 1685717422540,
+        "duration" : 2168
       }
     } ]
   },
@@ -2426,7 +2426,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4fd0b68464556bd7",
+      "uid" : "8d52089d8e2e65f",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -2446,7 +2446,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "434ffae52d18b9b",
+      "uid" : "c8b9633746e2919e",
       "status" : "passed",
       "time" : {
         "start" : 1685717406587,
@@ -2465,7 +2465,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bd03d9652772bb7c",
+      "uid" : "de46d82fdfdf386a",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -2485,7 +2485,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6b50456504a47ec5",
+      "uid" : "a9cc1fcd27f0c97c",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -2505,7 +2505,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cc3fbfa290d7df6",
+      "uid" : "afbb841f67a19fb1",
       "status" : "passed",
       "time" : {
         "start" : 1685717409884,
@@ -2524,7 +2524,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f034515a1e05d4c1",
+      "uid" : "10c2494713ce835d",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -2544,7 +2544,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "22ecdc83f923f086",
+      "uid" : "2df135bfcc125d93",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
       "time" : {
@@ -2564,7 +2564,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a967b7e0a09c0cfa",
+      "uid" : "9b435ec931ba3ccf",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -2584,7 +2584,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "30d32f3e1268b053",
+      "uid" : "aa1ae6a6014f74f0",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
       "time" : {
@@ -2604,7 +2604,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d79294504d1e73f1",
+      "uid" : "a40c5f5edd4274e7",
       "status" : "passed",
       "time" : {
         "start" : 1685717484040,
@@ -2623,7 +2623,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "68d7b01cc435ec83",
+      "uid" : "171e0a7b63d98483",
       "status" : "passed",
       "time" : {
         "start" : 1685717380564,
@@ -2642,7 +2642,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "de19dab5d6b83099",
+      "uid" : "a1d2672f03b134df",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -2662,7 +2662,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7e1ccbd10b0a202a",
+      "uid" : "8995995c79567911",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -2682,33 +2682,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8bc5c1df46196344",
+      "uid" : "e9233ef4220e02f9",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
         "start" : 1685717487623,
         "stop" : 1685717488664,
         "duration" : 1041
-      }
-    } ]
-  },
-  "2dbfa5b7ce0084910f9d0046a4ef77ec" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "7aa913e9c8d16cfd",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
-      "time" : {
-        "start" : 1685717405919,
-        "stop" : 1685717408174,
-        "duration" : 2255
       }
     } ]
   },
@@ -2722,7 +2702,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bf1d5aa7bce85252",
+      "uid" : "72cd8ac26dcd9ca7",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -2742,13 +2722,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "36d6ac2d8d2cd6b3",
+      "uid" : "cb97b3ddfd034a97",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
         "start" : 1685717443085,
         "stop" : 1685717445063,
         "duration" : 1978
+      }
+    } ]
+  },
+  "2dbfa5b7ce0084910f9d0046a4ef77ec" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b4bd56a2122e9cc7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
+      "time" : {
+        "start" : 1685717405919,
+        "stop" : 1685717408174,
+        "duration" : 2255
       }
     } ]
   },
@@ -2762,7 +2762,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b35b16bf0e446db",
+      "uid" : "71c718007de44008",
       "status" : "broken",
       "statusDetails" : "TypeError: estimate_bridge_stablecoin_to_not_native() missing 1 required positional argument: 'owner'",
       "time" : {
@@ -2782,7 +2782,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2abf7b9f1389d2ad",
+      "uid" : "4ab91452bf28a59",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -2802,7 +2802,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5c5e9953f7d3b243",
+      "uid" : "8e316549b83c2c08",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
       "time" : {
@@ -2822,7 +2822,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "98fcb4b1afdedd4f",
+      "uid" : "d81e6dc4d878bb5a",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -2842,7 +2842,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "33eb682e3911592a",
+      "uid" : "481bdc3c043da3bd",
       "status" : "passed",
       "time" : {
         "start" : 1685717383239,
@@ -2861,7 +2861,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "67180b213f2b0bf3",
+      "uid" : "549f2e1cda8e4628",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -2881,7 +2881,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7aff1c10c87dfecd",
+      "uid" : "be74fc798f814a43",
       "status" : "passed",
       "time" : {
         "start" : 1685717475146,
@@ -2900,7 +2900,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4e11fb88476fe0a7",
+      "uid" : "16dc2c5dac7e912b",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -2920,7 +2920,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "df7036946db196c3",
+      "uid" : "488313d334c9712b",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -2940,7 +2940,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "245c0ed3c557bdcd",
+      "uid" : "6885c41d2633b350",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -2960,7 +2960,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6c05677e78b424c8",
+      "uid" : "21d144e5394c1283",
       "status" : "passed",
       "time" : {
         "start" : 1685717481104,
@@ -2979,7 +2979,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3975ba56381cdfd",
+      "uid" : "91f359c1d0ab099b",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -2999,7 +2999,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "68d95a1aaea572db",
+      "uid" : "b59be783a69018c0",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -3019,7 +3019,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bd3b82970761d599",
+      "uid" : "55d01035ff0100e",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -3039,7 +3039,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2a18ca2a0a05d17a",
+      "uid" : "cafab910231894a4",
       "status" : "broken",
       "statusDetails" : "jsonschema.exceptions.ValidationError: '0' is not of type 'array'\n\nFailed validating 'type' in schema['properties']['data']:\n    {'items': {'properties': {'address': {'type': 'string'},\n                              'decimals': {'type': 'integer'},\n                              'logoURI': {'type': 'string'},\n                              'name': {'type': 'string'},\n                              'symbol': {'type': 'string'}},\n               'required': ['symbol',\n                            'name',\n                            'decimals',\n                            'address',\n                            'logoURI'],\n               'type': 'object'},\n     'type': 'array'}\n\nOn instance['data']:\n    '0'",
       "time" : {
@@ -3059,7 +3059,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "74ed8352d55ab67d",
+      "uid" : "cf1ffaa489a53b6",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -3079,7 +3079,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6d375a52369fc1d4",
+      "uid" : "3327d70ed83d769d",
       "status" : "passed",
       "time" : {
         "start" : 1685717377667,
@@ -3098,33 +3098,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8533910046e3bc1a",
+      "uid" : "c34ac5510977ebfc",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
       "time" : {
         "start" : 1685717495692,
         "stop" : 1685717497119,
         "duration" : 1427
-      }
-    } ]
-  },
-  "a577268c7ed5e099702cb571fbeacd8b" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "fd5b3d1c25c1e4c5",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
-      "time" : {
-        "start" : 1685717455832,
-        "stop" : 1685717455833,
-        "duration" : 1
       }
     } ]
   },
@@ -3138,12 +3118,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "39e1b6d450597300",
+      "uid" : "613ebce3c46d62de",
       "status" : "passed",
       "time" : {
         "start" : 1685717379094,
         "stop" : 1685717379567,
         "duration" : 473
+      }
+    } ]
+  },
+  "a577268c7ed5e099702cb571fbeacd8b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c6b15de2f2c785b9",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685717455832,
+        "stop" : 1685717455833,
+        "duration" : 1
       }
     } ]
   },
@@ -3157,7 +3157,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "25f9f97586ae6421",
+      "uid" : "cd9e00b2a9c8c3e7",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -3177,7 +3177,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4eb9b2b56d1dcd87",
+      "uid" : "cf9f29f33c29fde2",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -3197,7 +3197,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9e111d5cc19c9f97",
+      "uid" : "7ede1b49ccdc9ad5",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -3217,7 +3217,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "81a5cee6fa921db2",
+      "uid" : "feafeb3b908d1b7f",
       "status" : "passed",
       "time" : {
         "start" : 1685717378099,
@@ -3236,7 +3236,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "426c5d742b2831d8",
+      "uid" : "1923383b53461948",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -3256,7 +3256,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fb309c7b2a020e8",
+      "uid" : "ab951d3948ad835a",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -3276,33 +3276,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ddcddec0cbb36b69",
+      "uid" : "b3a4e077e9fee3e3",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
       "time" : {
         "start" : 1685717513610,
         "stop" : 1685717514912,
         "duration" : 1302
-      }
-    } ]
-  },
-  "14120c10d0d99eb4624c8965446661a3" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b2caaec6e1e4d27b",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
-      "time" : {
-        "start" : 1685717445090,
-        "stop" : 1685717447553,
-        "duration" : 2463
       }
     } ]
   },
@@ -3316,12 +3296,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1f7614642cd2a158",
+      "uid" : "9257a1a5acad8933",
       "status" : "passed",
       "time" : {
         "start" : 1685717492111,
         "stop" : 1685717494526,
         "duration" : 2415
+      }
+    } ]
+  },
+  "14120c10d0d99eb4624c8965446661a3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2a255604a941a858",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
+      "time" : {
+        "start" : 1685717445090,
+        "stop" : 1685717447553,
+        "duration" : 2463
       }
     } ]
   },
@@ -3335,7 +3335,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "96925a38c2af87b7",
+      "uid" : "c21ce83557aa1b74",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -3355,7 +3355,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ae0eb00b0bda15eb",
+      "uid" : "afbeec90cf9cd8e8",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -3375,7 +3375,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6e1467f485a07d13",
+      "uid" : "3e25c3916b99c01f",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -3395,7 +3395,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4c1c7224b8e4d60d",
+      "uid" : "89439d276ba2b486",
       "status" : "passed",
       "time" : {
         "start" : 1685717473821,
@@ -3414,7 +3414,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "daf4882f499b825",
+      "uid" : "7ded774a7d6918a3",
       "status" : "passed",
       "time" : {
         "start" : 1685717375828,
@@ -3433,7 +3433,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cde799e1c74cb329",
+      "uid" : "fa8353235986fddd",
       "status" : "broken",
       "statusDetails" : "jsonschema.exceptions.ValidationError: 'symbol' is a required property\n\nFailed validating 'required' in schema['properties']['data']['items']:\n    {'properties': {'address': {'type': 'string'},\n                    'decimals': {'type': 'integer'},\n                    'logoURI': {'type': 'string'},\n                    'name': {'type': 'string'},\n                    'symbol': {'type': 'string'}},\n     'required': ['symbol', 'name', 'decimals', 'address', 'logoURI'],\n     'type': 'object'}\n\nOn instance['data'][0]:\n    {'address': '0xd6df932a45c0f255f85145f286ea0b292b21c90b',\n     'code': 'AAVE',\n     'decimals': 18,\n     'logoURI': 'https://tokens.1inch.io/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9.png',\n     'name': 'AAVE'}",
       "time" : {
@@ -3453,7 +3453,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "22f78843c1b5ec58",
+      "uid" : "a0282d49aeab6cee",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -3473,7 +3473,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6f277b4f93f43cff",
+      "uid" : "e2c61d877fcdab62",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -3493,7 +3493,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c95d4c14f30ef071",
+      "uid" : "5701908f168ba23d",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
       "time" : {
@@ -3513,7 +3513,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2e7f8236dbeb4573",
+      "uid" : "292e10c251961cb6",
       "status" : "broken",
       "statusDetails" : "TypeError: estimate_bridge_stablecoin_to_not_native() missing 1 required positional argument: 'owner'",
       "time" : {
@@ -3533,7 +3533,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d38fea65f05c7bc0",
+      "uid" : "522ba20c674fcc19",
       "status" : "passed",
       "time" : {
         "start" : 1685717514935,
@@ -3552,7 +3552,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2164139de49e940c",
+      "uid" : "b7996072fa825da4",
       "status" : "broken",
       "statusDetails" : "TypeError: estimate_bridge_stablecoin_to_not_native() missing 1 required positional argument: 'owner'",
       "time" : {
@@ -3572,7 +3572,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c53ea091ba351fb0",
+      "uid" : "793e93bd96837c93",
       "status" : "broken",
       "statusDetails" : "TypeError: estimate_bridge_not_native_to_native() missing 1 required positional argument: 'owner'",
       "time" : {
@@ -3592,7 +3592,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "70d35289c218a876",
+      "uid" : "111c04d45e5a977d",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -3612,7 +3612,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9fe1583d53c30e52",
+      "uid" : "da29c6dc6d213c0",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -3632,7 +3632,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3c09de1978f66a73",
+      "uid" : "34e7a233701b94aa",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -3652,33 +3652,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3a3328246d42850c",
+      "uid" : "b87ef0dc6dcced99",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
         "start" : 1685717438714,
         "stop" : 1685717440029,
         "duration" : 1315
-      }
-    } ]
-  },
-  "c1d778053ea7a851f95c89ef3cb58d27" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ba3e3848040cef33",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
-      "time" : {
-        "start" : 1685717501844,
-        "stop" : 1685717503715,
-        "duration" : 1871
       }
     } ]
   },
@@ -3692,12 +3672,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5c93cceaefcd5517",
+      "uid" : "5cf5d62b66ce7c5b",
       "status" : "passed",
       "time" : {
         "start" : 1685717477539,
         "stop" : 1685717479477,
         "duration" : 1938
+      }
+    } ]
+  },
+  "c1d778053ea7a851f95c89ef3cb58d27" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2eb4ceafda91e7a7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
+      "time" : {
+        "start" : 1685717501844,
+        "stop" : 1685717503715,
+        "duration" : 1871
       }
     } ]
   },
@@ -3711,33 +3711,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3669a91e4028a011",
+      "uid" : "b477141d1ed06487",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
         "start" : 1685717484489,
         "stop" : 1685717486310,
         "duration" : 1821
-      }
-    } ]
-  },
-  "5ae1e122a6d65fd2d1006c0aab9c03db" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "15e7a100644791e9",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
-      "time" : {
-        "start" : 1685717501887,
-        "stop" : 1685717503251,
-        "duration" : 1364
       }
     } ]
   },
@@ -3751,13 +3731,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "25c1c151d75921ac",
+      "uid" : "bfca9692bb99c8e7",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
         "start" : 1685717508106,
         "stop" : 1685717510312,
         "duration" : 2206
+      }
+    } ]
+  },
+  "5ae1e122a6d65fd2d1006c0aab9c03db" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "160b3ecc98ad7a10",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
+      "time" : {
+        "start" : 1685717501887,
+        "stop" : 1685717503251,
+        "duration" : 1364
       }
     } ]
   },
@@ -3771,7 +3771,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "efbe37eb83cf54b5",
+      "uid" : "4dcd75321d2bed5b",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -3791,7 +3791,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "735797b09e4dfd5",
+      "uid" : "f92dced5e3411f78",
       "status" : "broken",
       "statusDetails" : "jsonschema.exceptions.ValidationError: 'symbol' is a required property\n\nFailed validating 'required' in schema['properties']['data']['items']:\n    {'properties': {'address': {'type': 'string'},\n                    'decimals': {'type': 'integer'},\n                    'logoURI': {'type': 'string'},\n                    'name': {'type': 'string'},\n                    'symbol': {'type': 'string'}},\n     'required': ['symbol', 'name', 'decimals', 'address', 'logoURI'],\n     'type': 'object'}\n\nOn instance['data'][0]:\n    {'address': '0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab',\n     'code': 'WETH.e',\n     'decimals': 18,\n     'logoURI': 'https://tokens.1inch.io/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.png',\n     'name': 'WETH.e'}",
       "time" : {
@@ -3811,7 +3811,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a3a75b1b7afb2ff0",
+      "uid" : "9ebe6c3009636f9d",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -3831,7 +3831,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9c941d21e559c87d",
+      "uid" : "9ce93a387d9b15a0",
       "status" : "broken",
       "statusDetails" : "jsonschema.exceptions.ValidationError: '0' is not of type 'array'\n\nFailed validating 'type' in schema['properties']['data']:\n    {'items': {'properties': {'address': {'type': 'string'},\n                              'decimals': {'type': 'integer'},\n                              'logoURI': {'type': 'string'},\n                              'name': {'type': 'string'},\n                              'symbol': {'type': 'string'}},\n               'required': ['symbol',\n                            'name',\n                            'decimals',\n                            'address',\n                            'logoURI'],\n               'type': 'object'},\n     'type': 'array'}\n\nOn instance['data']:\n    '0'",
       "time" : {
@@ -3851,7 +3851,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6c7d651a5423fc44",
+      "uid" : "9f94e7207f1b9b6b",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -3871,7 +3871,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "73b6117f64da2ef8",
+      "uid" : "a08222c05660f664",
       "status" : "passed",
       "time" : {
         "start" : 1685717413360,
@@ -3890,7 +3890,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b5574c22f083dca6",
+      "uid" : "1bc1c9502cf775c2",
       "status" : "broken",
       "statusDetails" : "TypeError: estimate_bridge_native_to_not_native() missing 1 required positional argument: 'owner'",
       "time" : {
@@ -3910,7 +3910,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5c0b0feef5651ab6",
+      "uid" : "3d9fee09a32ab58b",
       "status" : "broken",
       "statusDetails" : "jsonschema.exceptions.ValidationError: 'symbol' is a required property\n\nFailed validating 'required' in schema['properties']['data']['items']:\n    {'properties': {'address': {'type': 'string'},\n                    'decimals': {'type': 'integer'},\n                    'logoURI': {'type': 'string'},\n                    'name': {'type': 'string'},\n                    'symbol': {'type': 'string'}},\n     'required': ['symbol', 'name', 'decimals', 'address', 'logoURI'],\n     'type': 'object'}\n\nOn instance['data'][0]:\n    {'address': '0x0327112423f3a68efdf1fcf402f6c5cb9f7c33fd',\n     'code': 'BTC++',\n     'decimals': 18,\n     'logoURI': 'https://tokens.1inch.io/0x0327112423f3a68efdf1fcf402f6c5cb9f7c33fd.png',\n     'name': 'BTC++'}",
       "time" : {
@@ -3930,7 +3930,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3d41dd1d0e70de3",
+      "uid" : "6a7afd09c4060642",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -3950,33 +3950,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "97a71bc2819b3179",
+      "uid" : "e08423ababc9beb5",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
         "start" : 1685717473817,
         "stop" : 1685717473818,
         "duration" : 1
-      }
-    } ]
-  },
-  "4de9467177164760289a0bce3ab9f94f" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "440fd39c06860938",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
-      "time" : {
-        "start" : 1685717489112,
-        "stop" : 1685717492081,
-        "duration" : 2969
       }
     } ]
   },
@@ -3990,13 +3970,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6f0943a869480357",
+      "uid" : "c098e1f1d97c78a7",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
         "start" : 1685717436539,
         "stop" : 1685717436539,
         "duration" : 0
+      }
+    } ]
+  },
+  "4de9467177164760289a0bce3ab9f94f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33bf3149109b5254",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685717489112,
+        "stop" : 1685717492081,
+        "duration" : 2969
       }
     } ]
   },
@@ -4010,7 +4010,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9b5c48fa13112684",
+      "uid" : "6536bdd67ba5e355",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -4030,7 +4030,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f4fe18f1b5bd372c",
+      "uid" : "9cfe817563722eea",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -4050,7 +4050,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1a6a67173a1fde69",
+      "uid" : "ef0d42570f21b405",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
       "time" : {
@@ -4070,7 +4070,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a24e660578f517f2",
+      "uid" : "25d83e06ed6554b1",
       "status" : "broken",
       "statusDetails" : "TypeError: estimate_bridge_not_native_to_native() missing 1 required positional argument: 'owner'",
       "time" : {
@@ -4090,7 +4090,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "97fcded03df9b1cf",
+      "uid" : "e0c634d6983d902c",
       "status" : "passed",
       "time" : {
         "start" : 1685717385346,
@@ -4109,7 +4109,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "45a59144389639a6",
+      "uid" : "1a2699d52240cfe9",
       "status" : "broken",
       "statusDetails" : "jsonschema.exceptions.ValidationError: 'symbol' is a required property\n\nFailed validating 'required' in schema['properties']['data']['items']:\n    {'properties': {'chainId': {'type': 'string'},\n                    'decimals': {'type': 'integer'},\n                    'logoURI': {'format': 'uri', 'type': 'string'},\n                    'name': {'type': 'string'},\n                    'net': {'type': 'string'},\n                    'symbol': {'type': 'string'}},\n     'required': ['chainId',\n                  'name',\n                  'symbol',\n                  'decimals',\n                  'net',\n                  'logoURI'],\n     'type': 'object'}\n\nOn instance['data'][0]:\n    {'chainId': '1',\n     'code': 'ETH',\n     'decimals': 18,\n     'logoURI': 'https://assets.coingecko.com/coins/images/279/small/ethereum.png?1595348880',\n     'name': 'Ethereum',\n     'net': 'eth'}",
       "time" : {
@@ -4129,7 +4129,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c9612dbb25f0cda2",
+      "uid" : "f307d08c2e043ea5",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -4149,33 +4149,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7a3283daaa844829",
+      "uid" : "a96fe07b44ee3d99",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
         "start" : 1685717401221,
         "stop" : 1685717402923,
         "duration" : 1702
-      }
-    } ]
-  },
-  "bc9bacd9591d1dc10f013ce72f97cbb3" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "51ff79621e915e93",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
-      "time" : {
-        "start" : 1685717472293,
-        "stop" : 1685717473808,
-        "duration" : 1515
       }
     } ]
   },
@@ -4189,13 +4169,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8a0b5889c2de9599",
+      "uid" : "a5b972d822a7c1fb",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
         "start" : 1685717492108,
         "stop" : 1685717492108,
         "duration" : 0
+      }
+    } ]
+  },
+  "bc9bacd9591d1dc10f013ce72f97cbb3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f90ad28e8bbec9d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685717472293,
+        "stop" : 1685717473808,
+        "duration" : 1515
       }
     } ]
   },
@@ -4209,7 +4209,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8990bfc86d05cba9",
+      "uid" : "682c96a99cad1167",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -4229,7 +4229,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4af55dacff15f42d",
+      "uid" : "cf5268746960859f",
       "status" : "passed",
       "time" : {
         "start" : 1685717385743,
@@ -4248,7 +4248,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "99e3967aef58a72e",
+      "uid" : "7fff2b3c4b217f86",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
       "time" : {
@@ -4268,7 +4268,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c680a04aa938eeba",
+      "uid" : "3d57d2d1652af7dd",
       "status" : "passed",
       "time" : {
         "start" : 1685717384855,
@@ -4287,7 +4287,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dd9e1278b8c33393",
+      "uid" : "bc41ffca5265dde7",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -4307,7 +4307,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "466d7a53ab98b0c9",
+      "uid" : "81326d4fe387a6f6",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
