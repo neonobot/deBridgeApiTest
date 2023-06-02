@@ -1,0 +1,88 @@
+{
+  "uid" : "a08f99b4fc271a61",
+  "name" : "test_get_approve_tx_not_native_token[Ethereum (ETH)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_approve_tx_not_native_token",
+  "historyId" : "259fd4c79811d30c3bafb963681522b7",
+  "time" : {
+    "start" : 1685619231557,
+    "stop" : 1685619231986,
+    "duration" : 429
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "332a92e2661755a0",
+      "name" : "log",
+      "source" : "332a92e2661755a0.txt",
+      "type" : "text/plain",
+      "size" : 985
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Anna.local"
+  }, {
+    "name" : "thread",
+    "value" : "18938-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "network",
+    "value" : "'Ethereum (ETH)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cb83ae1a77829fe0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685615512699,
+        "stop" : 1685615513072,
+        "duration" : 373
+      }
+    }, {
+      "uid" : "a208ebabd0b04306",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685610405805,
+        "stop" : 1685610406339,
+        "duration" : 534
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a08f99b4fc271a61.json",
+  "parameterValues" : [ "'Ethereum (ETH)'" ]
+}

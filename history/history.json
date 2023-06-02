@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "76467307e49c08b",
+      "uid" : "9446843bfb5d128f",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -29,7 +29,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3f3189bb5a5e92a5",
+      "uid" : "e70b67d62cbf49c",
       "status" : "passed",
       "time" : {
         "start" : 1685619191485,
@@ -48,7 +48,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f40fef5e9fbbda64",
+      "uid" : "9f9451526de4f6c2",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -68,7 +68,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e1148432106b0064",
+      "uid" : "eaf8157a32679c89",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -88,7 +88,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bb9580147b86037f",
+      "uid" : "2e1032ec2964b9d5",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -108,7 +108,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c26425b5b5555e5b",
+      "uid" : "135cf128914a9d72",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -128,7 +128,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e0215770419301e5",
+      "uid" : "40ea7da946f95316",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -148,7 +148,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9c3aad426294a26a",
+      "uid" : "f7f45b16cc55d380",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -168,7 +168,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "66c702ff4dc5ffeb",
+      "uid" : "a479eb5a45efa9c0",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -188,7 +188,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e29121691973fe7b",
+      "uid" : "9dd173e48e5d9748",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -208,7 +208,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b64808914fa6d7d9",
+      "uid" : "c46e2dbd08a79412",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -228,33 +228,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b7d03a28619b238b",
+      "uid" : "7b82df119d763d8c",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619212907,
         "stop" : 1685619213269,
         "duration" : 362
-      }
-    } ]
-  },
-  "34c1ea9f2c5f6b04c9d82fc804bb40ea" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "6b283225d93e41f3",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
-      "time" : {
-        "start" : 1685619215935,
-        "stop" : 1685619215936,
-        "duration" : 1
       }
     } ]
   },
@@ -268,13 +248,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a932f11b59dee463",
+      "uid" : "616532603e5d0af1",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619206934,
         "stop" : 1685619207301,
         "duration" : 367
+      }
+    } ]
+  },
+  "34c1ea9f2c5f6b04c9d82fc804bb40ea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2c2ff21125573ff0",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685619215935,
+        "stop" : 1685619215936,
+        "duration" : 1
       }
     } ]
   },
@@ -288,7 +288,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f31b3ae3195c4b2b",
+      "uid" : "fadbe7d40e82f3f2",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -308,7 +308,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "afd92caeea06bda1",
+      "uid" : "fb58c4577db062e7",
       "status" : "passed",
       "time" : {
         "start" : 1685619216942,
@@ -327,7 +327,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9f65336f3c2ea6e4",
+      "uid" : "a5d1d0bdc0e2a1b6",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -347,7 +347,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "beb227a2a3dc464b",
+      "uid" : "86ceb3febf0965ca",
       "status" : "broken",
       "statusDetails" : "jsonschema.exceptions.ValidationError: 'symbol' is a required property\n\nFailed validating 'required' in schema['properties']['data']['items']:\n    {'properties': {'address': {'type': 'string'},\n                    'decimals': {'type': 'integer'},\n                    'logoURI': {'type': 'string'},\n                    'name': {'type': 'string'},\n                    'symbol': {'type': 'string'}},\n     'required': ['symbol', 'name', 'decimals', 'address', 'logoURI'],\n     'type': 'object'}\n\nOn instance['data'][0]:\n    {'address': '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',\n     'code': 'WBNB',\n     'decimals': 18,\n     'logoURI': 'https://tokens.1inch.io/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c_1.png',\n     'name': 'WBNB'}",
       "time" : {
@@ -367,7 +367,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7c626455112ac904",
+      "uid" : "e6b8396a4c74386f",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -387,7 +387,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8cf60cd10d662395",
+      "uid" : "620d0df4c65b4e87",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
       "time" : {
@@ -407,7 +407,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d4072ddfd97b7f78",
+      "uid" : "32510981bc449fc2",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -427,7 +427,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3912fdbf03684827",
+      "uid" : "57e5b47b5e384aa4",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -447,7 +447,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8e71d4f13701693",
+      "uid" : "e917ee7f4e109473",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -467,7 +467,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fc7a597c5b36d046",
+      "uid" : "522adaed10d2bcd5",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -487,7 +487,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3ec69603ff694d7b",
+      "uid" : "c8ca2fc3b06f7ebb",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -507,7 +507,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "45498ea228e3ab1c",
+      "uid" : "923784bd51a462f6",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -527,7 +527,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "650a4713e9fd32ab",
+      "uid" : "d10cb682815a6cb5",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -547,7 +547,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "46e38a800d86a6fd",
+      "uid" : "e961130d3603848b",
       "status" : "passed",
       "time" : {
         "start" : 1685619194546,
@@ -566,7 +566,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9974e8255afad6a7",
+      "uid" : "da1127a0da01ff4e",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -586,7 +586,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "513306a46045837c",
+      "uid" : "e44ebb597ebccd37",
       "status" : "broken",
       "statusDetails" : "jsonschema.exceptions.ValidationError: 'symbol' is a required property\n\nFailed validating 'required' in schema['properties']['data']['items']:\n    {'properties': {'address': {'type': 'string'},\n                    'decimals': {'type': 'integer'},\n                    'logoURI': {'type': 'string'},\n                    'name': {'type': 'string'},\n                    'symbol': {'type': 'string'}},\n     'required': ['symbol', 'name', 'decimals', 'address', 'logoURI'],\n     'type': 'object'}\n\nOn instance['data'][0]:\n    {'address': '0xbfa641051ba0a0ad1b0acf549a89536a0d76472e',\n     'code': 'BADGER',\n     'decimals': 18,\n     'logoURI': 'https://tokens.1inch.io/0x3472a5a71965499acd81997a54bba8d852c6e53d.png',\n     'name': 'BADGER'}",
       "time" : {
@@ -606,7 +606,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2324bb6184f907e0",
+      "uid" : "c610c550621e93d",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -626,33 +626,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7b2c336a49eca5e2",
+      "uid" : "f891089789ed9fa2",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619213742,
         "stop" : 1685619214117,
         "duration" : 375
-      }
-    } ]
-  },
-  "707a75be985a5695c1d2649a513c4b22" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "d6a61fc5acd2c3be",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
-      "time" : {
-        "start" : 1685619249571,
-        "stop" : 1685619249572,
-        "duration" : 1
       }
     } ]
   },
@@ -666,13 +646,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "550a429ce2822abd",
+      "uid" : "ca2cb7e17a750b52",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619234795,
         "stop" : 1685619235181,
         "duration" : 386
+      }
+    } ]
+  },
+  "707a75be985a5695c1d2649a513c4b22" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "83bd344ce59a1d8a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685619249571,
+        "stop" : 1685619249572,
+        "duration" : 1
       }
     } ]
   },
@@ -686,7 +686,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ea66b93aff7757a2",
+      "uid" : "c619de84e07291ab",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -706,7 +706,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a9aac2b52f8da3dc",
+      "uid" : "d1e0f9b44c1b079f",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -726,53 +726,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "310535b7b5ad4ba5",
+      "uid" : "5a23715c184a043a",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619207741,
         "stop" : 1685619208137,
         "duration" : 396
-      }
-    } ]
-  },
-  "e1a67291b8f3b2923abe1ce85dc88fdd" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e5c271d7c4cb6d6a",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
-      "time" : {
-        "start" : 1685619209517,
-        "stop" : 1685619209903,
-        "duration" : 386
-      }
-    } ]
-  },
-  "ea08ca7b3e326565271a3670d6e480a5" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ea671aa538e273ee",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
-      "time" : {
-        "start" : 1685619239890,
-        "stop" : 1685619240358,
-        "duration" : 468
       }
     } ]
   },
@@ -786,13 +746,53 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bc1dd8e64c7b5f42",
+      "uid" : "8c4ba9c19246d937",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619247367,
         "stop" : 1685619247752,
         "duration" : 385
+      }
+    } ]
+  },
+  "ea08ca7b3e326565271a3670d6e480a5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "91a95aae3982a368",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
+      "time" : {
+        "start" : 1685619239890,
+        "stop" : 1685619240358,
+        "duration" : 468
+      }
+    } ]
+  },
+  "e1a67291b8f3b2923abe1ce85dc88fdd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1cd864ac5c916b3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
+      "time" : {
+        "start" : 1685619209517,
+        "stop" : 1685619209903,
+        "duration" : 386
       }
     } ]
   },
@@ -806,7 +806,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5b16d1a3ec6a3ca6",
+      "uid" : "3cdc1cf2c4538989",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -826,7 +826,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6ecb784a2e367504",
+      "uid" : "8f26a061d95f0fb1",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -846,7 +846,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "618f0224db72601f",
+      "uid" : "a6c4ec5df105aba7",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -866,33 +866,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d5380a9dcaebedb0",
+      "uid" : "b8c05ecf191608f7",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619218151,
         "stop" : 1685619218575,
         "duration" : 424
-      }
-    } ]
-  },
-  "990f9e61db71c1fd6bd31bf8f83ccc5d" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "81f4cf13a18e3332",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
-      "time" : {
-        "start" : 1685619248260,
-        "stop" : 1685619248660,
-        "duration" : 400
       }
     } ]
   },
@@ -906,7 +886,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "625ae750ba101b78",
+      "uid" : "8d83eb0c294c9e2e",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -926,13 +906,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "148e540f62d0913",
+      "uid" : "7eec027535e51daa",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619203406,
         "stop" : 1685619203829,
         "duration" : 423
+      }
+    } ]
+  },
+  "990f9e61db71c1fd6bd31bf8f83ccc5d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "34bc559d32fcde33",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
+      "time" : {
+        "start" : 1685619248260,
+        "stop" : 1685619248660,
+        "duration" : 400
       }
     } ]
   },
@@ -946,7 +946,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "832f822ac1962161",
+      "uid" : "928b7e42a122037e",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -966,7 +966,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "83b12b68289f5f54",
+      "uid" : "e34799acea9524bf",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -986,7 +986,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "96f545114310785a",
+      "uid" : "6359e411aa1c4f70",
       "status" : "passed",
       "time" : {
         "start" : 1685619195435,
@@ -1005,7 +1005,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d98ba561f69e62bf",
+      "uid" : "47f9e943b982eebf",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -1025,7 +1025,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "45b9995f84e1baab",
+      "uid" : "aeb59cdb32913973",
       "status" : "passed",
       "time" : {
         "start" : 1685619193642,
@@ -1044,7 +1044,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c184d23f3cf4ccaa",
+      "uid" : "7a237f618bd9eba0",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -1064,7 +1064,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2ea432195535f808",
+      "uid" : "6dee586b4fc1833",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -1084,7 +1084,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ae3ae0aab2837096",
+      "uid" : "385e717bbfea95ac",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -1104,7 +1104,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dafcbb7b7553ab05",
+      "uid" : "fc5ad13da50d04b2",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -1124,7 +1124,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f866e1d137389152",
+      "uid" : "cf481d45d457b8f8",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -1144,7 +1144,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cef735657fc913d3",
+      "uid" : "99cd6604c8a29f17",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -1164,7 +1164,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "47a4df5ee2fd510f",
+      "uid" : "ee79d618493f8a0f",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -1184,7 +1184,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e0f1f369dfefdebd",
+      "uid" : "3f3399ebd156354a",
       "status" : "broken",
       "statusDetails" : "jsonschema.exceptions.ValidationError: '0' is not of type 'array'\n\nFailed validating 'type' in schema['properties']['data']:\n    {'items': {'properties': {'address': {'type': 'string'},\n                              'decimals': {'type': 'integer'},\n                              'logoURI': {'type': 'string'},\n                              'name': {'type': 'string'},\n                              'symbol': {'type': 'string'}},\n               'required': ['symbol',\n                            'name',\n                            'decimals',\n                            'address',\n                            'logoURI'],\n               'type': 'object'},\n     'type': 'array'}\n\nOn instance['data']:\n    '0'",
       "time" : {
@@ -1204,7 +1204,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ef906dc2c3ec2b71",
+      "uid" : "d2e1f5d099ab76b6",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -1224,33 +1224,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3240f0577475d629",
+      "uid" : "dd0cbf077d3cc03",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619243607,
         "stop" : 1685619244017,
         "duration" : 410
-      }
-    } ]
-  },
-  "0ed472186c32b2bb2494701bde480ea6" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "26d5d915857f3115",
-      "status" : "broken",
-      "statusDetails" : "jsonschema.exceptions.ValidationError: '0' is not of type 'array'\n\nFailed validating 'type' in schema['properties']['data']:\n    {'items': {'properties': {'address': {'type': 'string'},\n                              'decimals': {'type': 'integer'},\n                              'logoURI': {'type': 'string'},\n                              'name': {'type': 'string'},\n                              'symbol': {'type': 'string'}},\n               'required': ['symbol',\n                            'name',\n                            'decimals',\n                            'address',\n                            'logoURI'],\n               'type': 'object'},\n     'type': 'array'}\n\nOn instance['data']:\n    '0'",
-      "time" : {
-        "start" : 1685619230515,
-        "stop" : 1685619231078,
-        "duration" : 563
       }
     } ]
   },
@@ -1264,13 +1244,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "173d0a114a61260b",
+      "uid" : "90fb5e7912975827",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619202501,
         "stop" : 1685619202903,
         "duration" : 402
+      }
+    } ]
+  },
+  "0ed472186c32b2bb2494701bde480ea6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ee55e9175a54bdfe",
+      "status" : "broken",
+      "statusDetails" : "jsonschema.exceptions.ValidationError: '0' is not of type 'array'\n\nFailed validating 'type' in schema['properties']['data']:\n    {'items': {'properties': {'address': {'type': 'string'},\n                              'decimals': {'type': 'integer'},\n                              'logoURI': {'type': 'string'},\n                              'name': {'type': 'string'},\n                              'symbol': {'type': 'string'}},\n               'required': ['symbol',\n                            'name',\n                            'decimals',\n                            'address',\n                            'logoURI'],\n               'type': 'object'},\n     'type': 'array'}\n\nOn instance['data']:\n    '0'",
+      "time" : {
+        "start" : 1685619230515,
+        "stop" : 1685619231078,
+        "duration" : 563
       }
     } ]
   },
@@ -1284,7 +1284,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a502795386efa895",
+      "uid" : "a73b6c28b9c1d0f3",
       "status" : "broken",
       "statusDetails" : "jsonschema.exceptions.ValidationError: '0' is not of type 'array'\n\nFailed validating 'type' in schema['properties']['data']:\n    {'items': {'properties': {'address': {'type': 'string'},\n                              'decimals': {'type': 'integer'},\n                              'logoURI': {'type': 'string'},\n                              'name': {'type': 'string'},\n                              'symbol': {'type': 'string'}},\n               'required': ['symbol',\n                            'name',\n                            'decimals',\n                            'address',\n                            'logoURI'],\n               'type': 'object'},\n     'type': 'array'}\n\nOn instance['data']:\n    '0'",
       "time" : {
@@ -1304,7 +1304,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a56ad1d222f1651b",
+      "uid" : "2eecb5b942de70d",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -1324,33 +1324,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8108cafd764ffee2",
+      "uid" : "6098675cbb8948ba",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
         "start" : 1685619225776,
         "stop" : 1685619227444,
         "duration" : 1668
-      }
-    } ]
-  },
-  "1ce6bc28cdf22f2a7cbc0c1aea62b6c6" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "6bc201dba046c3db",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
-      "time" : {
-        "start" : 1685619248295,
-        "stop" : 1685619248660,
-        "duration" : 365
       }
     } ]
   },
@@ -1364,13 +1344,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bddac175f1b6962",
+      "uid" : "1bf60ffa337f5ef7",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619227103,
         "stop" : 1685619227666,
         "duration" : 563
+      }
+    } ]
+  },
+  "1ce6bc28cdf22f2a7cbc0c1aea62b6c6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3f993a2d3085d329",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
+      "time" : {
+        "start" : 1685619248295,
+        "stop" : 1685619248660,
+        "duration" : 365
       }
     } ]
   },
@@ -1384,7 +1384,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8a3cca4b5e5da3ff",
+      "uid" : "2c2849a14ecf31c2",
       "status" : "passed",
       "time" : {
         "start" : 1685619191673,
@@ -1403,7 +1403,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ce1fbdc9a74ea644",
+      "uid" : "16664baffcb5ee8e",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -1423,7 +1423,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "93678c3602fa8896",
+      "uid" : "4a2e9c6b64e0a3fe",
       "status" : "passed",
       "time" : {
         "start" : 1685619208045,
@@ -1442,7 +1442,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "34805311e8277f0b",
+      "uid" : "90397a818bc8429c",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -1462,7 +1462,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "435e1b91832047fa",
+      "uid" : "46f531b5981c657b",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -1482,7 +1482,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c881d155e926d2ef",
+      "uid" : "4dc00ec1120d8cc0",
       "status" : "passed",
       "time" : {
         "start" : 1685619192025,
@@ -1501,13 +1501,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bd2430695998c14d",
+      "uid" : "63a1499db578c3d6",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619244050,
         "stop" : 1685619244539,
         "duration" : 489
+      }
+    } ]
+  },
+  "f1b36cb061c5a38894796bcb59ec822f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8a8ff3a5bde3dd32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619204027,
+        "stop" : 1685619205936,
+        "duration" : 1909
       }
     } ]
   },
@@ -1521,7 +1540,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "88aa9a4d1f1c9854",
+      "uid" : "82e4fe10c6db2e9a",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -1541,32 +1560,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8c08c0af54fd9185",
+      "uid" : "662846a487f5286c",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619223042,
         "stop" : 1685619223516,
         "duration" : 474
-      }
-    } ]
-  },
-  "f1b36cb061c5a38894796bcb59ec822f" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e613900f8ba34bd2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1685619204027,
-        "stop" : 1685619205936,
-        "duration" : 1909
       }
     } ]
   },
@@ -1580,7 +1580,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "aba5b19b04fb8241",
+      "uid" : "52dc6fa1d088b51c",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -1600,33 +1600,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "53a00835088e2e11",
+      "uid" : "af457a95bd42245c",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
         "start" : 1685619202928,
         "stop" : 1685619202929,
         "duration" : 1
-      }
-    } ]
-  },
-  "00853a9fd8084c8060da821f2f60b9a0" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "2702c8f380db37b1",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
-      "time" : {
-        "start" : 1685619213818,
-        "stop" : 1685619216932,
-        "duration" : 3114
       }
     } ]
   },
@@ -1640,13 +1620,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7515925e413a5676",
+      "uid" : "bfd0edb5d9cbc41b",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619236165,
         "stop" : 1685619236596,
         "duration" : 431
+      }
+    } ]
+  },
+  "00853a9fd8084c8060da821f2f60b9a0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9c47ef2bf938fcb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
+      "time" : {
+        "start" : 1685619213818,
+        "stop" : 1685619216932,
+        "duration" : 3114
       }
     } ]
   },
@@ -1660,7 +1660,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b09dc4144c3e0577",
+      "uid" : "2afd2ab311ebc4b2",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -1680,7 +1680,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fd9b21d8bf8c8e6e",
+      "uid" : "a5d71dac15dd17df",
       "status" : "passed",
       "time" : {
         "start" : 1685619194101,
@@ -1699,7 +1699,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "aee8212ddb13f1c0",
+      "uid" : "cff5d0c14b688708",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -1719,7 +1719,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "abee770ab5de917e",
+      "uid" : "e1792d4ba344130c",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -1739,7 +1739,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "44c8e08d62746544",
+      "uid" : "95d6ee654ff95a80",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -1759,7 +1759,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "409bdd5d392a7a9c",
+      "uid" : "ae42c4ffc1e1db77",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -1779,7 +1779,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8cd968fe0cfc8505",
+      "uid" : "32c7226114d6c1be",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -1799,33 +1799,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1b4b4bba4c6e2a54",
+      "uid" : "8825b0e02a35a35a",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
         "start" : 1685619209515,
         "stop" : 1685619209515,
         "duration" : 0
-      }
-    } ]
-  },
-  "dda50dd3891e895503b1d311ad0a5e74" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c36dfac06bb8d073",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
-      "time" : {
-        "start" : 1685619223038,
-        "stop" : 1685619223039,
-        "duration" : 1
       }
     } ]
   },
@@ -1839,12 +1819,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "84a3c7dae7051da6",
+      "uid" : "64414ce0401309e9",
       "status" : "passed",
       "time" : {
         "start" : 1685619198678,
         "stop" : 1685619204023,
         "duration" : 5345
+      }
+    } ]
+  },
+  "dda50dd3891e895503b1d311ad0a5e74" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8994bcda8a4e2098",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685619223038,
+        "stop" : 1685619223039,
+        "duration" : 1
       }
     } ]
   },
@@ -1858,7 +1858,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "60fe70740f1d31c",
+      "uid" : "8dc12561c2c6ba05",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -1878,7 +1878,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a8b8184427065748",
+      "uid" : "ecff3de95c45c85a",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -1898,7 +1898,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "de242dcb801d50f8",
+      "uid" : "83154cbe55e3b877",
       "status" : "passed",
       "time" : {
         "start" : 1685619191863,
@@ -1917,7 +1917,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "49209f845dc336a3",
+      "uid" : "a73d52689bbb784",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -1937,7 +1937,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "55f48ca1eb2f2847",
+      "uid" : "d6f213d2ee4793f7",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -1957,33 +1957,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c4fb4e503345adca",
+      "uid" : "ba2a1986c1679dae",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619219532,
         "stop" : 1685619220110,
         "duration" : 578
-      }
-    } ]
-  },
-  "6b768a8512a11f5dcd52f49fbc5bfbf6" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "588fe16022aa11db",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
-      "time" : {
-        "start" : 1685619206511,
-        "stop" : 1685619206909,
-        "duration" : 398
       }
     } ]
   },
@@ -1997,13 +1977,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8f4e174e68e3d5fe",
+      "uid" : "838806155a4f3db5",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
         "start" : 1685619213738,
         "stop" : 1685619213739,
         "duration" : 1
+      }
+    } ]
+  },
+  "6b768a8512a11f5dcd52f49fbc5bfbf6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a03e6416b45e0727",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
+      "time" : {
+        "start" : 1685619206511,
+        "stop" : 1685619206909,
+        "duration" : 398
       }
     } ]
   },
@@ -2017,7 +2017,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cf12a4b86cb74685",
+      "uid" : "a7a4abaa1e025ae2",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -2037,7 +2037,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4c5aacac782ff36d",
+      "uid" : "f1acf362911daa8e",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -2057,7 +2057,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bac5b921badbddae",
+      "uid" : "98148dcb1f27213c",
       "status" : "passed",
       "time" : {
         "start" : 1685619193163,
@@ -2076,7 +2076,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "402579e9ed2a54be",
+      "uid" : "b416ea162d8ba082",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -2096,7 +2096,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7c88d1cf8b67eab9",
+      "uid" : "3986cfc5dec83c90",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -2116,7 +2116,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "36358c732a8fc7b4",
+      "uid" : "13edc676790ac897",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -2136,7 +2136,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b863f7bd8db3318c",
+      "uid" : "a066172275cbf9f6",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"net\\\" is required\"}.",
       "time" : {
@@ -2156,7 +2156,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "af8e590b9e7f6abd",
+      "uid" : "8439f718998eb0fe",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -2176,7 +2176,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fbf9fa9fb8664c7c",
+      "uid" : "5906c9c36b09ee1c",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -2196,7 +2196,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cb8663f3b00fd7ff",
+      "uid" : "a6e3dd583646d081",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -2216,7 +2216,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "962dae68c4b5e541",
+      "uid" : "8dd462a1ae220ec3",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -2236,7 +2236,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1800ca6fb883d5dd",
+      "uid" : "fc8012b9ebe4ca21",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -2256,33 +2256,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "310a97fbb6db905d",
+      "uid" : "7694764ebbfbeddd",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
         "start" : 1685619246534,
         "stop" : 1685619246534,
         "duration" : 0
-      }
-    } ]
-  },
-  "38db85ed7703a6fadd32ba3abb0ec19b" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "483df720fdc25c2a",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
-      "time" : {
-        "start" : 1685619201952,
-        "stop" : 1685619202482,
-        "duration" : 530
       }
     } ]
   },
@@ -2296,13 +2276,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "692eaa5359351ced",
+      "uid" : "120bcc2a597207ec",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619241201,
         "stop" : 1685619241588,
         "duration" : 387
+      }
+    } ]
+  },
+  "38db85ed7703a6fadd32ba3abb0ec19b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7c03c8f078538e76",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
+      "time" : {
+        "start" : 1685619201952,
+        "stop" : 1685619202482,
+        "duration" : 530
       }
     } ]
   },
@@ -2316,7 +2316,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3544b1aba4a47498",
+      "uid" : "74f2b9873b6b3168",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -2336,7 +2336,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "43476388e13a548c",
+      "uid" : "930ceca21006ee12",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -2356,7 +2356,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e8604cb490e055ff",
+      "uid" : "a4beebbf603a7852",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -2376,33 +2376,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6f129b4dbdc9c477",
+      "uid" : "35f8026764c5ea4",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619221660,
         "stop" : 1685619222075,
         "duration" : 415
-      }
-    } ]
-  },
-  "12985252f9ea37e041a11597de0d7f0e" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "8aba838d0891d6d9",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
-      "time" : {
-        "start" : 1685619242203,
-        "stop" : 1685619242597,
-        "duration" : 394
       }
     } ]
   },
@@ -2416,13 +2396,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bd0b4760f14a0dd4",
+      "uid" : "944f89ccf976194a",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619220773,
         "stop" : 1685619221184,
         "duration" : 411
+      }
+    } ]
+  },
+  "12985252f9ea37e041a11597de0d7f0e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d5af2bd8811724a9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
+      "time" : {
+        "start" : 1685619242203,
+        "stop" : 1685619242597,
+        "duration" : 394
       }
     } ]
   },
@@ -2436,7 +2436,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dcede46f86e7779f",
+      "uid" : "372c8a9076e9fdf2",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -2456,7 +2456,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "73ca692b9da1f80b",
+      "uid" : "2ae3ebf228961af2",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -2476,7 +2476,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6b642e901610a7a3",
+      "uid" : "41ca51682ef0ff4c",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -2496,7 +2496,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b4428a1fc746c7ee",
+      "uid" : "4cf1aef891b3a14e",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -2516,33 +2516,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "de8323a0eb09a320",
+      "uid" : "c249ac2b0310b30d",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619213294,
         "stop" : 1685619213681,
         "duration" : 387
-      }
-    } ]
-  },
-  "fbc629956df7130defac479161790fbf" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "bae404aa77dcdac0",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
-      "time" : {
-        "start" : 1685619235742,
-        "stop" : 1685619236131,
-        "duration" : 389
       }
     } ]
   },
@@ -2556,13 +2536,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f1417dcfbaf3d5a6",
+      "uid" : "44872781d4e39ab7",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619235745,
         "stop" : 1685619236130,
         "duration" : 385
+      }
+    } ]
+  },
+  "fbc629956df7130defac479161790fbf" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5605539e8345c709",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
+      "time" : {
+        "start" : 1685619235742,
+        "stop" : 1685619236131,
+        "duration" : 389
       }
     } ]
   },
@@ -2576,7 +2576,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "69d22218273a7704",
+      "uid" : "7e3be18dfd4cf15b",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -2596,32 +2596,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "59554256c76ebf",
+      "uid" : "40c0561c96ee86c7",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619210345,
         "stop" : 1685619210779,
         "duration" : 434
-      }
-    } ]
-  },
-  "a67cddd01c3917d93375cc4fa6be92f4" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "3eadb2e8af7fed97",
-      "status" : "passed",
-      "time" : {
-        "start" : 1685619195040,
-        "stop" : 1685619195424,
-        "duration" : 384
       }
     } ]
   },
@@ -2635,13 +2616,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8f874227c027998f",
+      "uid" : "2f43062fdaff5aaf",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619240377,
         "stop" : 1685619240829,
         "duration" : 452
+      }
+    } ]
+  },
+  "a67cddd01c3917d93375cc4fa6be92f4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bd7229b91b535740",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619195040,
+        "stop" : 1685619195424,
+        "duration" : 384
       }
     } ]
   },
@@ -2655,7 +2655,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5f5e2167600d5629",
+      "uid" : "f15a0ad56109c295",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -2675,7 +2675,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "534dc2b983d20d24",
+      "uid" : "f30e6e3779309a0e",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -2695,53 +2695,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b1bf866db32fc4bd",
+      "uid" : "7b01ebc0a5f32c86",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619240335,
         "stop" : 1685619240715,
         "duration" : 380
-      }
-    } ]
-  },
-  "2464d1d82679bdf5805d3cff8eb307ab" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "886e0d6d227f707c",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
-      "time" : {
-        "start" : 1685619242622,
-        "stop" : 1685619243146,
-        "duration" : 524
-      }
-    } ]
-  },
-  "cae94c6e096814b48265603f69345592" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "56a46a81198f83fc",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
-      "time" : {
-        "start" : 1685619227699,
-        "stop" : 1685619228302,
-        "duration" : 603
       }
     } ]
   },
@@ -2755,13 +2715,53 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8ae8e6637ec11059",
+      "uid" : "9851232bdf5d65e2",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619209056,
         "stop" : 1685619209492,
         "duration" : 436
+      }
+    } ]
+  },
+  "cae94c6e096814b48265603f69345592" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b515040bf8a46b4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
+      "time" : {
+        "start" : 1685619227699,
+        "stop" : 1685619228302,
+        "duration" : 603
+      }
+    } ]
+  },
+  "2464d1d82679bdf5805d3cff8eb307ab" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "68806f4a78f1c280",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
+      "time" : {
+        "start" : 1685619242622,
+        "stop" : 1685619243146,
+        "duration" : 524
       }
     } ]
   },
@@ -2775,7 +2775,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "56138bf97e3a159c",
+      "uid" : "d05babc8036e7ce",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
       "time" : {
@@ -2795,7 +2795,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "821008c829099b30",
+      "uid" : "bf41faec788a7514",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -2815,7 +2815,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b9af2c0719d122a0",
+      "uid" : "7c06826f414c0c56",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -2835,7 +2835,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b3e3b4742a7a8cf1",
+      "uid" : "b98b6a1ffb1406f",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -2855,7 +2855,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fe5dbd4bbb75609a",
+      "uid" : "a08f99b4fc271a61",
       "status" : "passed",
       "time" : {
         "start" : 1685619231557,
@@ -2874,7 +2874,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2233cd50980a0d87",
+      "uid" : "27c0bb858a21fa88",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -2894,7 +2894,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b3828c41d9abf491",
+      "uid" : "4559eec2261433e8",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -2914,33 +2914,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "da31bd7cf7e50657",
+      "uid" : "ab719916e491c16a",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
         "start" : 1685619207327,
         "stop" : 1685619207328,
         "duration" : 1
-      }
-    } ]
-  },
-  "e583e8c42d81abb3598da768991bd320" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ba42df73f8aee543",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
-      "time" : {
-        "start" : 1685619244248,
-        "stop" : 1685619244726,
-        "duration" : 478
       }
     } ]
   },
@@ -2954,13 +2934,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e9d5f7c4e177b9",
+      "uid" : "5b2853424ea52423",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619234803,
         "stop" : 1685619235211,
         "duration" : 408
+      }
+    } ]
+  },
+  "e583e8c42d81abb3598da768991bd320" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71ae3e49eea09eaa",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
+      "time" : {
+        "start" : 1685619244248,
+        "stop" : 1685619244726,
+        "duration" : 478
       }
     } ]
   },
@@ -2974,7 +2974,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "94109411cb634ea6",
+      "uid" : "a57ea7ff66a4f9b8",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -2994,7 +2994,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b876f7f6d305432",
+      "uid" : "c4282f1fec81982e",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3014,7 +3014,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "af7c6ac9e8ed7cb8",
+      "uid" : "ed455b1911a9793c",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3034,7 +3034,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6af3248f6f5f66ae",
+      "uid" : "8f72eae11cb4ad9b",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -3054,7 +3054,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a8230484b60f2cff",
+      "uid" : "f7bd0599b6dc5c95",
       "status" : "broken",
       "statusDetails" : "jsonschema.exceptions.ValidationError: '0' is not of type 'array'\n\nFailed validating 'type' in schema['properties']['data']:\n    {'items': {'properties': {'address': {'type': 'string'},\n                              'decimals': {'type': 'integer'},\n                              'logoURI': {'type': 'string'},\n                              'name': {'type': 'string'},\n                              'symbol': {'type': 'string'}},\n               'required': ['symbol',\n                            'name',\n                            'decimals',\n                            'address',\n                            'logoURI'],\n               'type': 'object'},\n     'type': 'array'}\n\nOn instance['data']:\n    '0'",
       "time" : {
@@ -3074,7 +3074,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9c049b1f5f27241b",
+      "uid" : "d5f8b31f499310ff",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3094,7 +3094,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4c4ff9c9fb294566",
+      "uid" : "c573d4f01ecb3462",
       "status" : "passed",
       "time" : {
         "start" : 1685619192244,
@@ -3113,33 +3113,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1b88e70d5ed5e783",
+      "uid" : "ec9d1a61a81e989b",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619244588,
         "stop" : 1685619245009,
         "duration" : 421
-      }
-    } ]
-  },
-  "a577268c7ed5e099702cb571fbeacd8b" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "dcfa16f24dc8e0b0",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
-      "time" : {
-        "start" : 1685619234792,
-        "stop" : 1685619234792,
-        "duration" : 0
       }
     } ]
   },
@@ -3153,12 +3133,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f03a430084f2250c",
+      "uid" : "579fcf9969532836",
       "status" : "passed",
       "time" : {
         "start" : 1685619193607,
         "stop" : 1685619194092,
         "duration" : 485
+      }
+    } ]
+  },
+  "a577268c7ed5e099702cb571fbeacd8b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d344b285d4a50b54",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685619234792,
+        "stop" : 1685619234792,
+        "duration" : 0
       }
     } ]
   },
@@ -3172,7 +3172,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e687788299ad60b1",
+      "uid" : "77a638f11026d6b1",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3192,7 +3192,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3eefff89cf5f9bb1",
+      "uid" : "716a1d3a078a3826",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3212,7 +3212,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3ab2ca760dc748e4",
+      "uid" : "b61fccc80ee1b693",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3232,7 +3232,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4de6ebe596db35e4",
+      "uid" : "d69d17f10459b283",
       "status" : "passed",
       "time" : {
         "start" : 1685619192739,
@@ -3251,7 +3251,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4baa42d426cc7a6",
+      "uid" : "6452a80eb4578888",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3271,7 +3271,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9ea581a9294fae28",
+      "uid" : "d91a90c61fcd0d63",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -3291,33 +3291,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dd037ef8acab8aa9",
+      "uid" : "f081c45b22deac2f",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619248693,
         "stop" : 1685619249106,
         "duration" : 413
-      }
-    } ]
-  },
-  "0500dedea261aa0eb96be5786223e5df" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e981efef8112508",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
-      "time" : {
-        "start" : 1685619241352,
-        "stop" : 1685619241761,
-        "duration" : 409
       }
     } ]
   },
@@ -3331,13 +3311,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6ba47c8ac94d34e2",
+      "uid" : "cc830843cdf1ce71",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619228342,
         "stop" : 1685619228814,
         "duration" : 472
+      }
+    } ]
+  },
+  "0500dedea261aa0eb96be5786223e5df" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b7b26d61737cecba",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
+      "time" : {
+        "start" : 1685619241352,
+        "stop" : 1685619241761,
+        "duration" : 409
       }
     } ]
   },
@@ -3351,7 +3351,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a0569350689f4e66",
+      "uid" : "5c72fc6d18aa8e73",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3371,7 +3371,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "61f52a8029f8fd54",
+      "uid" : "43a8e500b8cba120",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3391,7 +3391,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3d70e8b82b1714dd",
+      "uid" : "6d796c18e7a6a9e1",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3411,7 +3411,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "394cc93ce921b4ae",
+      "uid" : "3172b3895e796f95",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3431,7 +3431,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6e9c5eaf6f15bb16",
+      "uid" : "633e0633389c7909",
       "status" : "passed",
       "time" : {
         "start" : 1685619190974,
@@ -3450,7 +3450,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b489f9fa05948d01",
+      "uid" : "53773d810332a006",
       "status" : "broken",
       "statusDetails" : "jsonschema.exceptions.ValidationError: 'symbol' is a required property\n\nFailed validating 'required' in schema['properties']['data']['items']:\n    {'properties': {'address': {'type': 'string'},\n                    'decimals': {'type': 'integer'},\n                    'logoURI': {'type': 'string'},\n                    'name': {'type': 'string'},\n                    'symbol': {'type': 'string'}},\n     'required': ['symbol', 'name', 'decimals', 'address', 'logoURI'],\n     'type': 'object'}\n\nOn instance['data'][0]:\n    {'address': '0xd6df932a45c0f255f85145f286ea0b292b21c90b',\n     'code': 'AAVE',\n     'decimals': 18,\n     'logoURI': 'https://tokens.1inch.io/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9.png',\n     'name': 'AAVE'}",
       "time" : {
@@ -3470,7 +3470,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fd6e117e429c08ca",
+      "uid" : "bd2e1f92d004701b",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3490,7 +3490,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c46b39688262bec7",
+      "uid" : "49977adfa62f3fde",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3510,7 +3510,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f7f76a3a4bffbdf2",
+      "uid" : "ebe8bbee222d5bbe",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3530,7 +3530,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4507fb93614ba552",
+      "uid" : "a6f5f94917bf2e02",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
       "time" : {
@@ -3550,7 +3550,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5cc47fbcc8b7d27d",
+      "uid" : "6c400d55f29ada64",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3570,7 +3570,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9d4c6f625ce9ab82",
+      "uid" : "89bbbe054456bddc",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
       "time" : {
@@ -3590,7 +3590,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "615e79addc0538bc",
+      "uid" : "9b72369acf1119f2",
       "status" : "passed",
       "time" : {
         "start" : 1685619212447,
@@ -3609,7 +3609,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "acb27d4877a74272",
+      "uid" : "f4e25f52a2f4ab7e",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3629,7 +3629,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "238b3534aa2f3f96",
+      "uid" : "c607ef80b3d15b03",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3649,7 +3649,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4f18024e544fd886",
+      "uid" : "6a7da8023acfea4a",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3669,7 +3669,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "464767ce7fc949b",
+      "uid" : "5ca1c8eea1130652",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3689,7 +3689,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ab6449daea35bc91",
+      "uid" : "be51e6e8d6b9c06b",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3709,7 +3709,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ab731f5f632c4dae",
+      "uid" : "24fa6773458fb584",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3729,33 +3729,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7fc45a748bbac2fb",
+      "uid" : "49e645b8c749c08f",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619242459,
         "stop" : 1685619242899,
         "duration" : 440
-      }
-    } ]
-  },
-  "a19c409291e83a1e9a8a5b09d2079b94" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "fd0b108e83f09569",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
-      "time" : {
-        "start" : 1685619247271,
-        "stop" : 1685619247701,
-        "duration" : 430
       }
     } ]
   },
@@ -3769,13 +3749,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "df4df81be67cbb37",
+      "uid" : "85ea580e0c940e08",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619244759,
         "stop" : 1685619245174,
         "duration" : 415
+      }
+    } ]
+  },
+  "a19c409291e83a1e9a8a5b09d2079b94" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "78a65e2131d93d85",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
+      "time" : {
+        "start" : 1685619247271,
+        "stop" : 1685619247701,
+        "duration" : 430
       }
     } ]
   },
@@ -3789,7 +3789,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2fd3a71bcf4be6b8",
+      "uid" : "65c89c08f2f6b872",
       "status" : "broken",
       "statusDetails" : "jsonschema.exceptions.ValidationError: 'symbol' is a required property\n\nFailed validating 'required' in schema['properties']['data']['items']:\n    {'properties': {'address': {'type': 'string'},\n                    'decimals': {'type': 'integer'},\n                    'logoURI': {'type': 'string'},\n                    'name': {'type': 'string'},\n                    'symbol': {'type': 'string'}},\n     'required': ['symbol', 'name', 'decimals', 'address', 'logoURI'],\n     'type': 'object'}\n\nOn instance['data'][0]:\n    {'address': '0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab',\n     'code': 'WETH.e',\n     'decimals': 18,\n     'logoURI': 'https://tokens.1inch.io/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.png',\n     'name': 'WETH.e'}",
       "time" : {
@@ -3809,7 +3809,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4d7eec612d578c10",
+      "uid" : "137f01e122d423cd",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3829,7 +3829,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "87b8d90f7a64ad8",
+      "uid" : "f9c3be4fd5c695e8",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3849,7 +3849,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3c77d72b67e870d8",
+      "uid" : "bcc10684334db19",
       "status" : "broken",
       "statusDetails" : "jsonschema.exceptions.ValidationError: '0' is not of type 'array'\n\nFailed validating 'type' in schema['properties']['data']:\n    {'items': {'properties': {'address': {'type': 'string'},\n                              'decimals': {'type': 'integer'},\n                              'logoURI': {'type': 'string'},\n                              'name': {'type': 'string'},\n                              'symbol': {'type': 'string'}},\n               'required': ['symbol',\n                            'name',\n                            'decimals',\n                            'address',\n                            'logoURI'],\n               'type': 'object'},\n     'type': 'array'}\n\nOn instance['data']:\n    '0'",
       "time" : {
@@ -3869,7 +3869,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "df432e1ae504c44e",
+      "uid" : "6a49e71e03fa3fd1",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -3889,7 +3889,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "536ccd403c3b7111",
+      "uid" : "510693a6b697acb8",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -3909,7 +3909,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "875c99dd5555fe59",
+      "uid" : "31f2d6320385bfee",
       "status" : "passed",
       "time" : {
         "start" : 1685619196193,
@@ -3928,7 +3928,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b72a04eb0f023ec2",
+      "uid" : "ad8a2aa1c23f967",
       "status" : "broken",
       "statusDetails" : "jsonschema.exceptions.ValidationError: 'symbol' is a required property\n\nFailed validating 'required' in schema['properties']['data']['items']:\n    {'properties': {'address': {'type': 'string'},\n                    'decimals': {'type': 'integer'},\n                    'logoURI': {'type': 'string'},\n                    'name': {'type': 'string'},\n                    'symbol': {'type': 'string'}},\n     'required': ['symbol', 'name', 'decimals', 'address', 'logoURI'],\n     'type': 'object'}\n\nOn instance['data'][0]:\n    {'address': '0x0327112423f3a68efdf1fcf402f6c5cb9f7c33fd',\n     'code': 'BTC++',\n     'decimals': 18,\n     'logoURI': 'https://tokens.1inch.io/0x0327112423f3a68efdf1fcf402f6c5cb9f7c33fd.png',\n     'name': 'BTC++'}",
       "time" : {
@@ -3948,7 +3948,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2c566526392db95",
+      "uid" : "d93dc2993b0c60a0",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -3968,33 +3968,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4198048b99dba2b8",
+      "uid" : "18d66c302770ea3c",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
         "start" : 1685619237106,
         "stop" : 1685619237107,
         "duration" : 1
-      }
-    } ]
-  },
-  "4de9467177164760289a0bce3ab9f94f" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "415f5c140702a8aa",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
-      "time" : {
-        "start" : 1685619243802,
-        "stop" : 1685619244213,
-        "duration" : 411
       }
     } ]
   },
@@ -4008,13 +3988,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fcb2ab7db1101689",
+      "uid" : "b8cbe1fe3978a641",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
         "start" : 1685619225493,
         "stop" : 1685619225493,
         "duration" : 0
+      }
+    } ]
+  },
+  "4de9467177164760289a0bce3ab9f94f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5aac56c438ce0a33",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
+      "time" : {
+        "start" : 1685619243802,
+        "stop" : 1685619244213,
+        "duration" : 411
       }
     } ]
   },
@@ -4028,7 +4028,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8808aa5eaca3d0d",
+      "uid" : "5210dd30487c5bf4",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -4048,7 +4048,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c365369a9db55d36",
+      "uid" : "5c0592cd169d5168",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
@@ -4068,7 +4068,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a00339ba628de10",
+      "uid" : "9ce71b2f872b80c8",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -4088,7 +4088,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "534d81bec8e41e11",
+      "uid" : "33f98f0658fc8aec",
       "status" : "passed",
       "time" : {
         "start" : 1685619220655,
@@ -4107,7 +4107,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "483ab69d283b2830",
+      "uid" : "507b4c732e26bf81",
       "status" : "passed",
       "time" : {
         "start" : 1685619232967,
@@ -4126,7 +4126,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d9b84b950327fb3c",
+      "uid" : "e5223b569760a45",
       "status" : "broken",
       "statusDetails" : "jsonschema.exceptions.ValidationError: 'symbol' is a required property\n\nFailed validating 'required' in schema['properties']['data']['items']:\n    {'properties': {'chainId': {'type': 'string'},\n                    'decimals': {'type': 'integer'},\n                    'logoURI': {'format': 'uri', 'type': 'string'},\n                    'name': {'type': 'string'},\n                    'net': {'type': 'string'},\n                    'symbol': {'type': 'string'}},\n     'required': ['chainId',\n                  'name',\n                  'symbol',\n                  'decimals',\n                  'net',\n                  'logoURI'],\n     'type': 'object'}\n\nOn instance['data'][0]:\n    {'chainId': '1',\n     'code': 'ETH',\n     'decimals': 18,\n     'logoURI': 'https://assets.coingecko.com/coins/images/279/small/ethereum.png?1595348880',\n     'name': 'Ethereum',\n     'net': 'eth'}",
       "time" : {
@@ -4146,7 +4146,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a17b6c5d75c8b241",
+      "uid" : "1e1300295a2427dc",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -4166,33 +4166,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "185932306c7cadf",
+      "uid" : "cc3b63ed4d224bc9",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
         "start" : 1685619203855,
         "stop" : 1685619204231,
         "duration" : 376
-      }
-    } ]
-  },
-  "bc9bacd9591d1dc10f013ce72f97cbb3" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "dcb64e452645ea99",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
-      "time" : {
-        "start" : 1685619237108,
-        "stop" : 1685619237623,
-        "duration" : 515
       }
     } ]
   },
@@ -4206,13 +4186,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3bee6041fdfd4a17",
+      "uid" : "b68b111be46023f9",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
         "start" : 1685619241347,
         "stop" : 1685619241348,
         "duration" : 1
+      }
+    } ]
+  },
+  "bc9bacd9591d1dc10f013ce72f97cbb3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "320cd276b691aedb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
+      "time" : {
+        "start" : 1685619237108,
+        "stop" : 1685619237623,
+        "duration" : 515
       }
     } ]
   },
@@ -4226,7 +4226,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a9b068b5527a4448",
+      "uid" : "95d87a6d39583c1a",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -4246,7 +4246,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fc2ae5a8a5e13b53",
+      "uid" : "b4ca9224feed07b6",
       "status" : "passed",
       "time" : {
         "start" : 1685619233371,
@@ -4265,7 +4265,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d9238946dbbe2a4d",
+      "uid" : "fa6b519f02e9080",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -4285,7 +4285,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c8dd0818eec7e80a",
+      "uid" : "56ef7037974c8c0f",
       "status" : "passed",
       "time" : {
         "start" : 1685619231990,
@@ -4304,7 +4304,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ece965b52623f6a2",
+      "uid" : "bfef98a546d2518c",
       "status" : "failed",
       "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is required\"}.",
       "time" : {
@@ -4324,7 +4324,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "169ec4839317bb3",
+      "uid" : "cc5a8ffe758d56b6",
       "status" : "skipped",
       "statusDetails" : "Skipped: Сеть отправления = сети назначения",
       "time" : {
