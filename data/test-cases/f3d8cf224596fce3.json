@@ -1,0 +1,88 @@
+{
+  "uid" : "f3d8cf224596fce3",
+  "name" : "test_get_approve_tx_native_token[Polygon (MATIC)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_approve_tx_native_token",
+  "historyId" : "b6c500f82e122610ac0c16f32f97fb50",
+  "time" : {
+    "start" : 1685619192244,
+    "stop" : 1685619192734,
+    "duration" : 490
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "571b053a705021e2",
+      "name" : "log",
+      "source" : "571b053a705021e2.txt",
+      "type" : "text/plain",
+      "size" : 984
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Anna.local"
+  }, {
+    "name" : "thread",
+    "value" : "18939-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "network",
+    "value" : "'Polygon (MATIC)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a70877fae0a15e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685615493894,
+        "stop" : 1685615494270,
+        "duration" : 376
+      }
+    }, {
+      "uid" : "e8b9cf0ea192b61e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685610391650,
+        "stop" : 1685610392024,
+        "duration" : 374
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3d8cf224596fce3.json",
+  "parameterValues" : [ "'Polygon (MATIC)'" ]
+}
