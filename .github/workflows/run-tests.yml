@@ -53,7 +53,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.MY_GITHUB_TOKEN }}
-          publish_dir: ./docs/allure-report
+          publish_dir: ./allure-report
           publish_branch: gh-pages
 
       - name: Send Test Results via Telegram
