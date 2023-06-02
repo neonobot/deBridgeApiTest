@@ -1,5 +1,2843 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "tests.api_tests.tests_de_bridge",
+    "children" : [ {
+      "name" : "test_get_approve_tx_not_native_token[Avalanche (AVAX)]",
+      "uid" : "a59b49b152e4b464",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619190974,
+        "stop" : 1685619191482,
+        "duration" : 508
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_supported_chains",
+      "uid" : "ce0f68d672fbd664",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1685619190974,
+        "stop" : 1685619191605,
+        "duration" : 631
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_get_approve_tx_native_token[Ethereum (ETH)]",
+      "uid" : "4cf01b75829bf866",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619191485,
+        "stop" : 1685619191859,
+        "duration" : 374
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_estimate_bridge",
+      "uid" : "263a88b999b058c0",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619191673,
+        "stop" : 1685619192021,
+        "duration" : 348
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_get_approve_tx_native_token[Binance Smart Chain (BNB)]",
+      "uid" : "8e43822ae9de4506",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619191863,
+        "stop" : 1685619192240,
+        "duration" : 377
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_estimate_bridge_native_to_not_native[Ethereum (ETH)]",
+      "uid" : "b773728d6ed00ae7",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619192025,
+        "stop" : 1685619193637,
+        "duration" : 1612
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_approve_tx_native_token[Polygon (MATIC)]",
+      "uid" : "880a8f6f17939713",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619192244,
+        "stop" : 1685619192734,
+        "duration" : 490
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_approve_tx_native_token[Arbitrum One (ETH)]",
+      "uid" : "f8712190aec4f61f",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619192739,
+        "stop" : 1685619193155,
+        "duration" : 416
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_approve_tx_native_token[Avalanche (AVAX)]",
+      "uid" : "98028112755e9989",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619193163,
+        "stop" : 1685619193599,
+        "duration" : 436
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_approve_tx_stablecoin[Ethereum (ETH)]",
+      "uid" : "bc0aa0d45be83888",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619193607,
+        "stop" : 1685619194092,
+        "duration" : 485
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_estimate_bridge_native_to_not_native[Binance Smart Chain (BNB)]",
+      "uid" : "72563bc9b7e2f756",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619193642,
+        "stop" : 1685619196186,
+        "duration" : 2544
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_approve_tx_stablecoin[Binance Smart Chain (BNB)]",
+      "uid" : "230e06f0c464535d",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619194101,
+        "stop" : 1685619194538,
+        "duration" : 437
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_approve_tx_stablecoin[Polygon (MATIC)]",
+      "uid" : "f696ea66b13a121",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619194546,
+        "stop" : 1685619195034,
+        "duration" : 488
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_approve_tx_stablecoin[Arbitrum One (ETH)]",
+      "uid" : "285badc2064fe02f",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619195040,
+        "stop" : 1685619195424,
+        "duration" : 384
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_approve_tx_stablecoin[Avalanche (AVAX)]",
+      "uid" : "906f2f0d3d9bbc8e",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619195435,
+        "stop" : 1685619195908,
+        "duration" : 473
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_tokens_by_chain[Ethereum (ETH)]",
+      "uid" : "825201cb0768b933",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1685619195917,
+        "stop" : 1685619197211,
+        "duration" : 1294
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_estimate_bridge_native_to_not_native[Polygon (MATIC)]",
+      "uid" : "257259635607bcaa",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619196193,
+        "stop" : 1685619198670,
+        "duration" : 2477
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_tokens_by_chain[Binance Smart Chain (BNB)]",
+      "uid" : "8ace8e5f2533b9eb",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1685619197269,
+        "stop" : 1685619198145,
+        "duration" : 876
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_tokens_by_chain[Polygon (MATIC)]",
+      "uid" : "6055dd50d2c682aa",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1685619198170,
+        "stop" : 1685619198938,
+        "duration" : 768
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_estimate_bridge_native_to_not_native[Arbitrum One (ETH)]",
+      "uid" : "25ba351c78542e31",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619198678,
+        "stop" : 1685619204023,
+        "duration" : 5345
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_tokens_by_chain[Arbitrum One (ETH)]",
+      "uid" : "34fea9508e2eb989",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1685619198965,
+        "stop" : 1685619199586,
+        "duration" : 621
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_tokens_by_chain[Avalanche (AVAX)]",
+      "uid" : "5830f3554bfd34f0",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1685619199621,
+        "stop" : 1685619200292,
+        "duration" : 671
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Ethereum (ETH)-Ethereum (ETH)]",
+      "uid" : "e636670f81733402",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619200322,
+        "stop" : 1685619200322,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Ethereum (ETH)-Binance Smart Chain (BNB)]",
+      "uid" : "ada9a9309ad149c1",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619200325,
+        "stop" : 1685619200875,
+        "duration" : 550
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Ethereum (ETH)-Polygon (MATIC)]",
+      "uid" : "713876812f21829b",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619200896,
+        "stop" : 1685619201309,
+        "duration" : 413
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Ethereum (ETH)-Arbitrum One (ETH)]",
+      "uid" : "77551db91eaaecf",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619201331,
+        "stop" : 1685619201929,
+        "duration" : 598
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Ethereum (ETH)-Avalanche (AVAX)]",
+      "uid" : "62bf341f064cc0c5",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619201952,
+        "stop" : 1685619202482,
+        "duration" : 530
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Binance Smart Chain (BNB)-Ethereum (ETH)]",
+      "uid" : "d0577d37a02a10e2",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619202501,
+        "stop" : 1685619202903,
+        "duration" : 402
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Binance Smart Chain (BNB)-Binance Smart Chain (BNB)]",
+      "uid" : "1ed6c02a75e216ac",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619202928,
+        "stop" : 1685619202929,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Binance Smart Chain (BNB)-Polygon (MATIC)]",
+      "uid" : "1bd757284fc933c4",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619202932,
+        "stop" : 1685619203381,
+        "duration" : 449
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Binance Smart Chain (BNB)-Arbitrum One (ETH)]",
+      "uid" : "31dc46673c330411",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619203406,
+        "stop" : 1685619203829,
+        "duration" : 423
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Binance Smart Chain (BNB)-Avalanche (AVAX)]",
+      "uid" : "c493d32dd85e94b6",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619203855,
+        "stop" : 1685619204231,
+        "duration" : 376
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_estimate_bridge_native_to_not_native[Avalanche (AVAX)]",
+      "uid" : "cd17a2f3e6855f95",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619204027,
+        "stop" : 1685619205936,
+        "duration" : 1909
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Polygon (MATIC)-Ethereum (ETH)]",
+      "uid" : "59a6ed86c4751b9f",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619204255,
+        "stop" : 1685619204657,
+        "duration" : 402
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Polygon (MATIC)-Binance Smart Chain (BNB)]",
+      "uid" : "be67f46ab1ad7d8d",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619204696,
+        "stop" : 1685619205079,
+        "duration" : 383
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Polygon (MATIC)-Polygon (MATIC)]",
+      "uid" : "8d48452187b19ef2",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619205095,
+        "stop" : 1685619205095,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Polygon (MATIC)-Arbitrum One (ETH)]",
+      "uid" : "a6bb2ee36f624fbd",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619205097,
+        "stop" : 1685619205560,
+        "duration" : 463
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Polygon (MATIC)-Avalanche (AVAX)]",
+      "uid" : "e8b9d576247b0a3e",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619205577,
+        "stop" : 1685619206024,
+        "duration" : 447
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_estimate_bridge_stablecoin_to_not_native[Ethereum (ETH)]",
+      "uid" : "5bb6c25f8466f2c3",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619205941,
+        "stop" : 1685619208025,
+        "duration" : 2084
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Arbitrum One (ETH)-Ethereum (ETH)]",
+      "uid" : "5fa85fd4fbdbf553",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619206044,
+        "stop" : 1685619206492,
+        "duration" : 448
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Arbitrum One (ETH)-Binance Smart Chain (BNB)]",
+      "uid" : "f4ac9bb9260a86a1",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619206511,
+        "stop" : 1685619206909,
+        "duration" : 398
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Arbitrum One (ETH)-Polygon (MATIC)]",
+      "uid" : "1127111306f34954",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619206934,
+        "stop" : 1685619207301,
+        "duration" : 367
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Arbitrum One (ETH)-Arbitrum One (ETH)]",
+      "uid" : "d6dff8b1c29a360d",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619207327,
+        "stop" : 1685619207328,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Arbitrum One (ETH)-Avalanche (AVAX)]",
+      "uid" : "69cffdfc2a953d2b",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619207331,
+        "stop" : 1685619207720,
+        "duration" : 389
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Avalanche (AVAX)-Ethereum (ETH)]",
+      "uid" : "11e960f1ad243eca",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619207741,
+        "stop" : 1685619208137,
+        "duration" : 396
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_estimate_bridge_stablecoin_to_not_native[Binance Smart Chain (BNB)]",
+      "uid" : "88024efb7fbdac30",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619208045,
+        "stop" : 1685619210338,
+        "duration" : 2293
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Avalanche (AVAX)-Binance Smart Chain (BNB)]",
+      "uid" : "5ad3130a3565e279",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619208157,
+        "stop" : 1685619208592,
+        "duration" : 435
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Avalanche (AVAX)-Polygon (MATIC)]",
+      "uid" : "958528f69afd11ec",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619208616,
+        "stop" : 1685619209035,
+        "duration" : 419
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Avalanche (AVAX)-Arbitrum One (ETH)]",
+      "uid" : "6037858c811c19a9",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619209056,
+        "stop" : 1685619209492,
+        "duration" : 436
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_not_native[Avalanche (AVAX)-Avalanche (AVAX)]",
+      "uid" : "c16a532e8cc22ab5",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619209511,
+        "stop" : 1685619209512,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Ethereum (ETH)-Ethereum (ETH)]",
+      "uid" : "c28c2032e0988b20",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619209515,
+        "stop" : 1685619209515,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Ethereum (ETH)-Binance Smart Chain (BNB)]",
+      "uid" : "9e7b7e14901c5f80",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619209517,
+        "stop" : 1685619209903,
+        "duration" : 386
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Ethereum (ETH)-Polygon (MATIC)]",
+      "uid" : "d454259cf02356bc",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619209926,
+        "stop" : 1685619210322,
+        "duration" : 396
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_estimate_bridge_stablecoin_to_not_native[Polygon (MATIC)]",
+      "uid" : "fac6249e40cc8c7d",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619210342,
+        "stop" : 1685619210990,
+        "duration" : 648
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Ethereum (ETH)-Arbitrum One (ETH)]",
+      "uid" : "6ae240520ea97a39",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619210345,
+        "stop" : 1685619210779,
+        "duration" : 434
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Ethereum (ETH)-Avalanche (AVAX)]",
+      "uid" : "55f1daf37e6c53b8",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619210801,
+        "stop" : 1685619211172,
+        "duration" : 371
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_estimate_bridge_stablecoin_to_not_native[Arbitrum One (ETH)]",
+      "uid" : "7c4faf24a2506893",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619211013,
+        "stop" : 1685619211849,
+        "duration" : 836
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Binance Smart Chain (BNB)-Ethereum (ETH)]",
+      "uid" : "f4d8ed7085af4bd",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619211197,
+        "stop" : 1685619211579,
+        "duration" : 382
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Binance Smart Chain (BNB)-Binance Smart Chain (BNB)]",
+      "uid" : "2dfdd4627be8402d",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619211606,
+        "stop" : 1685619211607,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Binance Smart Chain (BNB)-Polygon (MATIC)]",
+      "uid" : "1cf7b8d9ce30233d",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619211610,
+        "stop" : 1685619212033,
+        "duration" : 423
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_estimate_bridge_stablecoin_to_not_native[Avalanche (AVAX)]",
+      "uid" : "482077449c54ea87",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619211868,
+        "stop" : 1685619212422,
+        "duration" : 554
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Binance Smart Chain (BNB)-Arbitrum One (ETH)]",
+      "uid" : "c4a18077e66bbf5d",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619212058,
+        "stop" : 1685619212517,
+        "duration" : 459
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_estimate_bridge_not_native_to_native[Ethereum (ETH)]",
+      "uid" : "bc4582d7222385ae",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619212447,
+        "stop" : 1685619213815,
+        "duration" : 1368
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Binance Smart Chain (BNB)-Avalanche (AVAX)]",
+      "uid" : "799e4d1fd20ae3da",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619212532,
+        "stop" : 1685619212892,
+        "duration" : 360
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Polygon (MATIC)-Ethereum (ETH)]",
+      "uid" : "f4c6b6be143d604a",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619212907,
+        "stop" : 1685619213269,
+        "duration" : 362
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Polygon (MATIC)-Binance Smart Chain (BNB)]",
+      "uid" : "8b4cdc232029a2f7",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619213294,
+        "stop" : 1685619213681,
+        "duration" : 387
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Polygon (MATIC)-Polygon (MATIC)]",
+      "uid" : "44d4845ae4e846d9",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619213738,
+        "stop" : 1685619213739,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Polygon (MATIC)-Arbitrum One (ETH)]",
+      "uid" : "629b55cc5cf341ad",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619213742,
+        "stop" : 1685619214117,
+        "duration" : 375
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_estimate_bridge_not_native_to_native[Binance Smart Chain (BNB)]",
+      "uid" : "d050fca73986c4a4",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619213818,
+        "stop" : 1685619216932,
+        "duration" : 3114
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Polygon (MATIC)-Avalanche (AVAX)]",
+      "uid" : "1003e8fde30e709",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619214143,
+        "stop" : 1685619214570,
+        "duration" : 427
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Arbitrum One (ETH)-Ethereum (ETH)]",
+      "uid" : "c75481747f84f72a",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619214584,
+        "stop" : 1685619215020,
+        "duration" : 436
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Arbitrum One (ETH)-Binance Smart Chain (BNB)]",
+      "uid" : "2c3cf73ac9723b5b",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619215040,
+        "stop" : 1685619215440,
+        "duration" : 400
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Arbitrum One (ETH)-Polygon (MATIC)]",
+      "uid" : "8257e42f4897e189",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619215466,
+        "stop" : 1685619215914,
+        "duration" : 448
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Arbitrum One (ETH)-Arbitrum One (ETH)]",
+      "uid" : "18db1902b165ec83",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619215935,
+        "stop" : 1685619215936,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Arbitrum One (ETH)-Avalanche (AVAX)]",
+      "uid" : "559d3ffd94b3b4dd",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619215939,
+        "stop" : 1685619216336,
+        "duration" : 397
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Avalanche (AVAX)-Ethereum (ETH)]",
+      "uid" : "508ad5d9251e8efc",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619216361,
+        "stop" : 1685619216915,
+        "duration" : 554
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Avalanche (AVAX)-Binance Smart Chain (BNB)]",
+      "uid" : "a6d8d83e37b9e318",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619216928,
+        "stop" : 1685619217308,
+        "duration" : 380
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_estimate_bridge_not_native_to_native[Polygon (MATIC)]",
+      "uid" : "e84b81fe4f805905",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619216942,
+        "stop" : 1685619220646,
+        "duration" : 3704
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Avalanche (AVAX)-Polygon (MATIC)]",
+      "uid" : "cc49f2931b18af72",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619217319,
+        "stop" : 1685619217721,
+        "duration" : 402
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Avalanche (AVAX)-Arbitrum One (ETH)]",
+      "uid" : "75b1db62560b83b7",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619217745,
+        "stop" : 1685619218132,
+        "duration" : 387
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_not_native[Avalanche (AVAX)-Avalanche (AVAX)]",
+      "uid" : "3fb9c65d14d7d41c",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619218146,
+        "stop" : 1685619218146,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Ethereum (ETH)-Ethereum (ETH)]",
+      "uid" : "b9ca3c3c879f3783",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619218148,
+        "stop" : 1685619218149,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Ethereum (ETH)-Binance Smart Chain (BNB)]",
+      "uid" : "2335392da7ac28cb",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619218151,
+        "stop" : 1685619218575,
+        "duration" : 424
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Ethereum (ETH)-Polygon (MATIC)]",
+      "uid" : "c23dc868388f1f7c",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619218587,
+        "stop" : 1685619218986,
+        "duration" : 399
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Ethereum (ETH)-Arbitrum One (ETH)]",
+      "uid" : "60261cce21f0da24",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619219004,
+        "stop" : 1685619219499,
+        "duration" : 495
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Ethereum (ETH)-Avalanche (AVAX)]",
+      "uid" : "6f01cd0318034675",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619219532,
+        "stop" : 1685619220110,
+        "duration" : 578
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Binance Smart Chain (BNB)-Ethereum (ETH)]",
+      "uid" : "1887b5503cb2f65b",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619220141,
+        "stop" : 1685619220741,
+        "duration" : 600
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_estimate_bridge_not_native_to_native[Arbitrum One (ETH)]",
+      "uid" : "72815ce706d5464d",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619220655,
+        "stop" : 1685619225770,
+        "duration" : 5115
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Binance Smart Chain (BNB)-Binance Smart Chain (BNB)]",
+      "uid" : "ad8ff3ffb334ab80",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619220769,
+        "stop" : 1685619220770,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Binance Smart Chain (BNB)-Polygon (MATIC)]",
+      "uid" : "cc46263022dc6ea7",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619220773,
+        "stop" : 1685619221184,
+        "duration" : 411
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Binance Smart Chain (BNB)-Arbitrum One (ETH)]",
+      "uid" : "7fe7a0d16c097fb7",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619221214,
+        "stop" : 1685619221632,
+        "duration" : 418
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Binance Smart Chain (BNB)-Avalanche (AVAX)]",
+      "uid" : "b062a92e6cf4742d",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619221660,
+        "stop" : 1685619222075,
+        "duration" : 415
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Polygon (MATIC)-Ethereum (ETH)]",
+      "uid" : "c56ea08125ab61c2",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619222090,
+        "stop" : 1685619222571,
+        "duration" : 481
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Polygon (MATIC)-Binance Smart Chain (BNB)]",
+      "uid" : "6d458573e871e1cb",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619222604,
+        "stop" : 1685619223008,
+        "duration" : 404
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Polygon (MATIC)-Polygon (MATIC)]",
+      "uid" : "cf025d0cbace0eb6",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619223038,
+        "stop" : 1685619223039,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Polygon (MATIC)-Arbitrum One (ETH)]",
+      "uid" : "8716f1ea56b542d",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619223042,
+        "stop" : 1685619223516,
+        "duration" : 474
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Polygon (MATIC)-Avalanche (AVAX)]",
+      "uid" : "d91bd2d997ffa6d2",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619223570,
+        "stop" : 1685619224001,
+        "duration" : 431
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Arbitrum One (ETH)-Ethereum (ETH)]",
+      "uid" : "1755822175bcd1cd",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619224036,
+        "stop" : 1685619224512,
+        "duration" : 476
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Arbitrum One (ETH)-Binance Smart Chain (BNB)]",
+      "uid" : "7f7f25a4bcedc5cb",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619224543,
+        "stop" : 1685619225025,
+        "duration" : 482
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Arbitrum One (ETH)-Polygon (MATIC)]",
+      "uid" : "5fa6197fd0133aa7",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619225056,
+        "stop" : 1685619225462,
+        "duration" : 406
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Arbitrum One (ETH)-Arbitrum One (ETH)]",
+      "uid" : "4e0af27010f5bfa6",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619225493,
+        "stop" : 1685619225493,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Arbitrum One (ETH)-Avalanche (AVAX)]",
+      "uid" : "2894e9d7a0c20870",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619225497,
+        "stop" : 1685619225979,
+        "duration" : 482
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_estimate_bridge_not_native_to_native[Avalanche (AVAX)]",
+      "uid" : "f71d33fc6e9c299b",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619225776,
+        "stop" : 1685619227444,
+        "duration" : 1668
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Avalanche (AVAX)-Ethereum (ETH)]",
+      "uid" : "dc2675a1b07df8c7",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619226011,
+        "stop" : 1685619226461,
+        "duration" : 450
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Avalanche (AVAX)-Binance Smart Chain (BNB)]",
+      "uid" : "7f5ef82b1947d2ea",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619226494,
+        "stop" : 1685619227075,
+        "duration" : 581
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Avalanche (AVAX)-Polygon (MATIC)]",
+      "uid" : "c9e6544e1c0e75c3",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619227103,
+        "stop" : 1685619227666,
+        "duration" : 563
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_allowance[Ethereum (ETH)]",
+      "uid" : "5886a1353f858084",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1685619227477,
+        "stop" : 1685619228071,
+        "duration" : 594
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Avalanche (AVAX)-Arbitrum One (ETH)]",
+      "uid" : "1e1f400992bb9fbd",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619227699,
+        "stop" : 1685619228302,
+        "duration" : 603
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_allowance[Binance Smart Chain (BNB)]",
+      "uid" : "92d9280da35aaafd",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1685619228118,
+        "stop" : 1685619229124,
+        "duration" : 1006
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_native[Avalanche (AVAX)-Avalanche (AVAX)]",
+      "uid" : "16e2bdc823424032",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619228333,
+        "stop" : 1685619228334,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Ethereum (ETH)-Ethereum (ETH)]",
+      "uid" : "61dc151b4de05fc",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619228338,
+        "stop" : 1685619228339,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Ethereum (ETH)-Binance Smart Chain (BNB)]",
+      "uid" : "99a17db311df6650",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619228342,
+        "stop" : 1685619228814,
+        "duration" : 472
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Ethereum (ETH)-Polygon (MATIC)]",
+      "uid" : "8f4e29a8d328e953",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619228846,
+        "stop" : 1685619229277,
+        "duration" : 431
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_allowance[Polygon (MATIC)]",
+      "uid" : "f38f5a7df5598f5f",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1685619229168,
+        "stop" : 1685619229808,
+        "duration" : 640
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Ethereum (ETH)-Arbitrum One (ETH)]",
+      "uid" : "a542e3f6071a24e9",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619229298,
+        "stop" : 1685619229702,
+        "duration" : 404
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Ethereum (ETH)-Avalanche (AVAX)]",
+      "uid" : "49747cc06b1755c",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619229735,
+        "stop" : 1685619230166,
+        "duration" : 431
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_allowance[Arbitrum One (ETH)]",
+      "uid" : "762b6928b1a67a70",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1685619229847,
+        "stop" : 1685619230470,
+        "duration" : 623
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Binance Smart Chain (BNB)-Ethereum (ETH)]",
+      "uid" : "8a14a356a01f0de0",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619230200,
+        "stop" : 1685619230629,
+        "duration" : 429
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_allowance[Avalanche (AVAX)]",
+      "uid" : "99dff8a5a46600f9",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1685619230515,
+        "stop" : 1685619231078,
+        "duration" : 563
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Binance Smart Chain (BNB)-Binance Smart Chain (BNB)]",
+      "uid" : "7edc9ee5276e1b48",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619230652,
+        "stop" : 1685619230652,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Binance Smart Chain (BNB)-Polygon (MATIC)]",
+      "uid" : "4519fe45e1fee88e",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619230655,
+        "stop" : 1685619231086,
+        "duration" : 431
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Binance Smart Chain (BNB)-Arbitrum One (ETH)]",
+      "uid" : "da72ac2af18ff7cf",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619231111,
+        "stop" : 1685619231495,
+        "duration" : 384
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_approve_tx",
+      "uid" : "5e45d7ff6f6382f2",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619231136,
+        "stop" : 1685619231540,
+        "duration" : 404
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Binance Smart Chain (BNB)-Avalanche (AVAX)]",
+      "uid" : "3c453c95e77d669a",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619231527,
+        "stop" : 1685619231907,
+        "duration" : 380
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_approve_tx_not_native_token[Ethereum (ETH)]",
+      "uid" : "481f11819a5e7649",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619231557,
+        "stop" : 1685619231986,
+        "duration" : 429
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Polygon (MATIC)-Ethereum (ETH)]",
+      "uid" : "9ffe0ac4ef57dc5e",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619231939,
+        "stop" : 1685619232793,
+        "duration" : 854
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_approve_tx_not_native_token[Binance Smart Chain (BNB)]",
+      "uid" : "cfd9d00c87468857",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619231990,
+        "stop" : 1685619232958,
+        "duration" : 968
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Polygon (MATIC)-Binance Smart Chain (BNB)]",
+      "uid" : "7b5e95542faf9695",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619232826,
+        "stop" : 1685619233266,
+        "duration" : 440
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_approve_tx_not_native_token[Polygon (MATIC)]",
+      "uid" : "696da6920c0eba99",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619232967,
+        "stop" : 1685619233364,
+        "duration" : 397
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Polygon (MATIC)-Polygon (MATIC)]",
+      "uid" : "6ecc427c54807fa4",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619233295,
+        "stop" : 1685619233297,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Polygon (MATIC)-Arbitrum One (ETH)]",
+      "uid" : "7e66370dd174376e",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619233300,
+        "stop" : 1685619233709,
+        "duration" : 409
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_approve_tx_not_native_token[Arbitrum One (ETH)]",
+      "uid" : "9beb47c3c36718d5",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685619233371,
+        "stop" : 1685619233885,
+        "duration" : 514
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Polygon (MATIC)-Avalanche (AVAX)]",
+      "uid" : "50f8421876f8ccee",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619233741,
+        "stop" : 1685619234191,
+        "duration" : 450
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Avalanche (AVAX)-Polygon (MATIC)]",
+      "uid" : "f3aa76c756607ce0",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619233894,
+        "stop" : 1685619234316,
+        "duration" : 422
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Arbitrum One (ETH)-Ethereum (ETH)]",
+      "uid" : "6005c4ea8c37d7b4",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619234223,
+        "stop" : 1685619234764,
+        "duration" : 541
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Avalanche (AVAX)-Arbitrum One (ETH)]",
+      "uid" : "808bbe905440d53c",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619234348,
+        "stop" : 1685619234756,
+        "duration" : 408
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Avalanche (AVAX)-Avalanche (AVAX)]",
+      "uid" : "b4405f6da2c79980",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619234787,
+        "stop" : 1685619234788,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Ethereum (ETH)-Ethereum (ETH)]",
+      "uid" : "1310b6ca05ab49e1",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619234792,
+        "stop" : 1685619234792,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Ethereum (ETH)-Binance Smart Chain (BNB)]",
+      "uid" : "a67407ad14d70ab6",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619234795,
+        "stop" : 1685619235181,
+        "duration" : 386
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Arbitrum One (ETH)-Binance Smart Chain (BNB)]",
+      "uid" : "fbf4ed142e5ef995",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619234803,
+        "stop" : 1685619235211,
+        "duration" : 408
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Ethereum (ETH)-Polygon (MATIC)]",
+      "uid" : "b1676ac8e9e6270c",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619235211,
+        "stop" : 1685619235723,
+        "duration" : 512
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Arbitrum One (ETH)-Polygon (MATIC)]",
+      "uid" : "e56bd96064c72418",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619235229,
+        "stop" : 1685619235706,
+        "duration" : 477
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Arbitrum One (ETH)-Arbitrum One (ETH)]",
+      "uid" : "6734cd23d43b4295",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619235738,
+        "stop" : 1685619235738,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Arbitrum One (ETH)-Avalanche (AVAX)]",
+      "uid" : "3dd29da841f70834",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619235742,
+        "stop" : 1685619236131,
+        "duration" : 389
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Ethereum (ETH)-Arbitrum One (ETH)]",
+      "uid" : "64cd81bf177d196",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619235745,
+        "stop" : 1685619236130,
+        "duration" : 385
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Avalanche (AVAX)-Ethereum (ETH)]",
+      "uid" : "5199b0b5db8ac3f9",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619236165,
+        "stop" : 1685619236596,
+        "duration" : 431
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Ethereum (ETH)-Avalanche (AVAX)]",
+      "uid" : "7b5d7541321c8920",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619236165,
+        "stop" : 1685619236593,
+        "duration" : 428
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Binance Smart Chain (BNB)-Ethereum (ETH)]",
+      "uid" : "ad52d01b50efddab",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619236624,
+        "stop" : 1685619237079,
+        "duration" : 455
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_not_native_to_stablecoin[Avalanche (AVAX)-Binance Smart Chain (BNB)]",
+      "uid" : "ecd56182c0d5e5b3",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619236625,
+        "stop" : 1685619237082,
+        "duration" : 457
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Binance Smart Chain (BNB)-Binance Smart Chain (BNB)]",
+      "uid" : "a9833326d0d25c2",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619237106,
+        "stop" : 1685619237107,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Arbitrum One (ETH)-Ethereum (ETH)]",
+      "uid" : "3869d7dbb56592ce",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619237108,
+        "stop" : 1685619237623,
+        "duration" : 515
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Binance Smart Chain (BNB)-Polygon (MATIC)]",
+      "uid" : "ee9345458a7050c0",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619237110,
+        "stop" : 1685619237638,
+        "duration" : 528
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Arbitrum One (ETH)-Binance Smart Chain (BNB)]",
+      "uid" : "4fc9dc51befcd259",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619237653,
+        "stop" : 1685619238106,
+        "duration" : 453
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Binance Smart Chain (BNB)-Arbitrum One (ETH)]",
+      "uid" : "d9f37450de7d767d",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619237660,
+        "stop" : 1685619238106,
+        "duration" : 446
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Binance Smart Chain (BNB)-Avalanche (AVAX)]",
+      "uid" : "b75620141cc2bc74",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619238138,
+        "stop" : 1685619238529,
+        "duration" : 391
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Arbitrum One (ETH)-Polygon (MATIC)]",
+      "uid" : "115b46fa52deb06e",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619238139,
+        "stop" : 1685619238529,
+        "duration" : 390
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Arbitrum One (ETH)-Arbitrum One (ETH)]",
+      "uid" : "4f6674f55db16030",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619238561,
+        "stop" : 1685619238562,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Polygon (MATIC)-Ethereum (ETH)]",
+      "uid" : "a2f990f36941425f",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619238561,
+        "stop" : 1685619238970,
+        "duration" : 409
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Arbitrum One (ETH)-Avalanche (AVAX)]",
+      "uid" : "2f793571df0c76dd",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619238565,
+        "stop" : 1685619238962,
+        "duration" : 397
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Avalanche (AVAX)-Ethereum (ETH)]",
+      "uid" : "41126cb5fe91e18e",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619238994,
+        "stop" : 1685619239430,
+        "duration" : 436
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Polygon (MATIC)-Binance Smart Chain (BNB)]",
+      "uid" : "8b780e9a6536148",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619238998,
+        "stop" : 1685619239435,
+        "duration" : 437
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Avalanche (AVAX)-Binance Smart Chain (BNB)]",
+      "uid" : "b3bc09d210c8099c",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619239461,
+        "stop" : 1685619239856,
+        "duration" : 395
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Polygon (MATIC)-Polygon (MATIC)]",
+      "uid" : "12c87a97229d7b63",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619239463,
+        "stop" : 1685619239463,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Polygon (MATIC)-Arbitrum One (ETH)]",
+      "uid" : "c143d9607c5b377f",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619239467,
+        "stop" : 1685619239856,
+        "duration" : 389
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Polygon (MATIC)-Avalanche (AVAX)]",
+      "uid" : "26f59f984f6c0a37",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619239889,
+        "stop" : 1685619240303,
+        "duration" : 414
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Avalanche (AVAX)-Polygon (MATIC)]",
+      "uid" : "f4c9b7bb051c8e9a",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619239890,
+        "stop" : 1685619240358,
+        "duration" : 468
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Ethereum (ETH)-Polygon (MATIC)]",
+      "uid" : "2c2f6e393273ee93",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619240335,
+        "stop" : 1685619240715,
+        "duration" : 380
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Avalanche (AVAX)-Arbitrum One (ETH)]",
+      "uid" : "4a3474bf540786e6",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619240377,
+        "stop" : 1685619240829,
+        "duration" : 452
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Ethereum (ETH)-Arbitrum One (ETH)]",
+      "uid" : "952bd52bb40b723f",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619240747,
+        "stop" : 1685619241163,
+        "duration" : 416
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_native_to_stablecoin[Avalanche (AVAX)-Avalanche (AVAX)]",
+      "uid" : "eed4d0840f0a2845",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619240858,
+        "stop" : 1685619240859,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Ethereum (ETH)-Ethereum (ETH)]",
+      "uid" : "5746358b8c110ea6",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619240863,
+        "stop" : 1685619240863,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Ethereum (ETH)-Binance Smart Chain (BNB)]",
+      "uid" : "ea996f80e3eec338",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619240867,
+        "stop" : 1685619241315,
+        "duration" : 448
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Ethereum (ETH)-Avalanche (AVAX)]",
+      "uid" : "c0afbee7052074ec",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619241201,
+        "stop" : 1685619241588,
+        "duration" : 387
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Polygon (MATIC)-Polygon (MATIC)]",
+      "uid" : "64e0cfea9cf2b673",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619241347,
+        "stop" : 1685619241348,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Polygon (MATIC)-Arbitrum One (ETH)]",
+      "uid" : "67dd99318c9de7d8",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619241352,
+        "stop" : 1685619241761,
+        "duration" : 409
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Binance Smart Chain (BNB)-Ethereum (ETH)]",
+      "uid" : "11112616bf806cdd",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619241620,
+        "stop" : 1685619242006,
+        "duration" : 386
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Polygon (MATIC)-Avalanche (AVAX)]",
+      "uid" : "83bf3cc9d2621eea",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619241789,
+        "stop" : 1685619242177,
+        "duration" : 388
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Binance Smart Chain (BNB)-Binance Smart Chain (BNB)]",
+      "uid" : "89109e35ef75e635",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619242039,
+        "stop" : 1685619242039,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Binance Smart Chain (BNB)-Polygon (MATIC)]",
+      "uid" : "438c85e644d07cef",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619242043,
+        "stop" : 1685619242427,
+        "duration" : 384
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Arbitrum One (ETH)-Ethereum (ETH)]",
+      "uid" : "b1f81ac3c81f8b59",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619242203,
+        "stop" : 1685619242597,
+        "duration" : 394
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Binance Smart Chain (BNB)-Arbitrum One (ETH)]",
+      "uid" : "a870f008184aa318",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619242459,
+        "stop" : 1685619242899,
+        "duration" : 440
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Arbitrum One (ETH)-Binance Smart Chain (BNB)]",
+      "uid" : "3157762b88e00682",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619242622,
+        "stop" : 1685619243146,
+        "duration" : 524
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Binance Smart Chain (BNB)-Avalanche (AVAX)]",
+      "uid" : "22a6dde5cc0049c4",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619242947,
+        "stop" : 1685619243346,
+        "duration" : 399
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Arbitrum One (ETH)-Polygon (MATIC)]",
+      "uid" : "627ca6a775776f21",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619243178,
+        "stop" : 1685619243570,
+        "duration" : 392
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Polygon (MATIC)-Ethereum (ETH)]",
+      "uid" : "f4f14a9379e6bf00",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619243378,
+        "stop" : 1685619243764,
+        "duration" : 386
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Arbitrum One (ETH)-Arbitrum One (ETH)]",
+      "uid" : "20b0187c90e95d4e",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619243602,
+        "stop" : 1685619243603,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Arbitrum One (ETH)-Avalanche (AVAX)]",
+      "uid" : "410565a2c93d20a8",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619243607,
+        "stop" : 1685619244017,
+        "duration" : 410
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Polygon (MATIC)-Binance Smart Chain (BNB)]",
+      "uid" : "1bfff3a689e000af",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619243802,
+        "stop" : 1685619244213,
+        "duration" : 411
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Avalanche (AVAX)-Ethereum (ETH)]",
+      "uid" : "5fb38a9f9051c0ff",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619244050,
+        "stop" : 1685619244539,
+        "duration" : 489
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Ethereum (ETH)-Ethereum (ETH)]",
+      "uid" : "b991f551184f80e4",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619244243,
+        "stop" : 1685619244244,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Ethereum (ETH)-Binance Smart Chain (BNB)]",
+      "uid" : "b4868233ba37d7bb",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619244248,
+        "stop" : 1685619244726,
+        "duration" : 478
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Avalanche (AVAX)-Binance Smart Chain (BNB)]",
+      "uid" : "e44598677ecaca42",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619244588,
+        "stop" : 1685619245009,
+        "duration" : 421
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Ethereum (ETH)-Polygon (MATIC)]",
+      "uid" : "ed43d98290bb83a0",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619244759,
+        "stop" : 1685619245174,
+        "duration" : 415
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Avalanche (AVAX)-Polygon (MATIC)]",
+      "uid" : "502fcc66f043a2d4",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619245038,
+        "stop" : 1685619245431,
+        "duration" : 393
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Ethereum (ETH)-Arbitrum One (ETH)]",
+      "uid" : "b51665322efcf160",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619245201,
+        "stop" : 1685619245602,
+        "duration" : 401
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Avalanche (AVAX)-Arbitrum One (ETH)]",
+      "uid" : "7377cb5eab16b2cd",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619245462,
+        "stop" : 1685619245868,
+        "duration" : 406
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Ethereum (ETH)-Avalanche (AVAX)]",
+      "uid" : "de49fb4099de02e4",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619245628,
+        "stop" : 1685619246020,
+        "duration" : 392
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Ethereum (ETH)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_native[Avalanche (AVAX)-Avalanche (AVAX)]",
+      "uid" : "ef24f4ffd56d66dd",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619245903,
+        "stop" : 1685619245904,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Binance Smart Chain (BNB)-Avalanche (AVAX)]",
+      "uid" : "763b0d6150560e4e",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619245908,
+        "stop" : 1685619246331,
+        "duration" : 423
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Binance Smart Chain (BNB)-Ethereum (ETH)]",
+      "uid" : "3f1f8e156738924b",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619246050,
+        "stop" : 1685619246504,
+        "duration" : 454
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Polygon (MATIC)-Ethereum (ETH)]",
+      "uid" : "1b5a3561b5acdf7",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619246363,
+        "stop" : 1685619246789,
+        "duration" : 426
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Binance Smart Chain (BNB)-Binance Smart Chain (BNB)]",
+      "uid" : "5027bad90e0ab5d",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619246534,
+        "stop" : 1685619246534,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Binance Smart Chain (BNB)-Polygon (MATIC)]",
+      "uid" : "5576f8e8effb87f1",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619246538,
+        "stop" : 1685619246930,
+        "duration" : 392
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Polygon (MATIC)-Binance Smart Chain (BNB)]",
+      "uid" : "bb3e65f85e17d384",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619246821,
+        "stop" : 1685619247235,
+        "duration" : 414
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Binance Smart Chain (BNB)-Arbitrum One (ETH)]",
+      "uid" : "7dd7d16a24f061c2",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619246958,
+        "stop" : 1685619247342,
+        "duration" : 384
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Binance Smart Chain (BNB)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Polygon (MATIC)-Polygon (MATIC)]",
+      "uid" : "f3a691bcd2195fc8",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619247266,
+        "stop" : 1685619247267,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Polygon (MATIC)-Arbitrum One (ETH)]",
+      "uid" : "5a26f01b3cacaedb",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619247271,
+        "stop" : 1685619247701,
+        "duration" : 430
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Polygon (MATIC)-Avalanche (AVAX)]",
+      "uid" : "e16c3310f7a7f6de",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619247367,
+        "stop" : 1685619247752,
+        "duration" : 385
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Polygon (MATIC)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Arbitrum One (ETH)-Ethereum (ETH)]",
+      "uid" : "b98211504caf05e2",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619247728,
+        "stop" : 1685619248278,
+        "duration" : 550
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Arbitrum One (ETH)-Binance Smart Chain (BNB)]",
+      "uid" : "bdaa69cc0a716bf7",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619247763,
+        "stop" : 1685619248228,
+        "duration" : 465
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Arbitrum One (ETH)-Arbitrum One (ETH)]",
+      "uid" : "e34ef09d4b0e2dd9",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619248256,
+        "stop" : 1685619248257,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Arbitrum One (ETH)-Avalanche (AVAX)]",
+      "uid" : "154167e7601100aa",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619248260,
+        "stop" : 1685619248660,
+        "duration" : 400
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Avalanche (AVAX)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Arbitrum One (ETH)-Polygon (MATIC)]",
+      "uid" : "40f563aac4d6d122",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619248295,
+        "stop" : 1685619248660,
+        "duration" : 365
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Arbitrum One (ETH)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Avalanche (AVAX)-Binance Smart Chain (BNB)]",
+      "uid" : "2e70bbce8799a9c",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619248693,
+        "stop" : 1685619249106,
+        "duration" : 413
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Binance Smart Chain (BNB)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Avalanche (AVAX)-Ethereum (ETH)]",
+      "uid" : "44c4b91344612d7d",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619248694,
+        "stop" : 1685619249106,
+        "duration" : 412
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Ethereum (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Avalanche (AVAX)-Polygon (MATIC)]",
+      "uid" : "798deb0f85099bed",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619249139,
+        "stop" : 1685619249545,
+        "duration" : 406
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Polygon (MATIC)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Avalanche (AVAX)-Arbitrum One (ETH)]",
+      "uid" : "1e0e39f78c4f8267",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1685619249140,
+        "stop" : 1685619249544,
+        "duration" : 404
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Arbitrum One (ETH)'" ]
+    }, {
+      "name" : "test_get_bridge_tx_stablecoin_to_not_native[Avalanche (AVAX)-Avalanche (AVAX)]",
+      "uid" : "371b6de9a60620c",
+      "parentUid" : "92d9fcf469db7699b4b4f291ec8e8b4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1685619249571,
+        "stop" : 1685619249572,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Avalanche (AVAX)'", "'Avalanche (AVAX)'" ]
+    } ],
+    "uid" : "tests.api_tests.tests_de_bridge"
+  } ],
   "name" : "packages"
 }

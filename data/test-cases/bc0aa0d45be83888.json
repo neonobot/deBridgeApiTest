@@ -1,0 +1,88 @@
+{
+  "uid" : "bc0aa0d45be83888",
+  "name" : "test_get_approve_tx_stablecoin[Ethereum (ETH)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_approve_tx_stablecoin",
+  "historyId" : "0b7b0df7c33391e99f037c9708249497",
+  "time" : {
+    "start" : 1685619193607,
+    "stop" : 1685619194092,
+    "duration" : 485
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "16982cee8e69186a",
+      "name" : "log",
+      "source" : "16982cee8e69186a.txt",
+      "type" : "text/plain",
+      "size" : 985
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Anna.local"
+  }, {
+    "name" : "thread",
+    "value" : "18939-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "network",
+    "value" : "'Ethereum (ETH)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cd0e8f26fad38f8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685615495115,
+        "stop" : 1685615495755,
+        "duration" : 640
+      }
+    }, {
+      "uid" : "2c30d0e0cb5dc55e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685610392868,
+        "stop" : 1685610393280,
+        "duration" : 412
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc0aa0d45be83888.json",
+  "parameterValues" : [ "'Ethereum (ETH)'" ]
+}
