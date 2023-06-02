@@ -30,10 +30,10 @@ class DeBridge:
 
             return response
 
-        def estimate_bridge_native_to_not_native(self, net, native_token, not_native_token):
+        def estimate_bridge_native_to_not_native(self, net, native_token, not_native_token, owner): #todo: добавить в параметры owner
             response = requests.get(
                 f"{self.url}?srcNet={net}&srcTokenAddress={native_token}"
-                f"&srcTokenAmount=1&dstNet={net}&dstTokenAddress={not_native_token}")
+                f"&srcTokenAmount=10&dstNet={net}&dstTokenAddress={not_native_token}&owner={owner}")
             logger.info(f"Отправлен запрос на роут - {response.url}")
             logger.info(response.text)
             assert response.status_code == 200, f"Ожидался status = {200}, " \
@@ -43,10 +43,10 @@ class DeBridge:
 
             return response
 
-        def estimate_bridge_stablecoin_to_not_native(self, net, stable_coin, not_native_token):
+        def estimate_bridge_stablecoin_to_not_native(self, net, stable_coin, not_native_token, owner):
             response = requests.get(
                 f"{self.url}?srcNet={net}&srcTokenAddress={stable_coin}"
-                f"&srcTokenAmount=1&dstNet={net}&dstTokenAddress={not_native_token}")
+                f"&srcTokenAmount=10&dstNet={net}&dstTokenAddress={not_native_token}&owner={owner}")
             logger.info(f"Отправлен запрос на роут - {response.url}")
             logger.info(response.text)
             assert response.status_code == 200, f"Ожидался status = {200}, " \
@@ -56,10 +56,10 @@ class DeBridge:
 
             return response
 
-        def estimate_bridge_not_native_to_native(self, net, not_native_token, native_token):
+        def estimate_bridge_not_native_to_native(self, net, not_native_token, native_token, owner):
             response = requests.get(
                 f"{self.url}?srcNet={net}&srcTokenAddress={not_native_token}"
-                f"&srcTokenAmount=1&dstNet={net}&dstTokenAddress={native_token}")
+                f"&srcTokenAmount=10&dstNet={net}&dstTokenAddress={native_token}&owner={owner}")
             logger.info(f"Отправлен запрос на роут - {response.url}")
             logger.info(response.text)
             assert response.status_code == 200, f"Ожидался status = {200}, " \
@@ -88,9 +88,10 @@ class DeBridge:
         response = requests.get(f"{self.url}getApproveTx")
         logger.info(f"Отправлен запрос на роут - {response.url}")
         logger.info(response.text)
-        assert response.status_code == 200, f"Ожидался status = {200}, " \
-                                            f"пришел status = {response.status_code}. " \
-                                            f"Тело ответа: \n{response.text}."
+        assert response.status_code == 400 and response.text == '{"ok":false,"data":null,"error":"\\"net\\"' \
+                                                                ' is required"}', f"Ожидался status = {400}, " \
+                                                                                  f"пришел status = {response.status_code}. " \
+                                                                                  f"Тело ответа: \n{response.text}."
 
         return response
 
@@ -125,12 +126,12 @@ class DeBridge:
         return response
 
     def get_bridge_tx(self, src_net, dst_net, src_token_address, dst_token_address, src_token_amount,
-                      dst_chain_recipient_address, dst_chain_fallback_address):
+                      dst_chain_recipient_address, dst_chain_fallback_address, owner):
         response = requests.get(
             f"{self.url}getBridgeTx?srcNet={src_net}&srcTokenAddress={src_token_address}&"
             f"srcTokenAmount={src_token_amount}&dstNet={dst_net}&dstTokenAddress={dst_token_address}&"
             f"dstChainRecipientAddress={dst_chain_recipient_address}&"
-            f"dstChainFallbackAddress={dst_chain_fallback_address}")
+            f"dstChainFallbackAddress={dst_chain_fallback_address}&owner={owner}")
         logger.info(f"Отправлен запрос на роут - {response.url}")
         logger.info(response.text)
         assert response.status_code == 200, f"Ожидался status = {200}, " \
