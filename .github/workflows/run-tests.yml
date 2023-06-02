@@ -39,14 +39,18 @@ jobs:
           sudo ln -s /opt/allure-2.15.0/bin/allure /usr/bin/allure
           allure --version
 
-      - name: Debug
+      - name: Debug1
+        run: ls ./allure-results
+
+      - name: Clean previous Allure results
+        run: rm -rf ./allure-results
+
+      - name: Debug2
         run: ls ./allure-results
 
       - name: Run tests and generate Allure report
         run: |
-          echo "Running tests with pytest..."
-          python -m pytest -n=2 ./tests/api_tests/tests_de_bridge.py --alluredir=./allure-results
-          echo "Generating Allure report..."
+          python -m pytest -n=2 ./tests/api_tests/tests_de_bridge.py
           allure generate ./allure-results --clean -o ./allure-report
       
 
