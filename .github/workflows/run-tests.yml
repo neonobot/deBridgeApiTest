@@ -38,7 +38,7 @@ jobs:
           allure --version
 
       - name: Clean previous Allure results
-        run: rm -rf allure-results1
+        run: rm -rf allure-results
 
       - name: Run tests and generate Allure report
         id: test-results
@@ -48,7 +48,7 @@ jobs:
           echo "PASSED_TESTS=$(cat test_results.txt | grep -oP '(\d+) passed')" >> $GITHUB_ENV
           echo "FAILED_TESTS=$(cat test_results.txt | grep -oP '(\d+) failed')" >> $GITHUB_ENV
           echo "SKIPPED_TESTS=$(cat test_results.txt | grep -oP '(\d+) skipped')" >> $GITHUB_ENV
-          allure generate ./allure-results1 -o ./allure-report-$GITHUB_RUN_NUMBER
+          --alluredir ./allure-results -o ./allure-report-$GITHUB_RUN_NUMBER
       
 
       - name: Deploy Allure report to gh-pages branch
