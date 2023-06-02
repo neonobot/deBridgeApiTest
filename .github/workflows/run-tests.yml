@@ -37,8 +37,8 @@ jobs:
           sudo ln -s /opt/allure-2.15.0/bin/allure /usr/bin/allure
           allure --version
 
-      - name: Clean previous Allure results
-        run: rm -rf allure-results
+      - name: Create allure-results directory
+        run: mkdir allure-results
 
       - name: Run tests and generate Allure report
         id: test-results
@@ -48,8 +48,21 @@ jobs:
           echo "PASSED_TESTS=$(cat test_results.txt | grep -oP '(\d+) passed')" >> $GITHUB_ENV
           echo "FAILED_TESTS=$(cat test_results.txt | grep -oP '(\d+) failed')" >> $GITHUB_ENV
           echo "SKIPPED_TESTS=$(cat test_results.txt | grep -oP '(\d+) skipped')" >> $GITHUB_ENV
-          --alluredir ./allure-results -o ./allure-report-$GITHUB_RUN_NUMBER
-      
+          --alluredir=./allure-results
+          allure generate --clean -o ./allure-report ./allure-results
+
+
+      - name: Archive allure-results and allure-report
+        uses: actions/upload-artifact@v2
+        with:
+          name: allure-results
+          path: allure-results
+
+      - name: Archive allure-report
+        uses: actions/upload-artifact@v2
+        with:
+          name: allure-report
+          path: allure-report
 
       - name: Deploy Allure report to gh-pages branch
         uses: peaceiris/actions-gh-pages@v3
