@@ -42,7 +42,7 @@ jobs:
         run: rm -rf allure-results
 
       - name: Create allure-results directory
-        run: mkdir allure-results
+        run: mkdir neonobot/deBridgeApiTest/allure-results
 
       - name: Run tests and generate Allure report
         id: test-results
@@ -52,7 +52,7 @@ jobs:
           echo "PASSED_TESTS=$(cat test_results.txt | grep -oP '(\d+) passed')" >> $GITHUB_ENV
           echo "FAILED_TESTS=$(cat test_results.txt | grep -oP '(\d+) failed')" >> $GITHUB_ENV
           echo "SKIPPED_TESTS=$(cat test_results.txt | grep -oP '(\d+) skipped')" >> $GITHUB_ENV
-          --alluredir=./allure-results allure generate ./allure-results -o ./allure-report-$GITHUB_RUN_NUMBER
+          allure generate ./allure-results -o ./allure-report-$GITHUB_RUN_NUMBER
           
       
 
