@@ -63,5 +63,5 @@ jobs:
           PASSED_TESTS: ${{ env.PASSED_TESTS }}
           FAILED_TESTS: ${{ env.FAILED_TESTS }}
           SKIPPED_TESTS: ${{ env.SKIPPED_TESTS }}
-          Allure Report: https://${{ github.repository }}/
+          Allure Report: https://neonobot.github.io/deBridgeApiTest/
         run: python telegram_bot.py
