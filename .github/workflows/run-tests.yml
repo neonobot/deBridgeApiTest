@@ -47,13 +47,13 @@ jobs:
           echo "PASSED_TESTS=$(cat test_results.txt | grep -oP '(\d+) passed')" >> $GITHUB_ENV
           echo "FAILED_TESTS=$(cat test_results.txt | grep -oP '(\d+) failed')" >> $GITHUB_ENV
           echo "SKIPPED_TESTS=$(cat test_results.txt | grep -oP '(\d+) skipped')" >> $GITHUB_ENV
-          allure generate ./docs/allure-results -o ./docs/allure-report --clean
+          allure generate ./allure-results -o ./allure-report --clean
 
       - name: Publish Allure report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.MY_GITHUB_TOKEN }}
-          publish_dir: ./docs/allure-report
+          publish_dir: ./allure-report
 
       - name: Send Test Results via Telegram
         env:
