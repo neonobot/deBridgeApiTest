@@ -43,7 +43,7 @@ jobs:
         run: ls ./allure-results
 
       - name: Clean previous Allure results
-        run: rm -rf ./allure-results
+        run: rm -rf ./allure-results/*
 
       - name: Debug2
         run: ls ./allure-results
