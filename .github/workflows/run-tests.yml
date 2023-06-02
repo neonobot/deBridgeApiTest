@@ -63,5 +63,5 @@ jobs:
           PASSED_TESTS: ${{ env.PASSED_TESTS }}
           FAILED_TESTS: ${{ env.FAILED_TESTS }}
           SKIPPED_TESTS: ${{ env.SKIPPED_TESTS }}
-          Allure Report: https://${{ github.repository }}/allure-report
+          Allure Report: https://${{ github.repository }}/
         run: python telegram_bot.py
