@@ -41,6 +41,9 @@ jobs:
       - name: Clean previous Allure results
         run: rm -rf allure-results
 
+      - name: Create allure-results directory
+        run: mkdir allure-results
+
       - name: Run tests and generate Allure report
         id: test-results
         run: |
