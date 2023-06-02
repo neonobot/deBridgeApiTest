@@ -44,8 +44,11 @@ jobs:
         run: rm -rf ./allure-results
 
       - name: Create Allure results directory
-        run: mkdir -p allure-results
-
+        run: |
+          mkdir -p ./deBridgeApiTest/allure-results
+          cp -R ./allure-results ./deBridgeApiTest/allure-results
+      
+      
 
       - name: Run tests and generate Allure report
         id: test-results
