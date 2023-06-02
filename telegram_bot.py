@@ -2,7 +2,7 @@ import os
 
 import requests
 
-TELEGRAM_BOT_TOKEN = '6242463894:AAGbcAbxYYJNaK8LwquAnF8kDSU0pilyvtA'
+TELEGRAM_BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
 url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
 
 
