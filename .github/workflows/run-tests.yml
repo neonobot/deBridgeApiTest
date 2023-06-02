@@ -44,7 +44,9 @@ jobs:
 
       - name: Run tests and generate Allure report
         run: |
+          echo "Running tests with pytest..."
           python -m pytest -n=2 ./tests/api_tests/tests_de_bridge.py --alluredir=./allure-results
+          echo "Generating Allure report..."
           allure generate ./allure-results --clean -o ./allure-report
       
 
