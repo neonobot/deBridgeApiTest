@@ -48,8 +48,6 @@ jobs:
           echo "FAILED_TESTS=$(cat test_results.txt | grep -oP '(\d+) failed')" >> $GITHUB_ENV
           echo "SKIPPED_TESTS=$(cat test_results.txt | grep -oP '(\d+) skipped')" >> $GITHUB_ENV
           allure generate ./docs/allure-results -o ./docs/allure-report --clean
-      
-      
 
       - name: Publish Allure report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
@@ -65,3 +63,4 @@ jobs:
           FAILED_TESTS: ${{ env.FAILED_TESTS }}
           SKIPPED_TESTS: ${{ env.SKIPPED_TESTS }}
         run: python telegram_bot.py
+
