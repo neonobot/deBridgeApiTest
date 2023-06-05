@@ -48,6 +48,11 @@ jobs:
           echo "SKIPPED_TESTS=$(cat test_results.txt | grep -oP '(\d+) skipped')" >> $GITHUB_ENV
           allure generate ./allure-results -o ./allure-report
 
+          echo "Logging test output..."
+          echo "${{ env.TEST_LOG }}" >> test_output.txt
+          echo "Copying test output to allure-results..."
+          cp test_output.txt allure-results/test_output.txt
+
       - name: Debug1
         run: ls ./allure-results
 
@@ -66,12 +71,6 @@ jobs:
           personal_token: ${{ secrets.MY_GITHUB_TOKEN }}
           publish_dir: ./allure-report
           publish_branch: gh-pages
-
-      - name: Save Allure logs as artifacts
-        uses: actions/upload-artifact@v2
-        with:
-            name: Allure logs
-            path: ./allure-results/*.txt
 
       - name: Send Test Results via Telegram
         env:
