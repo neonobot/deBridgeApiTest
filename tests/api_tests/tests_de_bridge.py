@@ -19,8 +19,9 @@ def test_estimate_bridge_native_to_not_native(network):
     net = de_bridge_keys_data()[network].get('net')
     native_token = de_bridge_keys_data()[network].get('nativeToken')
     not_native_token = de_bridge_keys_data()[network].get('notNativeToken')
+    owner = de_bridge_keys_data()[network].get('owner')
     DeBridge().EstimateBridge().estimate_bridge_native_to_not_native(net=net, native_token=native_token,
-                                                                     not_native_token=not_native_token)
+                                                                     not_native_token=not_native_token, owner=owner)
 
 
 @pytest.mark.parametrize("network", networks)

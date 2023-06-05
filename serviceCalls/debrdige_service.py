@@ -80,7 +80,7 @@ class DeBridge:
                                             f"пришел status = {response.status_code}. " \
                                             f"Тело ответа: \n{response.text}."
         validate(json.loads(response.text),
-                 get_allowance_schema), f"Ответ от сервера не соответствует ожидаемой схеме. Поля: {get_tokens_by_chain_schema}"
+                 get_allowance_schema), f"Ответ от сервера не соответствует ожидаемой схеме. Поля: {get_allowance_schema}"
 
         return response
 

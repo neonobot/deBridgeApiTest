@@ -78,7 +78,7 @@ get_tokens_by_chain_schema = {
                         "type": "string"
                     }
                 },
-                "required": ["code", "name", "decimals", "address", "logoURI"]
+                "required": ["code", "name", "decimals", "address"]
             }
         },
         "error": {
