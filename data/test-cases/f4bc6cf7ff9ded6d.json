@@ -1,0 +1,62 @@
+{
+  "uid" : "f4bc6cf7ff9ded6d",
+  "name" : "test_estimate_bridge_stablecoin_to_not_native[Polygon (MATIC)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_estimate_bridge_stablecoin_to_not_native",
+  "historyId" : "4b79ca5be9f6ba7ed6e1d4ef5fd39c0e",
+  "time" : {
+    "start" : 1685973318996,
+    "stop" : 1685973318997,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: estimate_bridge_stablecoin_to_not_native() missing 1 required positional argument: 'owner'",
+  "statusTrace" : "network = 'Polygon (MATIC)'\n\n    @pytest.mark.parametrize(\"network\", networks)\n    def test_estimate_bridge_stablecoin_to_not_native(network):\n        net = de_bridge_keys_data()[network].get('net')\n        stable_coin = de_bridge_keys_data()[network].get('stableCoin')\n        not_native_token = de_bridge_keys_data()[network].get('notNativeToken')\n>       DeBridge().EstimateBridge().estimate_bridge_stablecoin_to_not_native(net=net, stable_coin=stable_coin,\n                                                                             not_native_token=not_native_token)\nE       TypeError: estimate_bridge_stablecoin_to_not_native() missing 1 required positional argument: 'owner'\n\ntests/api_tests/tests_de_bridge.py:32: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "fv-az408-193"
+  }, {
+    "name" : "thread",
+    "value" : "2500-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "network",
+    "value" : "'Polygon (MATIC)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f4bc6cf7ff9ded6d.json",
+  "parameterValues" : [ "'Polygon (MATIC)'" ]
+}
