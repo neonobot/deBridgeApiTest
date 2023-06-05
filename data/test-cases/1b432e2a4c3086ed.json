@@ -1,0 +1,67 @@
+{
+  "uid" : "1b432e2a4c3086ed",
+  "name" : "test_estimate_bridge",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_estimate_bridge",
+  "historyId" : "cfd5ccb227c1a003fddf7f47ceea184d",
+  "time" : {
+    "start" : 1685717377209,
+    "stop" : 1685717377668,
+    "duration" : 459
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5a671dcb1693fa7f",
+      "name" : "log",
+      "source" : "5a671dcb1693fa7f.txt",
+      "type" : "text/plain",
+      "size" : 213
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Anna.local"
+  }, {
+    "name" : "thread",
+    "value" : "25696-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b432e2a4c3086ed.json",
+  "parameterValues" : [ ]
+}

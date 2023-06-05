@@ -1,0 +1,70 @@
+{
+  "uid" : "e6032a12d5c68e41",
+  "name" : "test_get_bridge_tx_stablecoin_to_native[Binance Smart Chain (BNB)-Binance Smart Chain (BNB)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_bridge_tx_stablecoin_to_native",
+  "historyId" : "8b8ab723c8089cecbf2a922a1087b273",
+  "time" : {
+    "start" : 1685946422026,
+    "stop" : 1685946422027,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: Сеть отправления = сети назначения",
+  "statusTrace" : "('/Users/annaskvortsova/PycharmProjects/deBridge/tests/api_tests/tests_de_bridge.py', 203, 'Skipped: Сеть отправления = сети назначения')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Anna.local"
+  }, {
+    "name" : "thread",
+    "value" : "29519-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dst_network",
+    "value" : "'Binance Smart Chain (BNB)'"
+  }, {
+    "name" : "src_network",
+    "value" : "'Binance Smart Chain (BNB)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "13adaecbac3fafac",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685717482000,
+        "stop" : 1685717482000,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e6032a12d5c68e41.json",
+  "parameterValues" : [ "'Binance Smart Chain (BNB)'", "'Binance Smart Chain (BNB)'" ]
+}

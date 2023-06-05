@@ -1,0 +1,70 @@
+{
+  "uid" : "d3fcee19063fb761",
+  "name" : "test_get_approve_tx_not_native_token[Polygon (MATIC)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_approve_tx_not_native_token",
+  "historyId" : "368e908aa413765966032ee1b773db8f",
+  "time" : {
+    "start" : 1685717385346,
+    "stop" : 1685717385736,
+    "duration" : 390
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3db3b9947063a9e0",
+      "name" : "log",
+      "source" : "3db3b9947063a9e0.txt",
+      "type" : "text/plain",
+      "size" : 984
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Anna.local"
+  }, {
+    "name" : "thread",
+    "value" : "25696-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "network",
+    "value" : "'Polygon (MATIC)'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d3fcee19063fb761.json",
+  "parameterValues" : [ "'Polygon (MATIC)'" ]
+}
