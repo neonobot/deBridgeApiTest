@@ -67,6 +67,12 @@ jobs:
           publish_dir: ./allure-report
           publish_branch: gh-pages
 
+      - name: Save Allure logs as artifacts
+        uses: actions/upload-artifact@v2
+        with:
+            name: Allure logs
+            path: ./allure-results/*.txt
+
       - name: Send Test Results via Telegram
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
