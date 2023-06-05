@@ -1,0 +1,81 @@
+{
+  "uid" : "a6ceb8f51cedb558",
+  "name" : "test_get_tokens_by_chain[Binance Smart Chain (BNB)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_tokens_by_chain",
+  "historyId" : "b2f3dac650ee4d128f3bb3c43e25c4bc",
+  "time" : {
+    "start" : 1685946320899,
+    "stop" : 1685946321811,
+    "duration" : 912
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4b4018a3f3ed67dc",
+      "name" : "log",
+      "source" : "4b4018a3f3ed67dc.txt",
+      "type" : "text/plain",
+      "size" : 87967
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Anna.local"
+  }, {
+    "name" : "thread",
+    "value" : "29519-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "network",
+    "value" : "'Binance Smart Chain (BNB)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "516dd1fd08c35874",
+      "status" : "broken",
+      "statusDetails" : "jsonschema.exceptions.ValidationError: 'symbol' is a required property\n\nFailed validating 'required' in schema['properties']['data']['items']:\n    {'properties': {'address': {'type': 'string'},\n                    'decimals': {'type': 'integer'},\n                    'logoURI': {'type': 'string'},\n                    'name': {'type': 'string'},\n                    'symbol': {'type': 'string'}},\n     'required': ['symbol', 'name', 'decimals', 'address', 'logoURI'],\n     'type': 'object'}\n\nOn instance['data'][0]:\n    {'address': '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',\n     'code': 'WBNB',\n     'decimals': 18,\n     'logoURI': 'https://tokens.1inch.io/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c_1.png',\n     'name': 'WBNB'}",
+      "time" : {
+        "start" : 1685717384991,
+        "stop" : 1685717386088,
+        "duration" : 1097
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a6ceb8f51cedb558.json",
+  "parameterValues" : [ "'Binance Smart Chain (BNB)'" ]
+}

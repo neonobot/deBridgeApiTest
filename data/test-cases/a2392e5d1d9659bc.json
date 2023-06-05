@@ -1,0 +1,73 @@
+{
+  "uid" : "a2392e5d1d9659bc",
+  "name" : "test_get_bridge_tx_native_to_not_native[Avalanche (AVAX)-Polygon (MATIC)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_bridge_tx_native_to_not_native",
+  "historyId" : "692d048dcdd7b2c1923b9d581fcc0055",
+  "time" : {
+    "start" : 1685717429532,
+    "stop" : 1685717431470,
+    "duration" : 1938
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f5aeed79c3b8e694",
+      "name" : "log",
+      "source" : "f5aeed79c3b8e694.txt",
+      "type" : "text/plain",
+      "size" : 4932
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Anna.local"
+  }, {
+    "name" : "thread",
+    "value" : "25697-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dst_network",
+    "value" : "'Avalanche (AVAX)'"
+  }, {
+    "name" : "src_network",
+    "value" : "'Polygon (MATIC)'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a2392e5d1d9659bc.json",
+  "parameterValues" : [ "'Avalanche (AVAX)'", "'Polygon (MATIC)'" ]
+}

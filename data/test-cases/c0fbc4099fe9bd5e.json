@@ -1,0 +1,84 @@
+{
+  "uid" : "c0fbc4099fe9bd5e",
+  "name" : "test_get_bridge_tx_not_native_to_native[Arbitrum One (ETH)-Binance Smart Chain (BNB)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_bridge_tx_not_native_to_native",
+  "historyId" : "1a4c4aa8e325001761d13e5061519364",
+  "time" : {
+    "start" : 1685946367130,
+    "stop" : 1685946369187,
+    "duration" : 2057
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b0d7f0e9151c784a",
+      "name" : "log",
+      "source" : "b0d7f0e9151c784a.txt",
+      "type" : "text/plain",
+      "size" : 4982
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Anna.local"
+  }, {
+    "name" : "thread",
+    "value" : "29518-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dst_network",
+    "value" : "'Arbitrum One (ETH)'"
+  }, {
+    "name" : "src_network",
+    "value" : "'Binance Smart Chain (BNB)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8eb5d7b47d49058e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
+      "time" : {
+        "start" : 1685717431530,
+        "stop" : 1685717434396,
+        "duration" : 2866
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c0fbc4099fe9bd5e.json",
+  "parameterValues" : [ "'Arbitrum One (ETH)'", "'Binance Smart Chain (BNB)'" ]
+}

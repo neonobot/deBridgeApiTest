@@ -1,0 +1,80 @@
+{
+  "uid" : "b75e429caf8f465c",
+  "name" : "test_get_approve_tx_stablecoin[Ethereum (ETH)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_approve_tx_stablecoin",
+  "historyId" : "0b7b0df7c33391e99f037c9708249497",
+  "time" : {
+    "start" : 1685946317269,
+    "stop" : 1685946317696,
+    "duration" : 427
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "135e604341610b59",
+      "name" : "log",
+      "source" : "135e604341610b59.txt",
+      "type" : "text/plain",
+      "size" : 985
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Anna.local"
+  }, {
+    "name" : "thread",
+    "value" : "29519-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "network",
+    "value" : "'Ethereum (ETH)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "96068de3a9faae1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685717379094,
+        "stop" : 1685717379567,
+        "duration" : 473
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b75e429caf8f465c.json",
+  "parameterValues" : [ "'Ethereum (ETH)'" ]
+}

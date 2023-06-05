@@ -1,0 +1,83 @@
+{
+  "uid" : "a07a05f60a28a148",
+  "name" : "test_get_bridge_tx_native_to_stablecoin[Avalanche (AVAX)-Arbitrum One (ETH)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_bridge_tx_native_to_stablecoin",
+  "historyId" : "9250da67b6146a9ab2c619699bc15630",
+  "time" : {
+    "start" : 1685946414656,
+    "stop" : 1685946417660,
+    "duration" : 3004
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b84276f782f54967",
+      "name" : "log",
+      "source" : "b84276f782f54967.txt",
+      "type" : "text/plain",
+      "size" : 5899
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Anna.local"
+  }, {
+    "name" : "thread",
+    "value" : "29518-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dst_network",
+    "value" : "'Avalanche (AVAX)'"
+  }, {
+    "name" : "src_network",
+    "value" : "'Arbitrum One (ETH)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a42c986cc4929d41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685717484040,
+        "stop" : 1685717486319,
+        "duration" : 2279
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a07a05f60a28a148.json",
+  "parameterValues" : [ "'Avalanche (AVAX)'", "'Arbitrum One (ETH)'" ]
+}

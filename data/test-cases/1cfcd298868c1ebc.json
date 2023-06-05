@@ -1,0 +1,73 @@
+{
+  "uid" : "1cfcd298868c1ebc",
+  "name" : "test_get_bridge_tx_native_to_stablecoin[Avalanche (AVAX)-Ethereum (ETH)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_bridge_tx_native_to_stablecoin",
+  "historyId" : "883e4c12e2268c7d25c389180f85c472",
+  "time" : {
+    "start" : 1685717479511,
+    "stop" : 1685717481099,
+    "duration" : 1588
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d287b92bb3902bdd",
+      "name" : "log",
+      "source" : "d287b92bb3902bdd.txt",
+      "type" : "text/plain",
+      "size" : 4793
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Anna.local"
+  }, {
+    "name" : "thread",
+    "value" : "25696-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dst_network",
+    "value" : "'Avalanche (AVAX)'"
+  }, {
+    "name" : "src_network",
+    "value" : "'Ethereum (ETH)'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1cfcd298868c1ebc.json",
+  "parameterValues" : [ "'Avalanche (AVAX)'", "'Ethereum (ETH)'" ]
+}
