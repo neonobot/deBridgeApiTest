@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests.api_tests",
+    "children" : [ {
+      "name" : "tests_de_bridge",
+      "children" : [ {
+        "name" : "test_get_supported_chains",
+        "uid" : "a1a8e9365dbf764d",
+        "parentUid" : "26551b65f92020dd4a06690e9993d059",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685970901840,
+          "stop" : 1685970902564,
+          "duration" : 724
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "26551b65f92020dd4a06690e9993d059"
+    } ],
+    "uid" : "c9c7d755310a5367586b8217d33736a8"
+  } ],
+  "name" : "suites"
+}
