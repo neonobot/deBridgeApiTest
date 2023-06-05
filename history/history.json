@@ -1,4 +1,4069 @@
 {
+  "7a47cf4157608107c15fddf46f9c90ee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aead2d1d8ac30520",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972432265,
+        "stop" : 1685972433683,
+        "duration" : 1418
+      }
+    } ]
+  },
+  "21d4f359cc85b0af3f46af9087aaa787" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5c1b42d32e0933a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972417309,
+        "stop" : 1685972417762,
+        "duration" : 453
+      }
+    } ]
+  },
+  "2f5e9fe62ec5be4ca0fa67acccac7d23" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ee51fd6d32a0a404",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972469003,
+        "stop" : 1685972469626,
+        "duration" : 623
+      }
+    } ]
+  },
+  "18789281b6f7bcef232b5cf6d3e7f06e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e747363b7981e04",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972469642,
+        "stop" : 1685972470303,
+        "duration" : 661
+      }
+    } ]
+  },
+  "231eb7f9a088924914fc90958fcbec07" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b11428cd354083d0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972448601,
+        "stop" : 1685972449813,
+        "duration" : 1212
+      }
+    } ]
+  },
+  "359f23e4a50f2b54f0f6fb53bfab9918" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3323c8988666809d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972457617,
+        "stop" : 1685972458328,
+        "duration" : 711
+      }
+    } ]
+  },
+  "82ea5d86de4dfc0a91de727b2ecd043e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dad6363b58853443",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972460924,
+        "stop" : 1685972461372,
+        "duration" : 448
+      }
+    } ]
+  },
+  "db0201cdfcab4d4fd6e0551f58b769ee" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dd1a893d880fe5d4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972458345,
+        "stop" : 1685972459361,
+        "duration" : 1016
+      }
+    } ]
+  },
+  "4642ff7cfb7a09e5203cb59b82816a44" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "827593157ead557e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972461883,
+        "stop" : 1685972461884,
+        "duration" : 1
+      }
+    } ]
+  },
+  "fd636c40a015b91bd850406a126360e0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ce0962daf454dc4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972438782,
+        "stop" : 1685972439962,
+        "duration" : 1180
+      }
+    } ]
+  },
+  "f598c7c365f39fe26fbaf512ba73a34f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7141578d0ea17bf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972436457,
+        "stop" : 1685972438621,
+        "duration" : 2164
+      }
+    } ]
+  },
+  "c2b8cb800cffb9b7b88d44b6b3cecb6c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8c08188e7f7f7ac5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972441815,
+        "stop" : 1685972442980,
+        "duration" : 1165
+      }
+    } ]
+  },
+  "3ca27424d81e280a8152035f16834584" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "76b0d4cd4bdaba76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972425771,
+        "stop" : 1685972427692,
+        "duration" : 1921
+      }
+    } ]
+  },
+  "34c1ea9f2c5f6b04c9d82fc804bb40ea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5effbb0455c90e2b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972422425,
+        "stop" : 1685972422426,
+        "duration" : 1
+      }
+    } ]
+  },
+  "8f469f43b30301540387e58c07c59e75" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a7acf1f31fb016c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972452421,
+        "stop" : 1685972454043,
+        "duration" : 1622
+      }
+    } ]
+  },
+  "d5413dc7bd6153cfdfebb365a8996c6b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9571e769c4450f43",
+      "status" : "broken",
+      "statusDetails" : "TypeError: estimate_bridge_not_native_to_native() missing 1 required positional argument: 'owner'",
+      "time" : {
+        "start" : 1685972414479,
+        "stop" : 1685972414480,
+        "duration" : 1
+      }
+    } ]
+  },
+  "8b8ab723c8089cecbf2a922a1087b273" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c75f766db57b0947",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972463685,
+        "stop" : 1685972463686,
+        "duration" : 1
+      }
+    } ]
+  },
+  "b2f3dac650ee4d128f3bb3c43e25c4bc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "62b9b6f62814c5b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972413206,
+        "stop" : 1685972414190,
+        "duration" : 984
+      }
+    } ]
+  },
+  "0af678cf5d18d82bd3ddeccb9fddd86e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f157e7af04b9b96e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972459380,
+        "stop" : 1685972459837,
+        "duration" : 457
+      }
+    } ]
+  },
+  "78e69f734586a5d813089208bbb3abd6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e3e03301bc5807a",
+      "status" : "broken",
+      "statusDetails" : "TypeError: estimate_bridge_stablecoin_to_not_native() missing 1 required positional argument: 'owner'",
+      "time" : {
+        "start" : 1685972414453,
+        "stop" : 1685972414453,
+        "duration" : 0
+      }
+    } ]
+  },
+  "883e4c12e2268c7d25c389180f85c472" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e5fb8234a36c98",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972461766,
+        "stop" : 1685972462242,
+        "duration" : 476
+      }
+    } ]
+  },
+  "36072386ac027d1b2ae7663d63606c6b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a4cc378e88486bd9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972472269,
+        "stop" : 1685972472922,
+        "duration" : 653
+      }
+    } ]
+  },
+  "d04c6e8ffa46da4e808bb754a2bbe5cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9edcac0ecf00acb8",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972454047,
+        "stop" : 1685972454047,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4429caa46defa0cd032a7556b184a28c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c80484699d53f64c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972461388,
+        "stop" : 1685972461868,
+        "duration" : 480
+      }
+    } ]
+  },
+  "d30c9aecb5a123b3525b0cd0e8728473" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a65f7d017a476eab",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972458788,
+        "stop" : 1685972459447,
+        "duration" : 659
+      }
+    } ]
+  },
+  "692d048dcdd7b2c1923b9d581fcc0055" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "618eb5b4c41ea9db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972427506,
+        "stop" : 1685972429171,
+        "duration" : 1665
+      }
+    } ]
+  },
+  "2cad5c794702c20381a94e52c8123f75" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9d46796bc8e6d2bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972448697,
+        "stop" : 1685972450489,
+        "duration" : 1792
+      }
+    } ]
+  },
+  "b6c6ae99aa666fad2dd5c74697f7f1d8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "276dee61db154d95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972420383,
+        "stop" : 1685972420800,
+        "duration" : 417
+      }
+    } ]
+  },
+  "ecc76a1a04474b2e3f46a4a467a60220" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a269bc0f88918115",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Internal error\"}.",
+      "time" : {
+        "start" : 1685972453196,
+        "stop" : 1685972453894,
+        "duration" : 698
+      }
+    } ]
+  },
+  "64494d8517d2ef2b1feecbfb9d17f60c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7251123c8bc574f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972415006,
+        "stop" : 1685972415558,
+        "duration" : 552
+      }
+    } ]
+  },
+  "f2683212fc21ec38db5dfc9b914263ba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ec5613715886ae31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972420906,
+        "stop" : 1685972422625,
+        "duration" : 1719
+      }
+    } ]
+  },
+  "d77f52e4b9e55dc5989899480ea19714" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ef81d23e8c9181c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972445522,
+        "stop" : 1685972446903,
+        "duration" : 1381
+      }
+    } ]
+  },
+  "ae0c1040e6ce269dd956fd864712933d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77431cd0badb5501",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972460593,
+        "stop" : 1685972461050,
+        "duration" : 457
+      }
+    } ]
+  },
+  "707a75be985a5695c1d2649a513c4b22" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d21e6552d33561cc",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972472696,
+        "stop" : 1685972472696,
+        "duration" : 0
+      }
+    } ]
+  },
+  "ef3f5031622eab4584994d040b2b9a04" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27f32e60eda6c4fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972440769,
+        "stop" : 1685972442560,
+        "duration" : 1791
+      }
+    } ]
+  },
+  "67df9beeff34e83b79c0897e3985a1b7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4bf1f47697de83b3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972424059,
+        "stop" : 1685972425246,
+        "duration" : 1187
+      }
+    } ]
+  },
+  "cce00d75137f7f9eaa6c4834cab44a7b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4db26336ca874a68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972429642,
+        "stop" : 1685972431557,
+        "duration" : 1915
+      }
+    } ]
+  },
+  "90cec2795364e7aeb887bbb6e2308bd8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5cd8917a65040db4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972470502,
+        "stop" : 1685972471060,
+        "duration" : 558
+      }
+    } ]
+  },
+  "ea08ca7b3e326565271a3670d6e480a5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d37846835d4967f2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972462733,
+        "stop" : 1685972463191,
+        "duration" : 458
+      }
+    } ]
+  },
+  "e1a67291b8f3b2923abe1ce85dc88fdd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff0aae6477ed3e95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972438032,
+        "stop" : 1685972440765,
+        "duration" : 2733
+      }
+    } ]
+  },
+  "468cbb86a4432367f070e705a208783a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "608bbc40d569cdb0",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972416274,
+        "stop" : 1685972416274,
+        "duration" : 0
+      }
+    } ]
+  },
+  "04ed53fde1128842411243cb3d2e5e40" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "317e798519084176",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972431197,
+        "stop" : 1685972432959,
+        "duration" : 1762
+      }
+    } ]
+  },
+  "a728e6450d1206f8b02e85673b521732" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1fc06a5d52649ccc",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972458042,
+        "stop" : 1685972458043,
+        "duration" : 1
+      }
+    } ]
+  },
+  "1bea69495589f8042a2a16d7751bf778" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e4a80ac0888b0c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972430577,
+        "stop" : 1685972432262,
+        "duration" : 1685
+      }
+    } ]
+  },
+  "c4a927876333013969c0a8e7cf7283b8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e6b91b0cbb4997c0",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972459376,
+        "stop" : 1685972459377,
+        "duration" : 1
+      }
+    } ]
+  },
+  "990f9e61db71c1fd6bd31bf8f83ccc5d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7266955b818cec50",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972472091,
+        "stop" : 1685972472678,
+        "duration" : 587
+      }
+    } ]
+  },
+  "dce217782ccdc77e7308150377ab0182" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1af05157445f060d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972427706,
+        "stop" : 1685972429618,
+        "duration" : 1912
+      }
+    } ]
+  },
+  "8187f4d7a9c45fe754aa73fe6115a4b1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eca4ecdd222f51b7",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972471077,
+        "stop" : 1685972471078,
+        "duration" : 1
+      }
+    } ]
+  },
+  "98184d32316edd7121325ad3c7f527d5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "48bd9464a1feb4ac",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972462051,
+        "stop" : 1685972462497,
+        "duration" : 446
+      }
+    } ]
+  },
+  "b8b55827afe14879cd19f804f801e139" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7d28c4ddcfb693a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972411464,
+        "stop" : 1685972411901,
+        "duration" : 437
+      }
+    } ]
+  },
+  "ca2706fb12e7a64d3dc32a805c8feb6e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ddb4a0c131cdb35",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is not allowed\"}.",
+      "time" : {
+        "start" : 1685972412542,
+        "stop" : 1685972412993,
+        "duration" : 451
+      }
+    } ]
+  },
+  "a698e794d8bdf5fe3d01dbc52e065f4e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "695f94120d30f2dd",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972462985,
+        "stop" : 1685972463669,
+        "duration" : 684
+      }
+    } ]
+  },
+  "3aebb261e415e4a039fe960252241c5c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b57f8c79be8ab63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972449827,
+        "stop" : 1685972452485,
+        "duration" : 2658
+      }
+    } ]
+  },
+  "1b0893c8cc81241a44bed90199eb8f9f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d28cf7bb1b66e14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972431560,
+        "stop" : 1685972434377,
+        "duration" : 2817
+      }
+    } ]
+  },
+  "91d0a2fcc084e8bcfedefedffc79bd5e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "97f4d2c7784614d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972422429,
+        "stop" : 1685972424055,
+        "duration" : 1626
+      }
+    } ]
+  },
+  "b63b5f0eede775d0c284a3e8f805439d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "40556b8aca410a69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972449776,
+        "stop" : 1685972451024,
+        "duration" : 1248
+      }
+    } ]
+  },
+  "2e21349132a0bd42c6a8926e4843e7d0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2fa5d6417272cb8e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972462513,
+        "stop" : 1685972462966,
+        "duration" : 453
+      }
+    } ]
+  },
+  "3d6da506a4b12d142213f2ac4aac9b65" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f7596a2b3df9c9a0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972467757,
+        "stop" : 1685972468399,
+        "duration" : 642
+      }
+    } ]
+  },
+  "66f9fb2bbc9e71997f984959d50bb6a1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e725d5d64745de02",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Internal error\"}.",
+      "time" : {
+        "start" : 1685972456310,
+        "stop" : 1685972457075,
+        "duration" : 765
+      }
+    } ]
+  },
+  "e3b2c5c58a6a9849ea5e296f7cb16a24" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bcab0d6f58842a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972414507,
+        "stop" : 1685972415200,
+        "duration" : 693
+      }
+    } ]
+  },
+  "928698d2ebd3ec8d5eae0e7b57913fef" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51fb0f2126b7cd7f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972456963,
+        "stop" : 1685972457602,
+        "duration" : 639
+      }
+    } ]
+  },
+  "6b02839b726d4a4c6928681ae5b07fa0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "42536fb8d043ee7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972467403,
+        "stop" : 1685972468006,
+        "duration" : 603
+      }
+    } ]
+  },
+  "0ed472186c32b2bb2494701bde480ea6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b69d1b0e6b74975",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972414020,
+        "stop" : 1685972414703,
+        "duration" : 683
+      }
+    } ]
+  },
+  "13f65ba4f80e72e5566335c3fe276425" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "41122f7671a1e3e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972423927,
+        "stop" : 1685972425892,
+        "duration" : 1965
+      }
+    } ]
+  },
+  "d8ad6a5332a8d6736c1266d6f5e8abbe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a3d5ecc3e8ae78d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972410640,
+        "stop" : 1685972412538,
+        "duration" : 1898
+      }
+    } ]
+  },
+  "35728b7ad5e638e8e402a91f6c94a63c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f06f7251cd64157b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972464831,
+        "stop" : 1685972465410,
+        "duration" : 579
+      }
+    } ]
+  },
+  "f6cf733156a884c54bd3b5ec58940fb0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9a799af7e97370e1",
+      "status" : "broken",
+      "statusDetails" : "TypeError: estimate_bridge_not_native_to_native() missing 1 required positional argument: 'owner'",
+      "time" : {
+        "start" : 1685972414498,
+        "stop" : 1685972414498,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1ce6bc28cdf22f2a7cbc0c1aea62b6c6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2d8c9827566fcb9d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972470943,
+        "stop" : 1685972471587,
+        "duration" : 644
+      }
+    } ]
+  },
+  "6427251d44887d96e3b37dc21cd70fa8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1260b35998a10852",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972456695,
+        "stop" : 1685972457346,
+        "duration" : 651
+      }
+    } ]
+  },
+  "cfd5ccb227c1a003fddf7f47ceea184d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e93d42efa885649",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972411600,
+        "stop" : 1685972412032,
+        "duration" : 432
+      }
+    } ]
+  },
+  "4ceb3d6dc46eec9637fbddad170ff9c3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf29b87a7fb4bd4b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972466293,
+        "stop" : 1685972466293,
+        "duration" : 0
+      }
+    } ]
+  },
+  "b1d2e260227dfc133163613b59835107" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "45000f72ebeb4ace",
+      "status" : "broken",
+      "statusDetails" : "TypeError: estimate_bridge_stablecoin_to_not_native() missing 1 required positional argument: 'owner'",
+      "time" : {
+        "start" : 1685972414425,
+        "stop" : 1685972414426,
+        "duration" : 1
+      }
+    } ]
+  },
+  "a8de18eb5ef03eb3b28999422294d206" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f7f9ec48b6510dc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972445701,
+        "stop" : 1685972447298,
+        "duration" : 1597
+      }
+    } ]
+  },
+  "43c29ce7d652282883c3131fe2987f97" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71262917544df08c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972469254,
+        "stop" : 1685972469850,
+        "duration" : 596
+      }
+    } ]
+  },
+  "379d3b8e7006db6d0b884f21181f6540" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "305d7975757e2983",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is not allowed\"}.",
+      "time" : {
+        "start" : 1685972412035,
+        "stop" : 1685972412493,
+        "duration" : 458
+      }
+    } ]
+  },
+  "a9a75fa89533913fd52f612656a13a51" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "472bdcfd4fa016e2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972466071,
+        "stop" : 1685972466718,
+        "duration" : 647
+      }
+    } ]
+  },
+  "65b026976ebc82e3c58bb608c0f79b01" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "387b1dd1c36f314",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972442564,
+        "stop" : 1685972444173,
+        "duration" : 1609
+      }
+    } ]
+  },
+  "ab1c7ea9c55838a154d24ffd38ac27a7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c793cac30e8c7539",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972444177,
+        "stop" : 1685972445696,
+        "duration" : 1519
+      }
+    } ]
+  },
+  "f1b36cb061c5a38894796bcb59ec822f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ddfccd20bbb2c8c9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is not allowed\"}.",
+      "time" : {
+        "start" : 1685972413954,
+        "stop" : 1685972414400,
+        "duration" : 446
+      }
+    } ]
+  },
+  "2479d3f759c366915c325ee1d5f55230" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd6900f456f9e193",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972450492,
+        "stop" : 1685972452418,
+        "duration" : 1926
+      }
+    } ]
+  },
+  "00853a9fd8084c8060da821f2f60b9a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f07e5142f22b0b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: estimate_bridge_not_native_to_native() missing 1 required positional argument: 'owner'",
+      "time" : {
+        "start" : 1685972414471,
+        "stop" : 1685972414471,
+        "duration" : 0
+      }
+    } ]
+  },
+  "cde4acc319bacbee385515bc4dde63bb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "14c2217fccacbfba",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972425896,
+        "stop" : 1685972425897,
+        "duration" : 1
+      }
+    } ]
+  },
+  "eff78d6dc8c15189e7bc049028959d5c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d51e0dc49497ddd4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972457701,
+        "stop" : 1685972458368,
+        "duration" : 667
+      }
+    } ]
+  },
+  "d1129105606dd67dbf9af6bc9b5d6f63" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "70606a6876730d13",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972437035,
+        "stop" : 1685972437036,
+        "duration" : 1
+      }
+    } ]
+  },
+  "2b8ba80b2adee64f98028dc538cc55d4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8996b9eb413b4907",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972419952,
+        "stop" : 1685972420380,
+        "duration" : 428
+      }
+    } ]
+  },
+  "723c956dced3c8b640c76386533a0c5e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "437751f27b749de7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972463688,
+        "stop" : 1685972464366,
+        "duration" : 678
+      }
+    } ]
+  },
+  "362f2abed48be614654128fc6c59c49d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b821064849b94117",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972440537,
+        "stop" : 1685972442375,
+        "duration" : 1838
+      }
+    } ]
+  },
+  "860804d40e206492088ec16531283b62" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f7bd594fcfa52b1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972434138,
+        "stop" : 1685972435803,
+        "duration" : 1665
+      }
+    } ]
+  },
+  "0cfb2014b69f1149803590c7911b204e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc9304abb45bef9f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972469867,
+        "stop" : 1685972469868,
+        "duration" : 1
+      }
+    } ]
+  },
+  "3c81ebbf74ffb9924d17f52b9208cdda" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f15de240e5074c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972425294,
+        "stop" : 1685972427502,
+        "duration" : 2208
+      }
+    } ]
+  },
+  "5610031e5b5aa2c8dd9c4b0597412ed1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9cfaab0855bc5e2",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972438029,
+        "stop" : 1685972438029,
+        "duration" : 0
+      }
+    } ]
+  },
+  "dda50dd3891e895503b1d311ad0a5e74" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f308416426a3c988",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972448692,
+        "stop" : 1685972448693,
+        "duration" : 1
+      }
+    } ]
+  },
+  "2dd72e7a2d00b1c265d292216f2982a4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "84e43e3a8eccad53",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is not allowed\"}.",
+      "time" : {
+        "start" : 1685972413479,
+        "stop" : 1685972413940,
+        "duration" : 461
+      }
+    } ]
+  },
+  "b0f1cf2612fd65f15cdd7972b2f50385" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "852d1259b0bd72e0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972471605,
+        "stop" : 1685972472252,
+        "duration" : 647
+      }
+    } ]
+  },
+  "7ee212e4799c7c0eb94b7ab8d0aa9063" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc28f3c24aee8042",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972457092,
+        "stop" : 1685972457093,
+        "duration" : 1
+      }
+    } ]
+  },
+  "1470e141decd41049c77fb983b2bd21e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "68c0eb3707fcc5f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972417765,
+        "stop" : 1685972418205,
+        "duration" : 440
+      }
+    } ]
+  },
+  "d0a39865e2608add3f6813b75d7c6afb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6cef9def40489ad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972434381,
+        "stop" : 1685972436214,
+        "duration" : 1833
+      }
+    } ]
+  },
+  "970b593e2c9c9b4738bb8ed5388ca8bd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "415918a601cd7ae6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972459876,
+        "stop" : 1685972460567,
+        "duration" : 691
+      }
+    } ]
+  },
+  "b00b44e5e01a672061c53ec04f845ad1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5de09a6f4b0f28c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972435047,
+        "stop" : 1685972436453,
+        "duration" : 1406
+      }
+    } ]
+  },
+  "6b768a8512a11f5dcd52f49fbc5bfbf6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ebe9972c9b46b15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972423101,
+        "stop" : 1685972425768,
+        "duration" : 2667
+      }
+    } ]
+  },
+  "8ba0bdfe0cd20bc6104f268e22bae2b8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f046e8771b28703d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972445519,
+        "stop" : 1685972445519,
+        "duration" : 0
+      }
+    } ]
+  },
+  "5084a23474a69de1dd9a57fdb2974aa5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a93c1ebb2dc8e336",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972460337,
+        "stop" : 1685972460780,
+        "duration" : 443
+      }
+    } ]
+  },
+  "2f28a05a0c5efbaabbe3a4df5424f45c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e70abba61967c7b1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972460429,
+        "stop" : 1685972460885,
+        "duration" : 456
+      }
+    } ]
+  },
+  "db44aaaa6fdd31ea3c9f6b606a990994" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "91f2b621b43f83c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972419072,
+        "stop" : 1685972419520,
+        "duration" : 448
+      }
+    } ]
+  },
+  "107c88fcc6ff6e9f352967b2623b723a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "46460e6faa61b49f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972438624,
+        "stop" : 1685972438625,
+        "duration" : 1
+      }
+    } ]
+  },
+  "0ce672ad5ad153acad0e089593268d62" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3b8860932921b85",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Internal error\"}.",
+      "time" : {
+        "start" : 1685972452489,
+        "stop" : 1685972453179,
+        "duration" : 690
+      }
+    } ]
+  },
+  "9e45ce0b60cf61d3cd8910e6b9c85e14" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f7ef54ac261bdc0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972433686,
+        "stop" : 1685972435043,
+        "duration" : 1357
+      }
+    } ]
+  },
+  "ee0cca6329720a9025f29715b4e5493c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2a46105fa483364",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972414707,
+        "stop" : 1685972415143,
+        "duration" : 436
+      }
+    } ]
+  },
+  "e71327f3e6d98676078a6353d8b0a013" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae4c01c9f692eac2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972416278,
+        "stop" : 1685972419009,
+        "duration" : 2731
+      }
+    } ]
+  },
+  "5be18aa46a48fbce585e3fd09eae7527" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "449001e86f6afa04",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972468587,
+        "stop" : 1685972469236,
+        "duration" : 649
+      }
+    } ]
+  },
+  "c77ad7a6a428baf89a9bc9f9755b2565" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3f9462886f7f3ea",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972430574,
+        "stop" : 1685972430574,
+        "duration" : 0
+      }
+    } ]
+  },
+  "7c6aa3e6df3820af92d935f1b0a96cd8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "442f6ab6eff1c4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972469742,
+        "stop" : 1685972470483,
+        "duration" : 741
+      }
+    } ]
+  },
+  "fc496741a4d5404022a70a05561f00e1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e36ca7f05d0f27d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972466722,
+        "stop" : 1685972467382,
+        "duration" : 660
+      }
+    } ]
+  },
+  "a2ea9efb8615efaa5d831617560d889c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aceba341b98b82b7",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972468999,
+        "stop" : 1685972469000,
+        "duration" : 1
+      }
+    } ]
+  },
+  "38db85ed7703a6fadd32ba3abb0ec19b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fef5e4db81f60b4b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Given amount of input asset is too small to cover protocol fees, cannot estimate reasonable outcome of an order\"}.",
+      "time" : {
+        "start" : 1685972422628,
+        "stop" : 1685972423879,
+        "duration" : 1251
+      }
+    } ]
+  },
+  "2423f6010d9524838506ee88849f6fa5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "43f9c469e6991140",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972465389,
+        "stop" : 1685972465950,
+        "duration" : 561
+      }
+    } ]
+  },
+  "25f2e30116fbe729ddc02798b68928c0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51b30833c8605ec0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972437039,
+        "stop" : 1685972438777,
+        "duration" : 1738
+      }
+    } ]
+  },
+  "73640d548bde06e9f962c21032a36f68" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ded7b5b72d935ce7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972454051,
+        "stop" : 1685972455387,
+        "duration" : 1336
+      }
+    } ]
+  },
+  "69f054acb8714a83dbb033470d11153c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "145add05248085c4",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972430570,
+        "stop" : 1685972430571,
+        "duration" : 1
+      }
+    } ]
+  },
+  "eea453eae5e95a8e2bc3a8a0eef50e69" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ccbfaf3a9ce8ff7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972438628,
+        "stop" : 1685972440534,
+        "duration" : 1906
+      }
+    } ]
+  },
+  "dd6dabd01eaff8578e379fc3bdbedd75" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "964557c802417462",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972442378,
+        "stop" : 1685972444397,
+        "duration" : 2019
+      }
+    } ]
+  },
+  "12985252f9ea37e041a11597de0d7f0e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9aabf2c990b46b3f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972465426,
+        "stop" : 1685972466057,
+        "duration" : 631
+      }
+    } ]
+  },
+  "825bf9c5cf74b7c128a12ba44bfa02ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "59f5b9a5186f5531",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972458046,
+        "stop" : 1685972458046,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4593eade2157efa97986cc0fe57ef2da" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "39abc421ad912ab8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972439978,
+        "stop" : 1685972441812,
+        "duration" : 1834
+      }
+    } ]
+  },
+  "9975e3ca6b0efbccdd67379b1699ae37" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ca124b288c1575a3",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972417371,
+        "stop" : 1685972417372,
+        "duration" : 1
+      }
+    } ]
+  },
+  "dd374160d7c2f67bba08288220225628" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa3e7297df608193",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972421077,
+        "stop" : 1685972423098,
+        "duration" : 2021
+      }
+    } ]
+  },
+  "2c61c774606417a2ffe0f25120ab74a4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9e2ae587a3634216",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972442995,
+        "stop" : 1685972445516,
+        "duration" : 2521
+      }
+    } ]
+  },
+  "4d85e669d73064e5c13cf9ebde6a7c25" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf68334fd790005f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972461568,
+        "stop" : 1685972462032,
+        "duration" : 464
+      }
+    } ]
+  },
+  "fbc629956df7130defac479161790fbf" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bed82ae3af60a665",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972457097,
+        "stop" : 1685972457684,
+        "duration" : 587
+      }
+    } ]
+  },
+  "06170b8a0d9bc02eef8ca9fe03601135" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "17cef3890adf6f74",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972462807,
+        "stop" : 1685972462808,
+        "duration" : 1
+      }
+    } ]
+  },
+  "f9f9069d170a8201dd97d2513fd9add2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2087000d4800a8fa",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972432962,
+        "stop" : 1685972434122,
+        "duration" : 1160
+      }
+    } ]
+  },
+  "a67cddd01c3917d93375cc4fa6be92f4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c910b604742abbc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972410645,
+        "stop" : 1685972411461,
+        "duration" : 816
+      }
+    } ]
+  },
+  "9250da67b6146a9ab2c619699bc15630" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "59da99b2ffa2a21",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972462350,
+        "stop" : 1685972462789,
+        "duration" : 439
+      }
+    } ]
+  },
+  "016316b091549c2be25fa6b7a81a8137" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "24a20d37ffdc9fa",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972462811,
+        "stop" : 1685972464102,
+        "duration" : 1291
+      }
+    } ]
+  },
+  "8f301d08398d94704cf8de436e15b701" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b9b910b59c4755f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972417375,
+        "stop" : 1685972419338,
+        "duration" : 1963
+      }
+    } ]
+  },
+  "8f3055d89bf37db904c278de650023c2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "38f797be184f5d92",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972464119,
+        "stop" : 1685972464756,
+        "duration" : 637
+      }
+    } ]
+  },
+  "cae94c6e096814b48265603f69345592" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a47c05822742e0c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972457362,
+        "stop" : 1685972458026,
+        "duration" : 664
+      }
+    } ]
+  },
+  "2dbfa5b7ce0084910f9d0046a4ef77ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "32bba8410b900c2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972436217,
+        "stop" : 1685972438020,
+        "duration" : 1803
+      }
+    } ]
+  },
+  "2464d1d82679bdf5805d3cff8eb307ab" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b72cb834827f64f0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972465966,
+        "stop" : 1685972466706,
+        "duration" : 740
+      }
+    } ]
+  },
+  "1f637220d20557ca57064476d68139c7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae9004211341e2a8",
+      "status" : "broken",
+      "statusDetails" : "TypeError: estimate_bridge_stablecoin_to_not_native() missing 1 required positional argument: 'owner'",
+      "time" : {
+        "start" : 1685972414416,
+        "stop" : 1685972414416,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1579efe3651aac6112cdf519345f9064" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da51c9b89f97b398",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972419012,
+        "stop" : 1685972420903,
+        "duration" : 1891
+      }
+    } ]
+  },
+  "1d5822d81cc74cbe5eab46f5bba4c993" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "87eb73cbb6b73d62",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972435806,
+        "stop" : 1685972437019,
+        "duration" : 1213
+      }
+    } ]
+  },
+  "210a54b1a85028acda0150975bd18fce" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "84b7e3caf825614c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972460796,
+        "stop" : 1685972461279,
+        "duration" : 483
+      }
+    } ]
+  },
+  "259fd4c79811d30c3bafb963681522b7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dcec66ae86e28636",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972415147,
+        "stop" : 1685972415582,
+        "duration" : 435
+      }
+    } ]
+  },
+  "c3910df5fd3aa33c4ccc615f5248c95d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "64aebd3aa21067c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972444400,
+        "stop" : 1685972446267,
+        "duration" : 1867
+      }
+    } ]
+  },
+  "272d61521e20130a67c4b411383c3f5e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e0b3edc231e2a605",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972459945,
+        "stop" : 1685972460413,
+        "duration" : 468
+      }
+    } ]
+  },
+  "4d95c80166887d37605b4ff556a8f182" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f0553cf9e20c3f49",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972427696,
+        "stop" : 1685972427697,
+        "duration" : 1
+      }
+    } ]
+  },
+  "e583e8c42d81abb3598da768991bd320" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f90dc38c580fde6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972466296,
+        "stop" : 1685972467749,
+        "duration" : 1453
+      }
+    } ]
+  },
+  "33086e5a3240f94ca5f340f3f0f3c4d6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fc20f8da9a639f74",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Internal error\"}.",
+      "time" : {
+        "start" : 1685972454658,
+        "stop" : 1685972456294,
+        "duration" : 1636
+      }
+    } ]
+  },
+  "8e751cf62dc1e1a92ac744ff022f8c8e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "efcae8f090766880",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972462258,
+        "stop" : 1685972462718,
+        "duration" : 460
+      }
+    } ]
+  },
+  "48d87b96e40204b4f93da067a53f3b99" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf324ec30d0e12b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972446270,
+        "stop" : 1685972448689,
+        "duration" : 2419
+      }
+    } ]
+  },
+  "7c361ffc9ecbc96ee8aa97e80a0862d6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ffdba42c74f6d5ad",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972461095,
+        "stop" : 1685972461550,
+        "duration" : 455
+      }
+    } ]
+  },
+  "79b15eb54b945e04494cda9d8da24742" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3963a101012dfc50",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972438024,
+        "stop" : 1685972438025,
+        "duration" : 1
+      }
+    } ]
+  },
+  "e3a5560d3e52486dc02d98281e5e2f0c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e400d1972e1e9625",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972413374,
+        "stop" : 1685972414017,
+        "duration" : 643
+      }
+    } ]
+  },
+  "f90e519410037206cc605be746bd02bb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5ce0241d69ad1be5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972420803,
+        "stop" : 1685972422422,
+        "duration" : 1619
+      }
+    } ]
+  },
+  "b6c500f82e122610ac0c16f32f97fb50" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d042c5a328be1a88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972418209,
+        "stop" : 1685972418635,
+        "duration" : 426
+      }
+    } ]
+  },
+  "d85176da4e75b9dc0dc525c3fc33d357" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f82598c756651e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972466759,
+        "stop" : 1685972467739,
+        "duration" : 980
+      }
+    } ]
+  },
+  "0b7b0df7c33391e99f037c9708249497" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cd461831222fa69a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972419525,
+        "stop" : 1685972419948,
+        "duration" : 423
+      }
+    } ]
+  },
+  "a577268c7ed5e099702cb571fbeacd8b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "43f553dc264f16dd",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972460589,
+        "stop" : 1685972460589,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1a4c4aa8e325001761d13e5061519364" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "32b1bf6ba90899dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972447301,
+        "stop" : 1685972449773,
+        "duration" : 2472
+      }
+    } ]
+  },
+  "03cd8faefb9b5fbffe98ea74a3551e21" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "be82eb42d5734eef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972451030,
+        "stop" : 1685972452369,
+        "duration" : 1339
+      }
+    } ]
+  },
+  "40e3f45c6400bad08d335880db610e90" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1cbe880b138e2df0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972427701,
+        "stop" : 1685972429639,
+        "duration" : 1938
+      }
+    } ]
+  },
+  "36f463ecc612e4629b75580ec2ec4a11" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a355c8ce81bfc11a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972418638,
+        "stop" : 1685972419069,
+        "duration" : 431
+      }
+    } ]
+  },
+  "1d4eab0fa503a9e3f7a9a513c3f7456d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "524c3556e3fd48f8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972468021,
+        "stop" : 1685972468569,
+        "duration" : 548
+      }
+    } ]
+  },
+  "32149e3df330ba66670bb3e474576e5b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e40afa15fbbd8d13",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972460584,
+        "stop" : 1685972460585,
+        "duration" : 1
+      }
+    } ]
+  },
+  "e7a15954d17d4a35bb458f409b2ae992" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "889e3fad18d8ee53",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972471082,
+        "stop" : 1685972472423,
+        "duration" : 1341
+      }
+    } ]
+  },
+  "14120c10d0d99eb4624c8965446661a3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51566ca9cb70f3d6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972458049,
+        "stop" : 1685972458771,
+        "duration" : 722
+      }
+    } ]
+  },
+  "0500dedea261aa0eb96be5786223e5df" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e9f4fa1731ae8d3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972464222,
+        "stop" : 1685972464816,
+        "duration" : 594
+      }
+    } ]
+  },
+  "5b853883bb25417f175781000b524f36" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5c792ac9e806ebe",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972468415,
+        "stop" : 1685972469071,
+        "duration" : 656
+      }
+    } ]
+  },
+  "5a08e0dca0de402bded543171d8eddca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "43d58bbfb8f79b6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972415203,
+        "stop" : 1685972417368,
+        "duration" : 2165
+      }
+    } ]
+  },
+  "ba974d4a29fcec365923849cfa61bc4d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "14669785a18daf41",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972470554,
+        "stop" : 1685972472075,
+        "duration" : 1521
+      }
+    } ]
+  },
+  "332c10ddde5b7bc7d37eb213818c0940" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "423c8d945a66f811",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972459465,
+        "stop" : 1685972459928,
+        "duration" : 463
+      }
+    } ]
+  },
+  "b70cd4507fb148cd9c1c23c0bff004d0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "18b7d862a7c7394b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972416886,
+        "stop" : 1685972417306,
+        "duration" : 420
+      }
+    } ]
+  },
+  "53bc364c2eba52436fda097071da3ef4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "30aa0af81133d857",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972414194,
+        "stop" : 1685972415003,
+        "duration" : 809
+      }
+    } ]
+  },
+  "9aa8b41bcaba714dd0ae2c1f016487aa" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "def44fdb83ef0a15",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972469872,
+        "stop" : 1685972470537,
+        "duration" : 665
+      }
+    } ]
+  },
+  "1801dea62a635728c750f2d85af5b12f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e3a442cf7e1b26e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972454258,
+        "stop" : 1685972456692,
+        "duration" : 2434
+      }
+    } ]
+  },
+  "eb63f3577b3e8d27b5769628e4c003eb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d54628cda69d1d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"no matching function (argument=\\\"sighash\\\", value=\\\"0xfbe16ca7\\\", code=INVALID_ARGUMENT, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972429175,
+        "stop" : 1685972430555,
+        "duration" : 1380
+      }
+    } ]
+  },
+  "a8df5275f8c7977338847c8e48e67003" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1b61edd299af9ce1",
+      "status" : "broken",
+      "statusDetails" : "TypeError: estimate_bridge_stablecoin_to_not_native() missing 1 required positional argument: 'owner'",
+      "time" : {
+        "start" : 1685972414444,
+        "stop" : 1685972414444,
+        "duration" : 0
+      }
+    } ]
+  },
+  "5f467fd323624bcfea4d9d964067bfc1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "74dcccb34ff6d02a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972472442,
+        "stop" : 1685972473048,
+        "duration" : 606
+      }
+    } ]
+  },
+  "4b79ca5be9f6ba7ed6e1d4ef5fd39c0e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d222ec4c5cdaf8be",
+      "status" : "broken",
+      "statusDetails" : "TypeError: estimate_bridge_stablecoin_to_not_native() missing 1 required positional argument: 'owner'",
+      "time" : {
+        "start" : 1685972414434,
+        "stop" : 1685972414435,
+        "duration" : 1
+      }
+    } ]
+  },
+  "9dba76cd4ff5a5b91d85ada15b7475a6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "267970a0171ebe59",
+      "status" : "broken",
+      "statusDetails" : "TypeError: estimate_bridge_not_native_to_native() missing 1 required positional argument: 'owner'",
+      "time" : {
+        "start" : 1685972414462,
+        "stop" : 1685972414462,
+        "duration" : 0
+      }
+    } ]
+  },
+  "f93faa34315740048779001d8cfc45e5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "992ec72ee5ef3ba0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972459117,
+        "stop" : 1685972459861,
+        "duration" : 744
+      }
+    } ]
+  },
+  "b0d668566970846919a6ae0046f463a0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "890cb0d2a876de",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972464771,
+        "stop" : 1685972465372,
+        "duration" : 601
+      }
+    } ]
+  },
+  "803af85f1b55c5f8dcd02736ddece962" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8aaf08de3375ec2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972468379,
+        "stop" : 1685972468982,
+        "duration" : 603
+      }
+    } ]
+  },
+  "d545ba582e4d2d77ad25db949cc25e2c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "474ffc52cc7ad713",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972452372,
+        "stop" : 1685972454255,
+        "duration" : 1883
+      }
+    } ]
+  },
+  "c1d778053ea7a851f95c89ef3cb58d27" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4cea87b69c96a008",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972469087,
+        "stop" : 1685972469726,
+        "duration" : 639
+      }
+    } ]
+  },
+  "b02d29f307f3d552176d47d9f7bfde7c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eae20da324fc380",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972461299,
+        "stop" : 1685972461751,
+        "duration" : 452
+      }
+    } ]
+  },
+  "a5a349bb8569a4a669cd7a85771679fa" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e0fcf9b2d18686a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972464384,
+        "stop" : 1685972465012,
+        "duration" : 628
+      }
+    } ]
+  },
+  "a19c409291e83a1e9a8a5b09d2079b94" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a30f234835a84c3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972470319,
+        "stop" : 1685972470927,
+        "duration" : 608
+      }
+    } ]
+  },
+  "5ae1e122a6d65fd2d1006c0aab9c03db" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "35eb180292b34131",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972467764,
+        "stop" : 1685972468363,
+        "duration" : 599
+      }
+    } ]
+  },
+  "c1eb289473cfcd3ecde8344df609e673" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a04025a640131faf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972415561,
+        "stop" : 1685972416271,
+        "duration" : 710
+      }
+    } ]
+  },
+  "99204c68efe2548dbe5cdd1b8a2196c6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e78948f72a8cdd8d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972465620,
+        "stop" : 1685972466273,
+        "duration" : 653
+      }
+    } ]
+  },
+  "71d65755e6b95dea9bf6242e2abc2d00" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "122eb5bccae6f26a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972458383,
+        "stop" : 1685972459101,
+        "duration" : 718
+      }
+    } ]
+  },
+  "77fa68db098c403c41c4c8f2dd7e20a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "22272dffb6a6b048",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972412544,
+        "stop" : 1685972413370,
+        "duration" : 826
+      }
+    } ]
+  },
+  "1550c21413649243378cc3e69d11ec15" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "be30962b11452497",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972462804,
+        "stop" : 1685972462804,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1bdcc115cd43ef33ec1b8abfa18de920" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db37ee9707d9b3d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972446920,
+        "stop" : 1685972448598,
+        "duration" : 1678
+      }
+    } ]
+  },
+  "51a8aaebb40bb68f46ba328a29561e49" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9a092e1a8198d955",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"\\\"owner\\\" is not allowed\"}.",
+      "time" : {
+        "start" : 1685972413008,
+        "stop" : 1685972413464,
+        "duration" : 456
+      }
+    } ]
+  },
+  "d0ca1d0c9631950a262fbda610ed2970" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "15bbfb149e3468f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972411904,
+        "stop" : 1685972413203,
+        "duration" : 1299
+      }
+    } ]
+  },
+  "ef7ebd4174000e88b9137e52b073a282" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "770ec4fe02c62ea6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972467400,
+        "stop" : 1685972467400,
+        "duration" : 0
+      }
+    } ]
+  },
+  "6deeba6e1949c2012e67634494e848cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a3e550d1b0a599",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972459462,
+        "stop" : 1685972459463,
+        "duration" : 1
+      }
+    } ]
+  },
+  "f445ea36cd4604586ec958d801053e6e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d87ef7c3f3c05f62",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972451027,
+        "stop" : 1685972451027,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4de9467177164760289a0bce3ab9f94f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "60337beeac45d8a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972463209,
+        "stop" : 1685972464204,
+        "duration" : 995
+      }
+    } ]
+  },
+  "0b5641366bf10096ddcabdc58fe0ddfe" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "229c98800071a5c4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Internal error\"}.",
+      "time" : {
+        "start" : 1685972453909,
+        "stop" : 1685972454643,
+        "duration" : 734
+      }
+    } ]
+  },
+  "f6a77f76714f36fde02324bbf6767be5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "171c2924ac5c57f5",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972461296,
+        "stop" : 1685972461296,
+        "duration" : 0
+      }
+    } ]
+  },
+  "109a78036a1822a86430d95c1ce6ec08" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "19e6940251f286d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972461887,
+        "stop" : 1685972462333,
+        "duration" : 446
+      }
+    } ]
+  },
+  "742aca6413fb69b5dcdc878d283dc4f2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8ddf2dff139c4a74",
+      "status" : "broken",
+      "statusDetails" : "TypeError: estimate_bridge_not_native_to_native() missing 1 required positional argument: 'owner'",
+      "time" : {
+        "start" : 1685972414488,
+        "stop" : 1685972414489,
+        "duration" : 1
+      }
+    } ]
+  },
+  "368e908aa413765966032ee1b773db8f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8068f241ddc03990",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972416013,
+        "stop" : 1685972416436,
+        "duration" : 423
+      }
+    } ]
+  },
   "26410b8f19c3e33c355688a5bee8d36d" : {
     "statistic" : {
       "failed" : 0,
@@ -9,12 +4074,206 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ab7245b43faf4ed7",
+      "uid" : "940cb08e8039489d",
       "status" : "passed",
       "time" : {
-        "start" : 1685972164205,
-        "stop" : 1685972164933,
-        "duration" : 728
+        "start" : 1685972410639,
+        "stop" : 1685972411596,
+        "duration" : 957
+      }
+    } ]
+  },
+  "50ffc65dc104f19850e6624cd4a74e98" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "55eb870a0deec55e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972425901,
+        "stop" : 1685972427703,
+        "duration" : 1802
+      }
+    } ]
+  },
+  "dda899ad05eae2ec51648d0e1e7222b3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b1e8e89b3e72891",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972429621,
+        "stop" : 1685972431194,
+        "duration" : 1573
+      }
+    } ]
+  },
+  "bc9bacd9591d1dc10f013ce72f97cbb3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db884e4f87065f51",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null}.",
+      "time" : {
+        "start" : 1685972459853,
+        "stop" : 1685972460321,
+        "duration" : 468
+      }
+    } ]
+  },
+  "cde7265cd073dc5954b91812c14ed8a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ef4c7cca45c49fb",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972464219,
+        "stop" : 1685972464220,
+        "duration" : 1
+      }
+    } ]
+  },
+  "07a6f606c0b9469c16e0d6758cd9dc2b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a8832540a97c0669",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972455390,
+        "stop" : 1685972456960,
+        "duration" : 1570
+      }
+    } ]
+  },
+  "a71dd8232f17db40454f967cac1ad1e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2bf8dfff76b1314",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972416441,
+        "stop" : 1685972416883,
+        "duration" : 442
+      }
+    } ]
+  },
+  "0321a7c1c717d8bcc85a3b6db05209ee" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6fa979000931a6b8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method=\\\"decimals()\\\", data=\\\"0x\\\", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)\"}.",
+      "time" : {
+        "start" : 1685972465028,
+        "stop" : 1685972465604,
+        "duration" : 576
+      }
+    } ]
+  },
+  "ac852ea124ae091301d9914e6bd7217b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e62bbefd1e4c340",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972415584,
+        "stop" : 1685972416010,
+        "duration" : 426
+      }
+    } ]
+  },
+  "f376b20b7671b5535b47fc4714210dd9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8057d15ea406a751",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685972419341,
+        "stop" : 1685972421072,
+        "duration" : 1731
+      }
+    } ]
+  },
+  "24848eddb95878d177470602c084bd54" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f5a0fbb8ccbd196",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Сеть отправления = сети назначения",
+      "time" : {
+        "start" : 1685972466289,
+        "stop" : 1685972466290,
+        "duration" : 1
       }
     } ]
   }
