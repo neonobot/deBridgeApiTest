@@ -6,7 +6,6 @@ from serviceCalls.helper import de_bridge_keys_data
 networks = list(de_bridge_keys_data().keys())
 
 
-@pytest.mark.special
 def test_get_supported_chains():
     DeBridge().get_supported_chains()
 

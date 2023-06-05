@@ -41,18 +41,12 @@ jobs:
 
       - name: Run tests and generate Allure report
         run: |
-          python -m pytest -n=1 ./tests/api_tests/tests_de_bridge.py -m special --alluredir allure-results| tee test_results.txt
+          python -m pytest -n=1 ./tests/api_tests/tests_de_bridge.py --alluredir allure-results| tee test_results.txt
           echo "TOTAL_TESTS=$(cat test_results.txt | grep -oP '(\d+) total')" >> $GITHUB_ENV
           echo "PASSED_TESTS=$(cat test_results.txt | grep -oP '(\d+) passed')" >> $GITHUB_ENV
           echo "FAILED_TESTS=$(cat test_results.txt | grep -oP '(\d+) failed')" >> $GITHUB_ENV
           echo "SKIPPED_TESTS=$(cat test_results.txt | grep -oP '(\d+) skipped')" >> $GITHUB_ENV
           allure generate ./allure-results -o ./allure-report
-
-      - name: Debug1
-        run: ls ./allure-results
-
-      - name: Debug2
-        run: ls ./allure-report
 
       - name: Deploy Allure report
         uses: peaceiris/actions-gh-pages@v3
