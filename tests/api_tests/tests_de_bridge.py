@@ -90,7 +90,7 @@ def test_get_bridge_tx_not_native_to_not_native(src_network, dst_network):
     dst_net = de_bridge_keys_data()[dst_network].get('net')
     src_token_address = de_bridge_keys_data()[src_network].get('notNativeToken')
     dst_token_address = de_bridge_keys_data()[dst_network].get('notNativeToken')
-    src_token_amount = 1
+    src_token_amount = 10000
     dst_chain_recipient_address = de_bridge_keys_data()[dst_network].get('owner')
     dst_chain_fallback_address = de_bridge_keys_data()[dst_network].get('owner')
     owner = de_bridge_keys_data()[dst_network].get('owner')
@@ -110,7 +110,7 @@ def test_get_bridge_tx_native_to_not_native(src_network, dst_network):
     dst_net = de_bridge_keys_data()[dst_network].get('net')
     src_token_address = de_bridge_keys_data()[src_network].get('nativeToken')
     dst_token_address = de_bridge_keys_data()[dst_network].get('notNativeToken')
-    src_token_amount = 1
+    src_token_amount = 10000
     dst_chain_recipient_address = de_bridge_keys_data()[dst_network].get('owner')
     dst_chain_fallback_address = de_bridge_keys_data()[dst_network].get('owner')
     owner = de_bridge_keys_data()[dst_network].get('owner')
@@ -130,7 +130,7 @@ def test_get_bridge_tx_not_native_to_native(src_network, dst_network):
     dst_net = de_bridge_keys_data()[dst_network].get('net')
     src_token_address = de_bridge_keys_data()[src_network].get('notNativeToken')
     dst_token_address = de_bridge_keys_data()[dst_network].get('nativeToken')
-    src_token_amount = 1
+    src_token_amount = 10000
     dst_chain_recipient_address = de_bridge_keys_data()[dst_network].get('owner')
     dst_chain_fallback_address = de_bridge_keys_data()[dst_network].get('owner')
     owner = de_bridge_keys_data()[dst_network].get('owner')
@@ -150,7 +150,7 @@ def test_get_bridge_tx_not_native_to_stablecoin(src_network, dst_network):
     dst_net = de_bridge_keys_data()[dst_network].get('net')
     src_token_address = de_bridge_keys_data()[src_network].get('notNativeToken')
     dst_token_address = de_bridge_keys_data()[dst_network].get('stableCoin')
-    src_token_amount = 1
+    src_token_amount = 10000
     dst_chain_recipient_address = de_bridge_keys_data()[dst_network].get('owner')
     dst_chain_fallback_address = de_bridge_keys_data()[dst_network].get('owner')
     owner = de_bridge_keys_data()[dst_network].get('owner')
@@ -170,7 +170,7 @@ def test_get_bridge_tx_native_to_stablecoin(src_network, dst_network):
     dst_net = de_bridge_keys_data()[dst_network].get('net')
     src_token_address = de_bridge_keys_data()[src_network].get('nativeToken')
     dst_token_address = de_bridge_keys_data()[dst_network].get('stableCoin')
-    src_token_amount = 1
+    src_token_amount = 10000
     dst_chain_recipient_address = de_bridge_keys_data()[dst_network].get('owner')
     dst_chain_fallback_address = de_bridge_keys_data()[dst_network].get('owner')
     owner = de_bridge_keys_data()[dst_network].get('owner')
@@ -190,7 +190,7 @@ def test_get_bridge_tx_stablecoin_to_native(src_network, dst_network):
     dst_net = de_bridge_keys_data()[dst_network].get('net')
     src_token_address = de_bridge_keys_data()[src_network].get('stableCoin')
     dst_token_address = de_bridge_keys_data()[dst_network].get('nativeToken')
-    src_token_amount = 1
+    src_token_amount = 10000
     dst_chain_recipient_address = de_bridge_keys_data()[dst_network].get('owner')
     dst_chain_fallback_address = de_bridge_keys_data()[dst_network].get('owner')
     owner = de_bridge_keys_data()[dst_network].get('owner')
@@ -210,7 +210,7 @@ def test_get_bridge_tx_stablecoin_to_not_native(src_network, dst_network):
     dst_net = de_bridge_keys_data()[dst_network].get('net')
     src_token_address = de_bridge_keys_data()[src_network].get('stableCoin')
     dst_token_address = de_bridge_keys_data()[dst_network].get('notNativeToken')
-    src_token_amount = 1
+    src_token_amount = 10000
     dst_chain_recipient_address = de_bridge_keys_data()[dst_network].get('owner')
     dst_chain_fallback_address = de_bridge_keys_data()[dst_network].get('owner')
     owner = de_bridge_keys_data()[dst_network].get('owner')

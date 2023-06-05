@@ -62,7 +62,7 @@ get_tokens_by_chain_schema = {
             "items": {
                 "type": "object",
                 "properties": {
-                    "symbol": {
+                    "code": {
                         "type": "string"
                     },
                     "name": {
@@ -78,7 +78,7 @@ get_tokens_by_chain_schema = {
                         "type": "string"
                     }
                 },
-                "required": ["symbol", "name", "decimals", "address", "logoURI"]
+                "required": ["code", "name", "decimals", "address", "logoURI"]
             }
         },
         "error": {
@@ -89,35 +89,13 @@ get_tokens_by_chain_schema = {
 }
 
 get_allowance_schema = {
-    "$schema": "http://json-schema.org/draft-07/schema#",
     "type": "object",
     "properties": {
         "ok": {
             "type": "boolean"
         },
         "data": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "symbol": {
-                        "type": "string"
-                    },
-                    "name": {
-                        "type": "string"
-                    },
-                    "decimals": {
-                        "type": "integer"
-                    },
-                    "address": {
-                        "type": "string"
-                    },
-                    "logoURI": {
-                        "type": "string"
-                    }
-                },
-                "required": ["symbol", "name", "decimals", "address", "logoURI"]
-            }
+            "type": "string"
         },
         "error": {
             "type": "string"
