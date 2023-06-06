@@ -33,9 +33,10 @@ class DeBridge:
         def estimate_bridge_native_to_not_native(self, src_net, dst_net, src_native_token, dst_not_native_token):
             response = requests.get(
                 f"{self.url}?srcNet={src_net}&srcTokenAddress={src_native_token}"
-                f"&srcTokenAmount=100&dstNet={dst_net}&dstTokenAddress={dst_not_native_token}")
+                f"&srcTokenAmount=100000&dstNet={dst_net}&dstTokenAddress={dst_not_native_token}")
             logger.info(f"Отправлен запрос на роут - {response.url}")
             logger.info(response.text)
+            print('123')
             assert response.status_code == 200, f"Ожидался status = {200}, " \
                                                 f"пришел status = {response.status_code}. " \
                                                 f"Тело ответа: \n{response.text}."
@@ -46,9 +47,10 @@ class DeBridge:
         def estimate_bridge_stablecoin_to_not_native(self, src_net, dst_net, src_stable_coin, dst_not_native_token):
             response = requests.get(
                 f"{self.url}?srcNet={src_net}&srcTokenAddress={src_stable_coin}"
-                f"&srcTokenAmount=10&dstNet={dst_net}&dstTokenAddress={dst_not_native_token}")
-            logger.info(f"Отправлен запрос на роут - {response.url}")
-            logger.info(response.text)
+                f"&srcTokenAmount=10000&dstNet={dst_net}&dstTokenAddress={dst_not_native_token}")
+            #logger.info(f"Отправлен запрос на роут - {response.url}")
+            #logger.info(response.text)
+            print("Logs")
             assert response.status_code == 200, f"Ожидался status = {200}, " \
                                                 f"пришел status = {response.status_code}. " \
                                                 f"Тело ответа: \n{response.text}."
@@ -59,7 +61,7 @@ class DeBridge:
         def estimate_bridge_not_native_to_native(self, src_net, dst_net, src_not_native_token, dst_native_token):
             response = requests.get(
                 f"{self.url}?srcNet={src_net}&srcTokenAddress={src_not_native_token}"
-                f"&srcTokenAmount=10&dstNet={dst_net}&dstTokenAddress={dst_native_token}")
+                f"&srcTokenAmount=100000&dstNet={dst_net}&dstTokenAddress={dst_native_token}")
             logger.info(f"Отправлен запрос на роут - {response.url}")
             logger.info(response.text)
             assert response.status_code == 200, f"Ожидался status = {200}, " \
@@ -69,10 +71,11 @@ class DeBridge:
 
             return response
 
-        def estimate_bridge_not_native_to_not_native(self, src_net, dst_net, src_not_native_token, dst_not_native_token):
+        def estimate_bridge_not_native_to_not_native(self, src_net, dst_net, src_not_native_token,
+                                                     dst_not_native_token):
             response = requests.get(
                 f"{self.url}?srcNet={src_net}&srcTokenAddress={src_not_native_token}"
-                f"&srcTokenAmount=10&dstNet={dst_net}&dstTokenAddress={dst_not_native_token}")
+                f"&srcTokenAmount=100000&dstNet={dst_net}&dstTokenAddress={dst_not_native_token}")
             logger.info(f"Отправлен запрос на роут - {response.url}")
             logger.info(response.text)
             assert response.status_code == 200, f"Ожидался status = {200}, " \
