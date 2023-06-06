@@ -23,6 +23,8 @@ class DeBridge:
             response = requests.get(self.url)  # без query параметров
             logger.info(f"Отправлен запрос на роут - {response.url}")
             logger.info(response.text)
+            print(f"Отправлен запрос на роут - {response.url}")
+            print(response.text)
             assert response.status_code == 400 and response.text == '{"ok":false,"data":null,"error":"\\"srcNet\\" is ' \
                                                                     'required"}', f"Ожидался status = {400}, " \
                                                                                   f"пришел status = {response.status_code}. " \
@@ -36,7 +38,8 @@ class DeBridge:
                 f"&srcTokenAmount=100000&dstNet={dst_net}&dstTokenAddress={dst_not_native_token}")
             logger.info(f"Отправлен запрос на роут - {response.url}")
             logger.info(response.text)
-            print('123')
+            print(f"Отправлен запрос на роут - {response.url}")
+            print(response.text)
             assert response.status_code == 200, f"Ожидался status = {200}, " \
                                                 f"пришел status = {response.status_code}. " \
                                                 f"Тело ответа: \n{response.text}."
@@ -48,9 +51,10 @@ class DeBridge:
             response = requests.get(
                 f"{self.url}?srcNet={src_net}&srcTokenAddress={src_stable_coin}"
                 f"&srcTokenAmount=10000&dstNet={dst_net}&dstTokenAddress={dst_not_native_token}")
-            #logger.info(f"Отправлен запрос на роут - {response.url}")
-            #logger.info(response.text)
-            print("Logs")
+            logger.info(f"Отправлен запрос на роут - {response.url}")
+            logger.info(response.text)
+            print(f"Отправлен запрос на роут - {response.url}")
+            print(response.text)
             assert response.status_code == 200, f"Ожидался status = {200}, " \
                                                 f"пришел status = {response.status_code}. " \
                                                 f"Тело ответа: \n{response.text}."
@@ -64,6 +68,8 @@ class DeBridge:
                 f"&srcTokenAmount=100000&dstNet={dst_net}&dstTokenAddress={dst_native_token}")
             logger.info(f"Отправлен запрос на роут - {response.url}")
             logger.info(response.text)
+            print(f"Отправлен запрос на роут - {response.url}")
+            print(response.text)
             assert response.status_code == 200, f"Ожидался status = {200}, " \
                                                 f"пришел status = {response.status_code}. " \
                                                 f"Тело ответа: \n{response.text}."
@@ -78,6 +84,8 @@ class DeBridge:
                 f"&srcTokenAmount=100000&dstNet={dst_net}&dstTokenAddress={dst_not_native_token}")
             logger.info(f"Отправлен запрос на роут - {response.url}")
             logger.info(response.text)
+            print(f"Отправлен запрос на роут - {response.url}")
+            print(response.text)
             assert response.status_code == 200, f"Ожидался status = {200}, " \
                                                 f"пришел status = {response.status_code}. " \
                                                 f"Тело ответа: \n{response.text}."
@@ -92,6 +100,8 @@ class DeBridge:
         response = requests.get(f"{self.url}getAllowance?net={net}&tokenAddress={not_native_token}&owner={owner}")
         logger.info(f"Отправлен запрос на роут - {response.url}")
         logger.info(response.text)
+        print(f"Отправлен запрос на роут - {response.url}")
+        print(response.text)
         assert response.status_code == 200, f"Ожидался status = {200}, " \
                                             f"пришел status = {response.status_code}. " \
                                             f"Тело ответа: \n{response.text}."
@@ -104,6 +114,8 @@ class DeBridge:
         response = requests.get(f"{self.url}getApproveTx")
         logger.info(f"Отправлен запрос на роут - {response.url}")
         logger.info(response.text)
+        print(f"Отправлен запрос на роут - {response.url}")
+        print(response.text)
         assert response.status_code == 400 and response.text == '{"ok":false,"data":null,"error":"\\"net\\"' \
                                                                 ' is required"}', f"Ожидался status = {400}, " \
                                                                                   f"пришел status = {response.status_code}. " \
@@ -115,6 +127,8 @@ class DeBridge:
         response = requests.get(f"{self.url}getApproveTx?tokenAddress={token_address}&net={net}&owner={owner}")
         logger.info(f"Отправлен запрос на роут - {response.url}")
         logger.info(response.text)
+        print(f"Отправлен запрос на роут - {response.url}")
+        print(response.text)
         assert response.status_code == 200, f"Ожидался status = {200}, " \
                                             f"пришел status = {response.status_code}. " \
                                             f"Тело ответа: \n{response.text}."
@@ -125,6 +139,8 @@ class DeBridge:
         response = requests.get(f"{self.url}getSupportedChains")
         logger.info(f"Отправлен запрос на роут - {response.url}")
         logger.info(response.text)
+        print(f"Отправлен запрос на роут - {response.url}")
+        print(response.text)
         assert response.status_code == 200, f"Ожидался status = {200}, " \
                                             f"пришел status = {response.status_code}. " \
                                             f"Тело ответа: \n{response.text}."
@@ -135,6 +151,8 @@ class DeBridge:
         response = requests.get(f"{self.url}getTokensByChain?chainId={chain_id}")
         logger.info(f"Отправлен запрос на роут - {response.url}")
         logger.info(response.text)
+        print(f"Отправлен запрос на роут - {response.url}")
+        print(response.text)
         assert response.status_code == 200, f"Ожидался status = {200}, " \
                                             f"пришел status = {response.status_code}. " \
                                             f"Тело ответа: \n{response.text}."
@@ -150,6 +168,8 @@ class DeBridge:
             f"dstChainFallbackAddress={dst_chain_fallback_address}&owner={owner}")
         logger.info(f"Отправлен запрос на роут - {response.url}")
         logger.info(response.text)
+        print(f"Отправлен запрос на роут - {response.url}")
+        print(response.text)
         assert response.status_code == 200, f"Ожидался status = {200}, " \
                                             f"пришел status = {response.status_code}. " \
                                             f"Тело ответа: \n{response.text}."
