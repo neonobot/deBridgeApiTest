@@ -1,0 +1,75 @@
+{
+  "uid" : "8b37323837b723ae",
+  "name" : "test_estimate_bridge_not_native_to_native[Polygon (MATIC)-Binance Smart Chain (BNB)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_estimate_bridge_not_native_to_native",
+  "historyId" : "d5f3632f3971562483a385df8d529733",
+  "time" : {
+    "start" : 1686067743312,
+    "stop" : 1686067745831,
+    "duration" : 2519
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4665aa6f3beadc02",
+      "name" : "stdout",
+      "source" : "4665aa6f3beadc02.txt",
+      "type" : "text/plain",
+      "size" : 403
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "fv-az620-574"
+  }, {
+    "name" : "thread",
+    "value" : "2546-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dst_nets",
+    "value" : "'Polygon (MATIC)'"
+  }, {
+    "name" : "src_nets",
+    "value" : "'Binance Smart Chain (BNB)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b37323837b723ae.json",
+  "parameterValues" : [ "'Polygon (MATIC)'", "'Binance Smart Chain (BNB)'" ]
+}
