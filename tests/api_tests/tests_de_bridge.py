@@ -19,9 +19,8 @@ def test_estimate_bridge_native_to_not_native(network):
     net = de_bridge_keys_data()[network].get('net')
     native_token = de_bridge_keys_data()[network].get('nativeToken')
     not_native_token = de_bridge_keys_data()[network].get('notNativeToken')
-    owner = de_bridge_keys_data()[network].get('owner')
     DeBridge().EstimateBridge().estimate_bridge_native_to_not_native(net=net, native_token=native_token,
-                                                                     not_native_token=not_native_token, owner=owner)
+                                                                     not_native_token=not_native_token)
 
 
 @pytest.mark.parametrize("network", networks)
@@ -91,7 +90,7 @@ def test_get_bridge_tx_not_native_to_not_native(src_network, dst_network):
     dst_net = de_bridge_keys_data()[dst_network].get('net')
     src_token_address = de_bridge_keys_data()[src_network].get('notNativeToken')
     dst_token_address = de_bridge_keys_data()[dst_network].get('notNativeToken')
-    src_token_amount = 10000
+    src_token_amount = 100000
     dst_chain_recipient_address = de_bridge_keys_data()[dst_network].get('owner')
     dst_chain_fallback_address = de_bridge_keys_data()[dst_network].get('owner')
     owner = de_bridge_keys_data()[dst_network].get('owner')
@@ -99,7 +98,7 @@ def test_get_bridge_tx_not_native_to_not_native(src_network, dst_network):
         DeBridge().get_bridge_tx(src_net=src_net, dst_net=dst_net, src_token_address=src_token_address,
                                  dst_token_address=dst_token_address, src_token_amount=src_token_amount,
                                  dst_chain_recipient_address=dst_chain_recipient_address,
-                                 dst_chain_fallback_address=dst_chain_fallback_address,owner=owner)
+                                 dst_chain_fallback_address=dst_chain_fallback_address, owner=owner)
     else:
         pytest.skip("Сеть отправления = сети назначения")
 
@@ -119,7 +118,7 @@ def test_get_bridge_tx_native_to_not_native(src_network, dst_network):
         DeBridge().get_bridge_tx(src_net=src_net, dst_net=dst_net, src_token_address=src_token_address,
                                  dst_token_address=dst_token_address, src_token_amount=src_token_amount,
                                  dst_chain_recipient_address=dst_chain_recipient_address,
-                                 dst_chain_fallback_address=dst_chain_fallback_address,owner=owner)
+                                 dst_chain_fallback_address=dst_chain_fallback_address, owner=owner)
     else:
         pytest.skip("Сеть отправления = сети назначения")
 
@@ -151,7 +150,7 @@ def test_get_bridge_tx_not_native_to_stablecoin(src_network, dst_network):
     dst_net = de_bridge_keys_data()[dst_network].get('net')
     src_token_address = de_bridge_keys_data()[src_network].get('notNativeToken')
     dst_token_address = de_bridge_keys_data()[dst_network].get('stableCoin')
-    src_token_amount = 10000
+    src_token_amount = 100000
     dst_chain_recipient_address = de_bridge_keys_data()[dst_network].get('owner')
     dst_chain_fallback_address = de_bridge_keys_data()[dst_network].get('owner')
     owner = de_bridge_keys_data()[dst_network].get('owner')
@@ -159,7 +158,7 @@ def test_get_bridge_tx_not_native_to_stablecoin(src_network, dst_network):
         DeBridge().get_bridge_tx(src_net=src_net, dst_net=dst_net, src_token_address=src_token_address,
                                  dst_token_address=dst_token_address, src_token_amount=src_token_amount,
                                  dst_chain_recipient_address=dst_chain_recipient_address,
-                                 dst_chain_fallback_address=dst_chain_fallback_address,owner=owner)
+                                 dst_chain_fallback_address=dst_chain_fallback_address, owner=owner)
     else:
         pytest.skip("Сеть отправления = сети назначения")
 
@@ -179,7 +178,7 @@ def test_get_bridge_tx_native_to_stablecoin(src_network, dst_network):
         DeBridge().get_bridge_tx(src_net=src_net, dst_net=dst_net, src_token_address=src_token_address,
                                  dst_token_address=dst_token_address, src_token_amount=src_token_amount,
                                  dst_chain_recipient_address=dst_chain_recipient_address,
-                                 dst_chain_fallback_address=dst_chain_fallback_address,owner=owner)
+                                 dst_chain_fallback_address=dst_chain_fallback_address, owner=owner)
     else:
         pytest.skip("Сеть отправления = сети назначения")
 
@@ -199,7 +198,7 @@ def test_get_bridge_tx_stablecoin_to_native(src_network, dst_network):
         DeBridge().get_bridge_tx(src_net=src_net, dst_net=dst_net, src_token_address=src_token_address,
                                  dst_token_address=dst_token_address, src_token_amount=src_token_amount,
                                  dst_chain_recipient_address=dst_chain_recipient_address,
-                                 dst_chain_fallback_address=dst_chain_fallback_address,owner=owner)
+                                 dst_chain_fallback_address=dst_chain_fallback_address, owner=owner)
     else:
         pytest.skip("Сеть отправления = сети назначения")
 
@@ -219,6 +218,6 @@ def test_get_bridge_tx_stablecoin_to_not_native(src_network, dst_network):
         DeBridge().get_bridge_tx(src_net=src_net, dst_net=dst_net, src_token_address=src_token_address,
                                  dst_token_address=dst_token_address, src_token_amount=src_token_amount,
                                  dst_chain_recipient_address=dst_chain_recipient_address,
-                                 dst_chain_fallback_address=dst_chain_fallback_address,owner=owner)
+                                 dst_chain_fallback_address=dst_chain_fallback_address, owner=owner)
     else:
         pytest.skip("Сеть отправления = сети назначения")

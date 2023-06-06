@@ -15,7 +15,7 @@ get_supported_chains_schema = {
                     "name": {
                         "type": "string"
                     },
-                    "symbol": {
+                    "code": {
                         "type": "string"
                     },
                     "decimals": {
@@ -32,7 +32,7 @@ get_supported_chains_schema = {
                 "required": [
                     "chainId",
                     "name",
-                    "symbol",
+                    "code",
                     "decimals",
                     "net",
                     "logoURI"
