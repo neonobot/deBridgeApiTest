@@ -48,22 +48,6 @@ jobs:
           echo "SKIPPED_TESTS=$(cat test_results.txt | grep -oP '(\d+) skipped')" >> $GITHUB_ENV
           allure generate ./allure-results -o ./allure-report
 
-          echo "Logging test output..."
-          echo "${{ env.TEST_LOG }}" >> test_output.txt
-          echo "Copying test output to allure-results..."
-          cp test_output.txt allure-results/test_output.txt
-
-      - name: Debug1
-        run: ls ./allure-results
-
-      - name: Debug2
-        run: ls ./allure-report
-
-      - name: Debug3
-        run: ls ./allure-report/data
-
-      - name: Debug4
-        run: ls ./allure-report/data/attachments
 
       - name: Deploy Allure report
         uses: peaceiris/actions-gh-pages@v3
