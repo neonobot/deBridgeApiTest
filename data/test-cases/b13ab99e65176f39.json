@@ -1,0 +1,56 @@
+{
+  "uid" : "b13ab99e65176f39",
+  "name" : "test_get_tokens_by_chain[Avalanche (AVAX)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_tokens_by_chain",
+  "historyId" : "c1eb289473cfcd3ecde8344df609e673",
+  "time" : {
+    "start" : 1686044473007,
+    "stop" : 1686044473938,
+    "duration" : 931
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "fv-az454-800"
+  }, {
+    "name" : "thread",
+    "value" : "2487-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "network",
+    "value" : "'Avalanche (AVAX)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b13ab99e65176f39.json",
+  "parameterValues" : [ "'Avalanche (AVAX)'" ]
+}
