@@ -14,31 +14,52 @@ def test_estimate_bridge():
     DeBridge().EstimateBridge().estimate_bridge_not_query()
 
 
-@pytest.mark.parametrize("network", networks)
-def test_estimate_bridge_native_to_not_native(network):
-    net = de_bridge_keys_data()[network].get('net')
-    native_token = de_bridge_keys_data()[network].get('nativeToken')
-    not_native_token = de_bridge_keys_data()[network].get('notNativeToken')
-    DeBridge().EstimateBridge().estimate_bridge_native_to_not_native(net=net, native_token=native_token,
-                                                                     not_native_token=not_native_token)
+@pytest.mark.parametrize("src_nets", networks)
+@pytest.mark.parametrize("dst_nets", networks)
+def test_estimate_bridge_native_to_not_native(src_nets, dst_nets):
+    src_net = de_bridge_keys_data()[src_nets].get('net')
+    dst_net = de_bridge_keys_data()[dst_nets].get('net')
+    src_native_token = de_bridge_keys_data()[src_nets].get('nativeToken')
+    dst_not_native_token = de_bridge_keys_data()[dst_nets].get('notNativeToken')
+    DeBridge().EstimateBridge().estimate_bridge_native_to_not_native(src_net=src_net, dst_net=dst_net,
+                                                                     src_native_token=src_native_token,
+                                                                     dst_not_native_token=dst_not_native_token)
 
 
-@pytest.mark.parametrize("network", networks)
-def test_estimate_bridge_stablecoin_to_not_native(network):
-    net = de_bridge_keys_data()[network].get('net')
-    stable_coin = de_bridge_keys_data()[network].get('stableCoin')
-    not_native_token = de_bridge_keys_data()[network].get('notNativeToken')
-    DeBridge().EstimateBridge().estimate_bridge_stablecoin_to_not_native(net=net, stable_coin=stable_coin,
-                                                                         not_native_token=not_native_token)
+@pytest.mark.parametrize("src_nets", networks)
+@pytest.mark.parametrize("dst_nets", networks)
+def test_estimate_bridge_stablecoin_to_not_native(src_nets, dst_nets):
+    src_net = de_bridge_keys_data()[src_nets].get('net')
+    dst_net = de_bridge_keys_data()[dst_nets].get('net')
+    src_stable_coin = de_bridge_keys_data()[src_nets].get('stableCoin')
+    dst_not_native_token = de_bridge_keys_data()[dst_nets].get('notNativeToken')
+    DeBridge().EstimateBridge().estimate_bridge_stablecoin_to_not_native(src_net=src_net, dst_net=dst_net,
+                                                                         src_stable_coin=src_stable_coin,
+                                                                         dst_not_native_token=dst_not_native_token)
 
 
-@pytest.mark.parametrize("network", networks)
-def test_estimate_bridge_not_native_to_native(network):
-    net = de_bridge_keys_data()[network].get('net')
-    native_token = de_bridge_keys_data()[network].get('nativeToken')
-    not_native_token = de_bridge_keys_data()[network].get('notNativeToken')
-    DeBridge().EstimateBridge().estimate_bridge_not_native_to_native(net=net, native_token=native_token,
-                                                                     not_native_token=not_native_token)
+@pytest.mark.parametrize("src_nets", networks)
+@pytest.mark.parametrize("dst_nets", networks)
+def test_estimate_bridge_not_native_to_native(src_nets, dst_nets):
+    src_net = de_bridge_keys_data()[src_nets].get('net')
+    dst_net = de_bridge_keys_data()[dst_nets].get('net')
+    dst_native_token = de_bridge_keys_data()[dst_nets].get('nativeToken')
+    src_not_native_token = de_bridge_keys_data()[src_nets].get('notNativeToken')
+    DeBridge().EstimateBridge().estimate_bridge_not_native_to_native(src_net=src_net, dst_net=dst_net,
+                                                                     src_not_native_token=src_not_native_token,
+                                                                     dst_native_token=dst_native_token)
+
+
+@pytest.mark.parametrize("src_nets", networks)
+@pytest.mark.parametrize("dst_nets", networks)
+def test_estimate_bridge_not_native_to_not_native(src_nets, dst_nets):
+    src_net = de_bridge_keys_data()[src_nets].get('net')
+    dst_net = de_bridge_keys_data()[dst_nets].get('net')
+    src_not_native_token = de_bridge_keys_data()[src_nets].get('notNativeToken')
+    dst_not_native_token = de_bridge_keys_data()[dst_nets].get('notNativeToken')
+    DeBridge().EstimateBridge().estimate_bridge_not_native_to_not_native(src_net=src_net, dst_net=dst_net,
+                                                                         src_not_native_token=src_not_native_token,
+                                                                         dst_not_native_token=dst_not_native_token)
 
 
 @pytest.mark.parametrize("network", networks)  # todo разобрать ошибку
