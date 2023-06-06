@@ -1,0 +1,65 @@
+{
+  "uid" : "6d08d6c5d67da672",
+  "name" : "test_estimate_bridge_not_native_to_native[Ethereum (ETH)-Arbitrum One (ETH)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_estimate_bridge_not_native_to_native",
+  "historyId" : "eb0a372a5d3c5a6b4bfbca607ca7ff08",
+  "time" : {
+    "start" : 1686065647779,
+    "stop" : 1686065678321,
+    "duration" : 30542
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Ожидался status = 200, пришел status = 504. Тело ответа: \n<html><body><h1>504 Gateway Time-out</h1>\nThe server didn't respond in time.\n</body></html>\n.",
+  "statusTrace" : "src_nets = 'Arbitrum One (ETH)', dst_nets = 'Ethereum (ETH)'\n\n    @pytest.mark.parametrize(\"src_nets\", networks)\n    @pytest.mark.parametrize(\"dst_nets\", networks)\n    def test_estimate_bridge_not_native_to_native(src_nets, dst_nets):\n        src_net = de_bridge_keys_data()[src_nets].get('net')\n        dst_net = de_bridge_keys_data()[dst_nets].get('net')\n        dst_native_token = de_bridge_keys_data()[dst_nets].get('nativeToken')\n        src_not_native_token = de_bridge_keys_data()[src_nets].get('notNativeToken')\n>       DeBridge().EstimateBridge().estimate_bridge_not_native_to_native(src_net=src_net, dst_net=dst_net,\n                                                                         src_not_native_token=src_not_native_token,\n                                                                         dst_native_token=dst_native_token)\n\ntests/api_tests/tests_de_bridge.py:48: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <serviceCalls.debrdige_service.DeBridge.EstimateBridge object at 0x7f1f047b5cd0>\nsrc_net = 'arbitrum', dst_net = 'eth'\nsrc_not_native_token = '0xd4d42f0b6def4ce0383636770ef773390d85c61a'\ndst_native_token = '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee'\n\n    def estimate_bridge_not_native_to_native(self, src_net, dst_net, src_not_native_token, dst_native_token):\n        response = requests.get(\n            f\"{self.url}?srcNet={src_net}&srcTokenAddress={src_not_native_token}\"\n            f\"&srcTokenAmount=10&dstNet={dst_net}&dstTokenAddress={dst_native_token}\")\n        logger.info(f\"Отправлен запрос на роут - {response.url}\")\n        logger.info(response.text)\n>       assert response.status_code == 200, f\"Ожидался status = {200}, \" \\\n                                            f\"пришел status = {response.status_code}. \" \\\n                                            f\"Тело ответа: \\n{response.text}.\"\nE       AssertionError: Ожидался status = 200, пришел status = 504. Тело ответа: \nE       <html><body><h1>504 Gateway Time-out</h1>\nE       The server didn't respond in time.\nE       </body></html>\nE       .\n\nserviceCalls/debrdige_service.py:65: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "fv-az268-245"
+  }, {
+    "name" : "thread",
+    "value" : "2497-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dst_nets",
+    "value" : "'Ethereum (ETH)'"
+  }, {
+    "name" : "src_nets",
+    "value" : "'Arbitrum One (ETH)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6d08d6c5d67da672.json",
+  "parameterValues" : [ "'Ethereum (ETH)'", "'Arbitrum One (ETH)'" ]
+}
