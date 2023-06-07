@@ -1,0 +1,72 @@
+{
+  "uid" : "e981e69f80260d91",
+  "name" : "test_get_approve_tx_not_native_token[Binance Smart Chain (BNB)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_approve_tx_not_native_token",
+  "historyId" : "ac852ea124ae091301d9914e6bd7217b",
+  "time" : {
+    "start" : 1686133026216,
+    "stop" : 1686133026556,
+    "duration" : 340
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8febe24fc380e461",
+      "name" : "stdout",
+      "source" : "8febe24fc380e461.txt",
+      "type" : "text/plain",
+      "size" : 538
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "fv-az592-204"
+  }, {
+    "name" : "thread",
+    "value" : "2534-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "network",
+    "value" : "'Binance Smart Chain (BNB)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e981e69f80260d91.json",
+  "parameterValues" : [ "'Binance Smart Chain (BNB)'" ]
+}

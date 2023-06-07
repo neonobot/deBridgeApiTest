@@ -1,0 +1,75 @@
+{
+  "uid" : "f3ad0fe632b9a4de",
+  "name" : "test_get_bridge_tx_stablecoin_to_not_native[Avalanche (AVAX)-Binance Smart Chain (BNB)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_bridge_tx_stablecoin_to_not_native",
+  "historyId" : "e7a15954d17d4a35bb458f409b2ae992",
+  "time" : {
+    "start" : 1686133099459,
+    "stop" : 1686133101652,
+    "duration" : 2193
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "41201998669b5e0e",
+      "name" : "stdout",
+      "source" : "41201998669b5e0e.txt",
+      "type" : "text/plain",
+      "size" : 2328
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "fv-az592-204"
+  }, {
+    "name" : "thread",
+    "value" : "2534-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dst_network",
+    "value" : "'Avalanche (AVAX)'"
+  }, {
+    "name" : "src_network",
+    "value" : "'Binance Smart Chain (BNB)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3ad0fe632b9a4de.json",
+  "parameterValues" : [ "'Avalanche (AVAX)'", "'Binance Smart Chain (BNB)'" ]
+}

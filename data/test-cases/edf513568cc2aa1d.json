@@ -1,0 +1,75 @@
+{
+  "uid" : "edf513568cc2aa1d",
+  "name" : "test_get_bridge_tx_stablecoin_to_native[Ethereum (ETH)-Arbitrum One (ETH)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_bridge_tx_stablecoin_to_native",
+  "historyId" : "b0d668566970846919a6ae0046f463a0",
+  "time" : {
+    "start" : 1686133056569,
+    "stop" : 1686133059136,
+    "duration" : 2567
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e5f629350882552d",
+      "name" : "stdout",
+      "source" : "e5f629350882552d.txt",
+      "type" : "text/plain",
+      "size" : 7322
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "fv-az592-204"
+  }, {
+    "name" : "thread",
+    "value" : "2537-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dst_network",
+    "value" : "'Ethereum (ETH)'"
+  }, {
+    "name" : "src_network",
+    "value" : "'Arbitrum One (ETH)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "edf513568cc2aa1d.json",
+  "parameterValues" : [ "'Ethereum (ETH)'", "'Arbitrum One (ETH)'" ]
+}
