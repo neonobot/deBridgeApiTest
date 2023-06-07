@@ -1,0 +1,72 @@
+{
+  "uid" : "60f71c8356f0f8e7",
+  "name" : "test_get_allowance[Polygon (MATIC)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_allowance",
+  "historyId" : "77fa68db098c403c41c4c8f2dd7e20a0",
+  "time" : {
+    "start" : 1686125663253,
+    "stop" : 1686125663851,
+    "duration" : 598
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "301da2982c916702",
+      "name" : "stdout",
+      "source" : "301da2982c916702.txt",
+      "type" : "text/plain",
+      "size" : 255
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "fv-az437-728"
+  }, {
+    "name" : "thread",
+    "value" : "2517-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "network",
+    "value" : "'Polygon (MATIC)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "60f71c8356f0f8e7.json",
+  "parameterValues" : [ "'Polygon (MATIC)'" ]
+}
