@@ -57,9 +57,12 @@ def test_estimate_bridge_not_native_to_not_native(src_nets, dst_nets):
     dst_net = de_bridge_keys_data()[dst_nets].get('net')
     src_not_native_token = de_bridge_keys_data()[src_nets].get('notNativeToken')
     dst_not_native_token = de_bridge_keys_data()[dst_nets].get('notNativeToken')
-    DeBridge().EstimateBridge().estimate_bridge_not_native_to_not_native(src_net=src_net, dst_net=dst_net,
+    if src_net != dst_net:
+        DeBridge().EstimateBridge().estimate_bridge_not_native_to_not_native(src_net=src_net, dst_net=dst_net,
                                                                          src_not_native_token=src_not_native_token,
                                                                          dst_not_native_token=dst_not_native_token)
+    else:
+        pytest.skip("Сеть отправления = сети назначения")
 
 
 @pytest.mark.parametrize("network", networks)  # todo разобрать ошибку

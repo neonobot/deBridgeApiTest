@@ -134,6 +134,7 @@ estimate_bridge_schema = {
 }
 
 get_bridge_tx_schema = {
+    "$schema": "http://json-schema.org/draft-07/schema#",
     "type": "object",
     "properties": {
         "ok": {
@@ -145,38 +146,26 @@ get_bridge_tx_schema = {
                 "transaction": {
                     "type": "object",
                     "properties": {
+                        "data": {
+                            "type": "string"
+                        },
                         "from": {
                             "type": "string"
                         },
                         "to": {
                             "type": "string"
                         },
-                        "value": {
-                            "type": "string"
-                        },
-                        "data": {
-                            "type": "string"
-                        },
                         "chainId": {
                             "type": "integer"
+                        },
+                        "value": {
+                            "type": "string"
                         }
                     },
-                    "required": ["from", "to", "value", "data", "chainId"]
-                },
-                "type": {
-                    "type": "string"
-                },
-                "net": {
-                    "type": "string"
-                },
-                "address": {
-                    "type": "string"
-                },
-                "meta_info": {
-                    "type": "array"
+                    "required": ["data", "from", "to", "chainId", "value"]
                 }
             },
-            "required": ["transaction", "type", "net", "address", "meta_info"]
+            "required": ["transaction"]
         },
         "error": {
             "type": "string"
