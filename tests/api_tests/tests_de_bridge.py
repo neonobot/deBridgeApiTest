@@ -73,6 +73,7 @@ def test_get_allowance(network):  # "error":"No available RPC's for ETH"
     DeBridge().get_allowance(net=net, not_native_token=not_native_token, owner=owner)
 
 
+@pytest.mark.special()
 def test_get_approve_tx():  # error":"Network undefined is not available in DeBridge"
     DeBridge().get_approve_tx()
 
