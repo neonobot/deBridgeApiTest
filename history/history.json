@@ -96,17 +96,16 @@
   },
   "3ca948f6313ad0ec949315e0adb0ae11" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
       "uid" : "5be5783c4708637b",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"The requested limit order can't be estimated. The most probable reason is that an unsupported rebase token is used on the destination chain\"}.",
+      "status" : "passed",
       "time" : {
         "start" : 1686228028342,
         "stop" : 1686228029827,
