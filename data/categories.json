@@ -1,65 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"Internal error\"}.",
+      "name" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"The requested limit order can't be estimated. The most probable reason is that an unsupported rebase token is used on the destination chain\"}.",
       "children" : [ {
-        "name" : "test_get_bridge_tx_stablecoin_to_not_native[Binance Smart Chain (BNB)-Ethereum (ETH)]",
-        "uid" : "a12b2601f0a5fdec",
-        "parentUid" : "e7c7a335d1d6f6be0ca40fb0c68abda7",
+        "name" : "test_estimate_bridge_stablecoin_to_not_native[Arbitrum One (ETH)-Avalanche (AVAX)]",
+        "uid" : "5be5783c4708637b",
+        "parentUid" : "d3237ac1a7a9b87ec8593e4857529d9a",
         "status" : "failed",
         "time" : {
-          "start" : 1686219635405,
-          "stop" : 1686219636458,
-          "duration" : 1053
+          "start" : 1686228028342,
+          "stop" : 1686228029827,
+          "duration" : 1485
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'Binance Smart Chain (BNB)'", "'Ethereum (ETH)'" ]
-      }, {
-        "name" : "test_get_bridge_tx_stablecoin_to_not_native[Binance Smart Chain (BNB)-Polygon (MATIC)]",
-        "uid" : "6fc4ca5b76319097",
-        "parentUid" : "e7c7a335d1d6f6be0ca40fb0c68abda7",
-        "status" : "failed",
-        "time" : {
-          "start" : 1686219636510,
-          "stop" : 1686219638128,
-          "duration" : 1618
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'Binance Smart Chain (BNB)'", "'Polygon (MATIC)'" ]
-      }, {
-        "name" : "test_get_bridge_tx_stablecoin_to_not_native[Binance Smart Chain (BNB)-Avalanche (AVAX)]",
-        "uid" : "be589a4315c46cc9",
-        "parentUid" : "e7c7a335d1d6f6be0ca40fb0c68abda7",
-        "status" : "failed",
-        "time" : {
-          "start" : 1686219636840,
-          "stop" : 1686219637669,
-          "duration" : 829
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'Binance Smart Chain (BNB)'", "'Avalanche (AVAX)'" ]
-      }, {
-        "name" : "test_get_bridge_tx_stablecoin_to_not_native[Binance Smart Chain (BNB)-Arbitrum One (ETH)]",
-        "uid" : "3ef373ed7e458a96",
-        "parentUid" : "e7c7a335d1d6f6be0ca40fb0c68abda7",
-        "status" : "failed",
-        "time" : {
-          "start" : 1686219638147,
-          "stop" : 1686219639130,
-          "duration" : 983
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'Binance Smart Chain (BNB)'", "'Arbitrum One (ETH)'" ]
+        "parameters" : [ "'Arbitrum One (ETH)'", "'Avalanche (AVAX)'" ]
       } ],
-      "uid" : "e7c7a335d1d6f6be0ca40fb0c68abda7"
+      "uid" : "d3237ac1a7a9b87ec8593e4857529d9a"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  } ],
+  "name" : "categories"
 }

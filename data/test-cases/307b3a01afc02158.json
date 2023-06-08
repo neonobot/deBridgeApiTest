@@ -1,0 +1,75 @@
+{
+  "uid" : "307b3a01afc02158",
+  "name" : "test_estimate_bridge_not_native_to_native[Arbitrum One (ETH)-Binance Smart Chain (BNB)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_estimate_bridge_not_native_to_native",
+  "historyId" : "271379910f62fe1f2401a580284d57c7",
+  "time" : {
+    "start" : 1686228072124,
+    "stop" : 1686228075734,
+    "duration" : 3610
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1097b6d2da3867d4",
+      "name" : "stdout",
+      "source" : "1097b6d2da3867d4.txt",
+      "type" : "text/plain",
+      "size" : 399
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1028-882"
+  }, {
+    "name" : "thread",
+    "value" : "2528-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dst_nets",
+    "value" : "'Arbitrum One (ETH)'"
+  }, {
+    "name" : "src_nets",
+    "value" : "'Binance Smart Chain (BNB)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "307b3a01afc02158.json",
+  "parameterValues" : [ "'Arbitrum One (ETH)'", "'Binance Smart Chain (BNB)'" ]
+}

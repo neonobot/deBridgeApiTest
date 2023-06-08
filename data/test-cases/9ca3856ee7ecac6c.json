@@ -1,0 +1,75 @@
+{
+  "uid" : "9ca3856ee7ecac6c",
+  "name" : "test_estimate_bridge_stablecoin_to_not_native[Avalanche (AVAX)-Avalanche (AVAX)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_estimate_bridge_stablecoin_to_not_native",
+  "historyId" : "cd55dddf3ccd411676d97be946be7c93",
+  "time" : {
+    "start" : 1686228037610,
+    "stop" : 1686228039274,
+    "duration" : 1664
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8541fd121b6c3efa",
+      "name" : "stdout",
+      "source" : "8541fd121b6c3efa.txt",
+      "type" : "text/plain",
+      "size" : 406
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1028-882"
+  }, {
+    "name" : "thread",
+    "value" : "2528-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dst_nets",
+    "value" : "'Avalanche (AVAX)'"
+  }, {
+    "name" : "src_nets",
+    "value" : "'Avalanche (AVAX)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ca3856ee7ecac6c.json",
+  "parameterValues" : [ "'Avalanche (AVAX)'", "'Avalanche (AVAX)'" ]
+}

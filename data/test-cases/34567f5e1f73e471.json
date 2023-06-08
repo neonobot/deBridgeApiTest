@@ -1,0 +1,75 @@
+{
+  "uid" : "34567f5e1f73e471",
+  "name" : "test_estimate_bridge_stablecoin_to_not_native[Arbitrum One (ETH)-Polygon (MATIC)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_estimate_bridge_stablecoin_to_not_native",
+  "historyId" : "8c6d619684e8698567209de562af1cd9",
+  "time" : {
+    "start" : 1686228019604,
+    "stop" : 1686228023629,
+    "duration" : 4025
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "353651f8a5119c16",
+      "name" : "stdout",
+      "source" : "353651f8a5119c16.txt",
+      "type" : "text/plain",
+      "size" : 415
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1028-882"
+  }, {
+    "name" : "thread",
+    "value" : "2528-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dst_nets",
+    "value" : "'Arbitrum One (ETH)'"
+  }, {
+    "name" : "src_nets",
+    "value" : "'Polygon (MATIC)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34567f5e1f73e471.json",
+  "parameterValues" : [ "'Arbitrum One (ETH)'", "'Polygon (MATIC)'" ]
+}

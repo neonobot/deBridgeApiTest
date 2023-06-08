@@ -1,0 +1,61 @@
+{
+  "uid" : "5803f581365d15a9",
+  "name" : "test_estimate_bridge_not_native_to_not_native[Polygon (MATIC)-Polygon (MATIC)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_estimate_bridge_not_native_to_not_native",
+  "historyId" : "c0f9f80d27a8ddfa65c58fe6bd27b8d1",
+  "time" : {
+    "start" : 1686228109594,
+    "stop" : 1686228109594,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: Сеть отправления = сети назначения",
+  "statusTrace" : "('/home/runner/work/deBridgeApiTest/deBridgeApiTest/tests/api_tests/tests_de_bridge.py', 65, 'Skipped: Сеть отправления = сети назначения')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1028-882"
+  }, {
+    "name" : "thread",
+    "value" : "2525-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dst_nets",
+    "value" : "'Polygon (MATIC)'"
+  }, {
+    "name" : "src_nets",
+    "value" : "'Polygon (MATIC)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5803f581365d15a9.json",
+  "parameterValues" : [ "'Polygon (MATIC)'", "'Polygon (MATIC)'" ]
+}
