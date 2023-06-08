@@ -1,0 +1,72 @@
+{
+  "uid" : "11ebcec917d914ed",
+  "name" : "test_get_allowance[Arbitrum One (ETH)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_allowance",
+  "historyId" : "e3a5560d3e52486dc02d98281e5e2f0c",
+  "time" : {
+    "start" : 1686219518424,
+    "stop" : 1686219519178,
+    "duration" : 754
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7e58edad41c32ac7",
+      "name" : "stdout",
+      "source" : "7e58edad41c32ac7.txt",
+      "type" : "text/plain",
+      "size" : 256
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "fv-az338-468"
+  }, {
+    "name" : "thread",
+    "value" : "2518-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "network",
+    "value" : "'Arbitrum One (ETH)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "11ebcec917d914ed.json",
+  "parameterValues" : [ "'Arbitrum One (ETH)'" ]
+}

@@ -1,0 +1,61 @@
+{
+  "uid" : "9cfe9610961825ab",
+  "name" : "test_get_bridge_tx_native_to_not_native[Avalanche (AVAX)-Avalanche (AVAX)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_get_bridge_tx_native_to_not_native",
+  "historyId" : "69f054acb8714a83dbb033470d11153c",
+  "time" : {
+    "start" : 1686219543784,
+    "stop" : 1686219543784,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: Сеть отправления = сети назначения",
+  "statusTrace" : "('/home/runner/work/deBridgeApiTest/deBridgeApiTest/tests/api_tests/tests_de_bridge.py', 147, 'Skipped: Сеть отправления = сети назначения')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "fv-az338-468"
+  }, {
+    "name" : "thread",
+    "value" : "2518-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dst_network",
+    "value" : "'Avalanche (AVAX)'"
+  }, {
+    "name" : "src_network",
+    "value" : "'Avalanche (AVAX)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9cfe9610961825ab.json",
+  "parameterValues" : [ "'Avalanche (AVAX)'", "'Avalanche (AVAX)'" ]
+}

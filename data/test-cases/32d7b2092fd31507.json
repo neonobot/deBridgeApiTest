@@ -1,0 +1,75 @@
+{
+  "uid" : "32d7b2092fd31507",
+  "name" : "test_estimate_bridge_not_native_to_native[Ethereum (ETH)-Polygon (MATIC)]",
+  "fullName" : "tests.api_tests.tests_de_bridge#test_estimate_bridge_not_native_to_native",
+  "historyId" : "74720d437fd83c58481f59054c7b9547",
+  "time" : {
+    "start" : 1686219429089,
+    "stop" : 1686219430293,
+    "duration" : 1204
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "68977cd99143a3de",
+      "name" : "stdout",
+      "source" : "68977cd99143a3de.txt",
+      "type" : "text/plain",
+      "size" : 410
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tests_de_bridge"
+  }, {
+    "name" : "host",
+    "value" : "fv-az338-468"
+  }, {
+    "name" : "thread",
+    "value" : "2520-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api_tests.tests_de_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dst_nets",
+    "value" : "'Ethereum (ETH)'"
+  }, {
+    "name" : "src_nets",
+    "value" : "'Polygon (MATIC)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "32d7b2092fd31507.json",
+  "parameterValues" : [ "'Ethereum (ETH)'", "'Polygon (MATIC)'" ]
+}
