@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "AssertionError: Ожидался status = 200, пришел status = 400. Тело ответа: \n{\"ok\":false,\"data\":null,\"error\":\"The requested limit order can't be estimated. The most probable reason is that an unsupported rebase token is used on the destination chain\"}.",
-      "children" : [ {
-        "name" : "test_estimate_bridge_stablecoin_to_not_native[Arbitrum One (ETH)-Avalanche (AVAX)]",
-        "uid" : "5be5783c4708637b",
-        "parentUid" : "d3237ac1a7a9b87ec8593e4857529d9a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1686228028342,
-          "stop" : 1686228029827,
-          "duration" : 1485
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'Arbitrum One (ETH)'", "'Avalanche (AVAX)'" ]
-      } ],
-      "uid" : "d3237ac1a7a9b87ec8593e4857529d9a"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ],
+  "children" : [],
   "name" : "categories"
 }
