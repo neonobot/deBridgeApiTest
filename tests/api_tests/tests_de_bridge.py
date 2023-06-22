@@ -14,8 +14,11 @@ def test_estimate_bridge():
     DeBridge().EstimateBridge().estimate_bridge_not_query()
 
 
-@pytest.mark.parametrize("src_nets", networks)
-@pytest.mark.parametrize("dst_nets", networks)
+@pytest.mark.parametrize("src_nets, dst_nets", [
+    (src_net, dst_net)
+    for src_net in de_bridge_keys_data()
+    for dst_net in de_bridge_keys_data()
+])
 def test_estimate_bridge_native_to_not_native(src_nets, dst_nets):
     src_net = de_bridge_keys_data()[src_nets].get('net')
     dst_net = de_bridge_keys_data()[dst_nets].get('net')
@@ -26,8 +29,11 @@ def test_estimate_bridge_native_to_not_native(src_nets, dst_nets):
                                                                      dst_not_native_token=dst_not_native_token)
 
 
-@pytest.mark.parametrize("src_nets", networks)
-@pytest.mark.parametrize("dst_nets", networks)
+@pytest.mark.parametrize("src_nets, dst_nets", [
+    (src_net, dst_net)
+    for src_net in de_bridge_keys_data()
+    for dst_net in de_bridge_keys_data()
+])
 def test_estimate_bridge_stablecoin_to_not_native(src_nets, dst_nets):
     src_net = de_bridge_keys_data()[src_nets].get('net')
     dst_net = de_bridge_keys_data()[dst_nets].get('net')
@@ -38,8 +44,11 @@ def test_estimate_bridge_stablecoin_to_not_native(src_nets, dst_nets):
                                                                          dst_not_native_token=dst_not_native_token)
 
 
-@pytest.mark.parametrize("src_nets", networks)
-@pytest.mark.parametrize("dst_nets", networks)
+@pytest.mark.parametrize("src_nets, dst_nets", [
+    (src_net, dst_net)
+    for src_net in de_bridge_keys_data()
+    for dst_net in de_bridge_keys_data()
+])
 def test_estimate_bridge_not_native_to_native(src_nets, dst_nets):
     src_net = de_bridge_keys_data()[src_nets].get('net')
     dst_net = de_bridge_keys_data()[dst_nets].get('net')
@@ -50,8 +59,11 @@ def test_estimate_bridge_not_native_to_native(src_nets, dst_nets):
                                                                      dst_native_token=dst_native_token)
 
 
-@pytest.mark.parametrize("src_nets", networks)
-@pytest.mark.parametrize("dst_nets", networks)
+@pytest.mark.parametrize("src_nets, dst_nets", [
+    (src_net, dst_net)
+    for src_net in de_bridge_keys_data()
+    for dst_net in de_bridge_keys_data()
+])
 def test_estimate_bridge_not_native_to_not_native(src_nets, dst_nets):
     src_net = de_bridge_keys_data()[src_nets].get('net')
     dst_net = de_bridge_keys_data()[dst_nets].get('net')
@@ -59,22 +71,27 @@ def test_estimate_bridge_not_native_to_not_native(src_nets, dst_nets):
     dst_not_native_token = de_bridge_keys_data()[dst_nets].get('notNativeToken')
     if src_net != dst_net:
         DeBridge().EstimateBridge().estimate_bridge_not_native_to_not_native(src_net=src_net, dst_net=dst_net,
-                                                                         src_not_native_token=src_not_native_token,
-                                                                         dst_not_native_token=dst_not_native_token)
+                                                                             src_not_native_token=src_not_native_token,
+                                                                             dst_not_native_token=dst_not_native_token)
     else:
         pytest.skip("Сеть отправления = сети назначения")
 
 
-@pytest.mark.parametrize("network", networks)  # todo разобрать ошибку
-def test_get_allowance(network):  # "error":"No available RPC's for ETH"
+@pytest.mark.parametrize("network", networks)
+def test_get_allowance(network):
     net = de_bridge_keys_data()[network].get('net')
     not_native_token = de_bridge_keys_data()[network].get('notNativeToken')
     owner = de_bridge_keys_data()[network].get('owner')
     DeBridge().get_allowance(net=net, not_native_token=not_native_token, owner=owner)
 
 
+def test_get_allowance_for_maira():
+    DeBridge().get_allowance(net='bsc', not_native_token='0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9',
+                             owner='0xd5ed26d93129a8b51ac54b40477327f6511824b6')
+
+
 @pytest.mark.special()
-def test_get_approve_tx():  # error":"Network undefined is not available in DeBridge"
+def test_get_approve_tx():
     DeBridge().get_approve_tx()
 
 
@@ -108,8 +125,11 @@ def test_get_tokens_by_chain(network):
     DeBridge().get_tokens_by_chain(chain_id=chain_id)
 
 
-@pytest.mark.parametrize("src_network", networks)
-@pytest.mark.parametrize("dst_network", networks)
+@pytest.mark.parametrize("src_network, dst_network", [
+    (src_network, dst_network)
+    for src_network in de_bridge_keys_data()
+    for dst_network in de_bridge_keys_data()
+])
 def test_get_bridge_tx_not_native_to_not_native(src_network, dst_network):
     src_net = de_bridge_keys_data()[src_network].get('net')
     dst_net = de_bridge_keys_data()[dst_network].get('net')
@@ -128,8 +148,11 @@ def test_get_bridge_tx_not_native_to_not_native(src_network, dst_network):
         pytest.skip("Сеть отправления = сети назначения")
 
 
-@pytest.mark.parametrize("src_network", networks)
-@pytest.mark.parametrize("dst_network", networks)
+@pytest.mark.parametrize("src_network, dst_network", [
+    (src_network, dst_network)
+    for src_network in de_bridge_keys_data()
+    for dst_network in de_bridge_keys_data()
+])
 def test_get_bridge_tx_native_to_not_native(src_network, dst_network):
     src_net = de_bridge_keys_data()[src_network].get('net')
     dst_net = de_bridge_keys_data()[dst_network].get('net')
@@ -148,8 +171,11 @@ def test_get_bridge_tx_native_to_not_native(src_network, dst_network):
         pytest.skip("Сеть отправления = сети назначения")
 
 
-@pytest.mark.parametrize("src_network", networks)
-@pytest.mark.parametrize("dst_network", networks)
+@pytest.mark.parametrize("src_network, dst_network", [
+    (src_network, dst_network)
+    for src_network in de_bridge_keys_data()
+    for dst_network in de_bridge_keys_data()
+])
 def test_get_bridge_tx_not_native_to_native(src_network, dst_network):
     src_net = de_bridge_keys_data()[src_network].get('net')
     dst_net = de_bridge_keys_data()[dst_network].get('net')
@@ -168,8 +194,11 @@ def test_get_bridge_tx_not_native_to_native(src_network, dst_network):
         pytest.skip("Сеть отправления = сети назначения")
 
 
-@pytest.mark.parametrize("src_network", networks)
-@pytest.mark.parametrize("dst_network", networks)
+@pytest.mark.parametrize("src_network, dst_network", [
+    (src_network, dst_network)
+    for src_network in de_bridge_keys_data()
+    for dst_network in de_bridge_keys_data()
+])
 def test_get_bridge_tx_not_native_to_stablecoin(src_network, dst_network):
     src_net = de_bridge_keys_data()[src_network].get('net')
     dst_net = de_bridge_keys_data()[dst_network].get('net')
@@ -188,8 +217,11 @@ def test_get_bridge_tx_not_native_to_stablecoin(src_network, dst_network):
         pytest.skip("Сеть отправления = сети назначения")
 
 
-@pytest.mark.parametrize("src_network", networks)
-@pytest.mark.parametrize("dst_network", networks)
+@pytest.mark.parametrize("src_network, dst_network", [
+    (src_network, dst_network)
+    for src_network in de_bridge_keys_data()
+    for dst_network in de_bridge_keys_data()
+])
 def test_get_bridge_tx_native_to_stablecoin(src_network, dst_network):
     src_net = de_bridge_keys_data()[src_network].get('net')
     dst_net = de_bridge_keys_data()[dst_network].get('net')
@@ -208,8 +240,11 @@ def test_get_bridge_tx_native_to_stablecoin(src_network, dst_network):
         pytest.skip("Сеть отправления = сети назначения")
 
 
-@pytest.mark.parametrize("src_network", networks)
-@pytest.mark.parametrize("dst_network", networks)
+@pytest.mark.parametrize("src_network, dst_network", [
+    (src_network, dst_network)
+    for src_network in de_bridge_keys_data()
+    for dst_network in de_bridge_keys_data()
+])
 def test_get_bridge_tx_stablecoin_to_native(src_network, dst_network):
     src_net = de_bridge_keys_data()[src_network].get('net')
     dst_net = de_bridge_keys_data()[dst_network].get('net')
@@ -228,8 +263,11 @@ def test_get_bridge_tx_stablecoin_to_native(src_network, dst_network):
         pytest.skip("Сеть отправления = сети назначения")
 
 
-@pytest.mark.parametrize("src_network", networks)
-@pytest.mark.parametrize("dst_network", networks)
+@pytest.mark.parametrize("src_network, dst_network", [
+    (src_network, dst_network)
+    for src_network in de_bridge_keys_data()
+    for dst_network in de_bridge_keys_data()
+])
 def test_get_bridge_tx_stablecoin_to_not_native(src_network, dst_network):
     src_net = de_bridge_keys_data()[src_network].get('net')
     dst_net = de_bridge_keys_data()[dst_network].get('net')

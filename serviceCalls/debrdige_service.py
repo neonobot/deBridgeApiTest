@@ -20,27 +20,23 @@ class DeBridge:
             self.url = os.environ['BASE_URL'] + 'estimateBridge'
 
         def estimate_bridge_not_query(self):
-            response = requests.get(self.url)  # без query параметров
+            response = requests.get(url=self.url)
             logger.info(f"Отправлен запрос на роут - {response.url}")
             logger.info(response.text)
-            print(f"Отправлен запрос на роут - {response.url}")
-            print(response.text)
             assert response.status_code == 400 and response.text == '{"ok":false,"data":null,"error":"\\"srcNet\\" is ' \
-                                                                    'required"}', f"Ожидался status = {400}, " \
+                                                                    'required"}', f"Ожидался status = 400, " \
                                                                                   f"пришел status = {response.status_code}. " \
                                                                                   f"Тело ответа: \n{response.text}."
 
             return response
 
         def estimate_bridge_native_to_not_native(self, src_net, dst_net, src_native_token, dst_not_native_token):
-            response = requests.get(
-                f"{self.url}?srcNet={src_net}&srcTokenAddress={src_native_token}"
-                f"&srcTokenAmount=100000&dstNet={dst_net}&dstTokenAddress={dst_not_native_token}")
+            params = {'srcNet': src_net, 'srcTokenAddress': src_native_token, 'srcTokenAmount': 100000,
+                      'dstNet': dst_net, 'dstTokenAddress': dst_not_native_token}
+            response = requests.get(url=self.url, params=params)
             logger.info(f"Отправлен запрос на роут - {response.url}")
             logger.info(response.text)
-            print(f"Отправлен запрос на роут - {response.url}")
-            print(response.text)
-            assert response.status_code == 200, f"Ожидался status = {200}, " \
+            assert response.status_code == 200, f"Ожидался status = 200, " \
                                                 f"пришел status = {response.status_code}. " \
                                                 f"Тело ответа: \n{response.text}."
             validate(json.loads(response.text), estimate_bridge_schema)
@@ -48,14 +44,12 @@ class DeBridge:
             return response
 
         def estimate_bridge_stablecoin_to_not_native(self, src_net, dst_net, src_stable_coin, dst_not_native_token):
-            response = requests.get(
-                f"{self.url}?srcNet={src_net}&srcTokenAddress={src_stable_coin}"
-                f"&srcTokenAmount=10000&dstNet={dst_net}&dstTokenAddress={dst_not_native_token}")
+            params = {'srcNet': src_net, 'srcTokenAddress': src_stable_coin, 'srcTokenAmount': 100000,
+                      'dstNet': dst_net, 'dstTokenAddress': dst_not_native_token}
+            response = requests.get(url=self.url, params=params)
             logger.info(f"Отправлен запрос на роут - {response.url}")
             logger.info(response.text)
-            print(f"Отправлен запрос на роут - {response.url}")
-            print(response.text)
-            assert response.status_code == 200, f"Ожидался status = {200}, " \
+            assert response.status_code == 200, f"Ожидался status = 200, " \
                                                 f"пришел status = {response.status_code}. " \
                                                 f"Тело ответа: \n{response.text}."
             validate(json.loads(response.text), estimate_bridge_schema)
@@ -63,14 +57,12 @@ class DeBridge:
             return response
 
         def estimate_bridge_not_native_to_native(self, src_net, dst_net, src_not_native_token, dst_native_token):
-            response = requests.get(
-                f"{self.url}?srcNet={src_net}&srcTokenAddress={src_not_native_token}"
-                f"&srcTokenAmount=100000&dstNet={dst_net}&dstTokenAddress={dst_native_token}")
+            params = {'srcNet': src_net, 'srcTokenAddress': src_not_native_token, 'srcTokenAmount': 100000,
+                      'dstNet': dst_net, 'dstTokenAddress': dst_native_token}
+            response = requests.get(url=self.url, params=params)
             logger.info(f"Отправлен запрос на роут - {response.url}")
             logger.info(response.text)
-            print(f"Отправлен запрос на роут - {response.url}")
-            print(response.text)
-            assert response.status_code == 200, f"Ожидался status = {200}, " \
+            assert response.status_code == 200, f"Ожидался status = 200, " \
                                                 f"пришел status = {response.status_code}. " \
                                                 f"Тело ответа: \n{response.text}."
             validate(json.loads(response.text), estimate_bridge_schema)
@@ -79,14 +71,12 @@ class DeBridge:
 
         def estimate_bridge_not_native_to_not_native(self, src_net, dst_net, src_not_native_token,
                                                      dst_not_native_token):
-            response = requests.get(
-                f"{self.url}?srcNet={src_net}&srcTokenAddress={src_not_native_token}"
-                f"&srcTokenAmount=100000&dstNet={dst_net}&dstTokenAddress={dst_not_native_token}")
+            params = {'srcNet': src_net, 'srcTokenAddress': src_not_native_token, 'srcTokenAmount': 100000,
+                      'dstNet': dst_net, 'dstTokenAddress': dst_not_native_token}
+            response = requests.get(url=self.url, params=params)
             logger.info(f"Отправлен запрос на роут - {response.url}")
             logger.info(response.text)
-            print(f"Отправлен запрос на роут - {response.url}")
-            print(response.text)
-            assert response.status_code == 200, f"Ожидался status = {200}, " \
+            assert response.status_code == 200, f"Ожидался status = 200, " \
                                                 f"пришел status = {response.status_code}. " \
                                                 f"Тело ответа: \n{response.text}."
             validate(json.loads(response.text), estimate_bridge_schema)
@@ -95,14 +85,13 @@ class DeBridge:
 
     def get_allowance(
             self, net, not_native_token,
-            owner):  # todo: написать метод для урла с параметрами (параметры затребовать с Егора). в конфлюенс не
-        # указан параметр net валится с 504 ошибкой. сделать после исправления
-        response = requests.get(f"{self.url}getAllowance?net={net}&tokenAddress={not_native_token}&owner={owner}")
+            owner):
+        url = f"{self.url}getAllowance"
+        params = {'net': net, 'tokenAddress': not_native_token, 'owner': owner}
+        response = requests.get(url=url, params=params)
         logger.info(f"Отправлен запрос на роут - {response.url}")
         logger.info(response.text)
-        print(f"Отправлен запрос на роут - {response.url}")
-        print(response.text)
-        assert response.status_code == 200, f"Ожидался status = {200}, " \
+        assert response.status_code == 200, f"Ожидался status = 200, " \
                                             f"пришел status = {response.status_code}. " \
                                             f"Тело ответа: \n{response.text}."
         validate(json.loads(response.text),
@@ -111,49 +100,47 @@ class DeBridge:
         return response
 
     def get_approve_tx(self):
-        response = requests.get(f"{self.url}getApproveTx")
+        url = f"{self.url}getApproveTx"
+        response = requests.get(url=url)
         logger.info(f"Отправлен запрос на роут - {response.url}")
         logger.info(response.text)
-        print(f"Отправлен запрос на роут - {response.url}")
-        print(response.text)
         assert response.status_code == 400 and response.text == '{"ok":false,"data":null,"error":"\\"net\\"' \
-                                                                ' is required"}', f"Ожидался status = {400}, " \
+                                                                ' is required"}', f"Ожидался status = 400, " \
                                                                                   f"пришел status = {response.status_code}. " \
                                                                                   f"Тело ответа: \n{response.text}."
 
         return response
 
     def get_approve_tx_query_params(self, net, token_address, owner):
-        response = requests.get(f"{self.url}getApproveTx?tokenAddress={token_address}&net={net}&owner={owner}")
+        url = f"{self.url}getApproveTx"
+        params = {'net': net, 'tokenAddress': token_address, 'owner': owner}
+        response = requests.get(url=url, params=params)
         logger.info(f"Отправлен запрос на роут - {response.url}")
         logger.info(response.text)
-        print(f"Отправлен запрос на роут - {response.url}")
-        print(response.text)
-        assert response.status_code == 200, f"Ожидался status = {200}, " \
+        assert response.status_code == 200, f"Ожидался status = 200, " \
                                             f"пришел status = {response.status_code}. " \
                                             f"Тело ответа: \n{response.text}."
 
         return response
 
     def get_supported_chains(self):
-        response = requests.get(f"{self.url}getSupportedChains")
+        url = f"{self.url}getSupportedChains"
+        response = requests.get(url=url)
         logger.info(f"Отправлен запрос на роут - {response.url}")
         logger.info(response.text)
-        print(f"Отправлен запрос на роут - {response.url}")
-        print(response.text)
-        assert response.status_code == 200, f"Ожидался status = {200}, " \
+        assert response.status_code == 200, f"Ожидался status = 200, " \
                                             f"пришел status = {response.status_code}. " \
                                             f"Тело ответа: \n{response.text}."
         validate(json.loads(response.text), get_supported_chains_schema)
         return response
 
     def get_tokens_by_chain(self, chain_id):
-        response = requests.get(f"{self.url}getTokensByChain?chainId={chain_id}")
+        url = f"{self.url}getTokensByChain"
+        params = {'chainId': chain_id}
+        response = requests.get(url=url, params=params)
         logger.info(f"Отправлен запрос на роут - {response.url}")
         logger.info(response.text)
-        print(f"Отправлен запрос на роут - {response.url}")
-        print(response.text)
-        assert response.status_code == 200, f"Ожидался status = {200}, " \
+        assert response.status_code == 200, f"Ожидался status = 200, " \
                                             f"пришел status = {response.status_code}. " \
                                             f"Тело ответа: \n{response.text}."
         validate(json.loads(response.text), get_tokens_by_chain_schema)
@@ -161,16 +148,14 @@ class DeBridge:
 
     def get_bridge_tx(self, src_net, dst_net, src_token_address, dst_token_address, src_token_amount,
                       dst_chain_recipient_address, dst_chain_fallback_address, owner):
-        response = requests.get(
-            f"{self.url}getBridgeTx?srcNet={src_net}&srcTokenAddress={src_token_address}&"
-            f"srcTokenAmount={src_token_amount}&dstNet={dst_net}&dstTokenAddress={dst_token_address}&"
-            f"dstChainRecipientAddress={dst_chain_recipient_address}&"
-            f"dstChainFallbackAddress={dst_chain_fallback_address}&owner={owner}")
+        params = {'srcNet': src_net, 'srcTokenAddress': src_token_address, 'srcTokenAmount': src_token_amount,
+                  'dstNet': dst_net, 'dstTokenAddress': dst_token_address,
+                  'dstChainRecipientAddress': dst_chain_recipient_address,
+                  'dstChainFallbackAddress': dst_chain_fallback_address, 'owner': owner}
+        response = requests.get(url=self.url, params=params)
         logger.info(f"Отправлен запрос на роут - {response.url}")
         logger.info(response.text)
-        print(f"Отправлен запрос на роут - {response.url}")
-        print(response.text)
-        assert response.status_code == 200, f"Ожидался status = {200}, " \
+        assert response.status_code == 200, f"Ожидался status = 200, " \
                                             f"пришел status = {response.status_code}. " \
                                             f"Тело ответа: \n{response.text}."
         validate(json.loads(response.text), get_bridge_tx_schema)
